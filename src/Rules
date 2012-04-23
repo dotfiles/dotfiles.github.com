@@ -44,4 +44,4 @@ route '*' do
   end
 end
 
-layout '*', :haml
+layout '*', :haml, :format => :html5
