@@ -22,14 +22,25 @@
       %footer
         %p
           %a(href="https://twitter.com/octodots" class="twitter-follow-button" data-show-count="false") Follow @octodots
-        %p
-          %small
-            Hosted on GitHub Pages &mdash; Theme by
-            %a{:href => "https://github.com/orderedlist"} orderedlist.
-          %small
-            %a(href="http://octodex.github.com/forktocat/") Forktocat logo
-            by
-            %a(href="https://github.com/cameronmcefee") Cameron McEfee.
+        :markdown
+          * Tracked by [Gauges](http://get.gauges.com).
+          * Hosted by [Pages](http://pages.github.com).
+          * Theme by [orderedlist](http://github.com/orderedlist).
+          * [Forktocat logo](http://octodex.github.com/forktocat/) by [Cameron McEfee](https://github.com/cameronmcefee)
     %script{:src => "/javascripts/scale.fix.js"}
     %script{:src => "//platform.twitter.com/widgets.js"}
+    :plain
+      <script type="text/javascript">
+        var _gauges = _gauges || [];
+        (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
+          t.src = '//secure.gaug.es/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      </script>
 
