@@ -1,0 +1,27 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title
+      A Brand New nanoc Site -
+      = @item[:title]
+    %link{:href => "/style.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %meta{:content => "nanoc 3.3.3", :name => "generator"}/
+  %body
+    #main
+      = yield
+    #sidebar
+      %h2 Documentation
+      %ul
+        %li
+          %a{:href => "http://nanoc.stoneship.org/docs/"} Documentation
+        %li
+          %a{:href => "http://nanoc.stoneship.org/docs/3-getting-started/"} Getting Started
+      %h2 Community
+      %ul
+        %li
+          %a{:href => "http://groups.google.com/group/nanoc/"} Discussion Group
+        %li
+          %a{:href => "irc://chat.freenode.net/#nanoc"} IRC Channel
+        %li
+          %a{:href => "http://projects.stoneship.org/trac/nanoc/"} Wiki
