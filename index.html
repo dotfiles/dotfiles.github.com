@@ -1,54 +1,117 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang='en'>
+<html>
   <head>
     <meta charset='utf-8' />
+    <meta content='chrome=1' http-equiv='X-UA-Compatible' />
     <title>
-      A Brand New nanoc Site -
-      Wynn's home
+      GitHub does dotfiles
+      - dotfiles.github.com
     </title>
-    <link href='/stylesheets/styles.css' media='screen' rel='stylesheet' type='text/css' />
-    <meta content='nanoc 3.3.3' name='generator' />
+    <link href='/stylesheets/styles.css' rel='stylesheet' />
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport' />
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div id='main'>
-      <h1>A Brand New nanoc Site</h1>
-      <p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
-      <ul>
-        <li>
-          <p>
-            <strong>Change this page’s content</strong>
-            by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).
-          </p>
-        </li>
-        <li>
-          <p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).
-          </p>
-        </li>
-      </ul>
-      <p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+    <div class='wrapper'>
+      <header>
+        <img alt='Forktocat' src='/images/forktocat.jpg' />
+        <h1>dotfiles.github.com</h1>
+        <p>
+          <em>Your unofficial guide to dotfiles on GitHub.</em>
+        </p>
+      </header>
+      <section>
+        <h1>
+          GitHub ❤
+          <span class='mono'>~/</span>
+        </h1>
+        <p>Why would I want my dotfiles on GitHub?</p>
+        
+        <ul>
+        <li><strong><em>Backup</em></strong>, <strong><em>restore</em></strong>, and <strong><em>sync</em></strong> the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.</li>
+        <li><strong><em>Learn</em></strong> from the community. Discover new tools for your toolbox and new tricks for the ones you already use.</li>
+        <li><strong><em>Share</em></strong> what you've learned with the rest of us.</li>
+        </ul>
+        
+        
+        <h2>Get started with a bootstrap</h2>
+        
+        <p>If you're just starting out, before you go symlinking everything in <code>~/*</code>,
+        you may want to check out a few boostrap projects that take the heavy lifting
+        out of the process. Here are a few of our favorites:</p>
+        
+        <ul>
+        <li><a href="https://github.com/holman/dotfiles">Zach Holman's dotfiles</a> features topical
+        organization, auto sourcing zsh files, easy zsh completion extensions, a local
+        bin folder for executables. The included Rakefile will symlink anything ending
+        in <code>.symlink</code> to your <code>~</code> folder.</li>
+        <li><a href="https://github.com/mathiasbynens/dotfiles">Mathias Bynens' dotfiles</a> includes
+        a bootstrap script that rsyncs your repo to your home folder.
+        Mathias' <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.osx">OS X defaults script</a> is legendary.</li>
+        <li><a href="https://github.com/skwp/dotfiles">Yan Pritzker's dotfiles</a> bundles an
+        opinionated set of Vim plugins and Zsh setup all tuned for using
+        <a href="http://ethanschoonover.com/solarized">Solarized</a> on OS X.</li>
+        <li><a href="https://github.com/technicalpickles/homesick">Josh Nichols' Homesick</a> makes it easy to symlink and clone dotfiles repos.</li>
+        </ul>
+        
+        
+        <h2>Go farther with a framework</h2>
+        
+        <p>For a lot of us, a big chunk of our <code>~</code> folder is devoted to our shell and
+        our text editor. Until you're ready to roll your own setup, these projects make
+        customization safe and easy.</p>
+        
+        <ul>
+        <li><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> is a community-driven framework for managing your zsh configuration. It bundles 40+ plugins and 80+ themes.</li>
+        <li><a href="https://github.com/revans/bash-it">bash-it</a> is a "shameless ripoff of oh-my-zsh," but for bash.</li>
+        <li><a href="https://github.com/carlhuda/janus">Janus</a> is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.</li>
+        </ul>
+        <h2>FAQ</h2>
+        <dl class='faq'>
+          <dt>Why create this site?</dt>
+          <dd>
+            Some of your
+            <a href='http://github.com/dotfiles'>
+              fellow GitHub friends
+            </a>
+            have found incredible value in digging through Other People's Dotfiles (OPD). We aim to share that knowledge with you, our fellow wayfaring stranger in the shell.
+          </dd>
+          <dt>You totally need to know about <code>/my|a/</code> great <code>/bootstrap|framework/</code>, how do I submit?</dt>
+          <dd>
+            Great! We're always looking for new projects to follow. Please
+            <a href='http://twitter.com/octodots'>connect with us on Twitter.</a>
+          </dd>
+          <dt>Your FAQ is weak. It so did not answer my question.</dt>
+          <dd>
+            That's not a question. But feel free to ask
+            <a href='http://twitter.com/octodots'>ask us anything on Twitter.</a>
+            Maybe we can expand this list.
+          </dd>
+        </dl>
+        <h2>Contribute</h2>
+        
+        <p>Want to help out? Great! Submit a <a href="https://github.com/dotfiles/dotfiles.github.com/issues">feature request</a>, <a href="https://github.com/dotfiles/dotfiles.github.com/issues">open an issue</a>, or <a href="https://github.com/dotfiles/dotfiles.github.com">submit a patch</a>.</p>
+      </section>
+      <footer>
+        <p>
+          <a class='twitter-follow-button' data-show-count='false' href='https://twitter.com/octodots'>Follow @octodots</a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages &mdash; Theme by
+            <a href='https://github.com/orderedlist'>orderedlist.</a>
+          </small>
+          <small>
+            <a href='http://octodex.github.com/forktocat/'>Forktocat logo</a>
+            by
+            <a href='https://github.com/cameronmcefee'>Cameron McEfee.</a>
+          </small>
+        </p>
+      </footer>
     </div>
-    <div id='sidebar'>
-      <h2>Documentation</h2>
-      <ul>
-        <li>
-          <a href='http://nanoc.stoneship.org/docs/'>Documentation</a>
-        </li>
-        <li>
-          <a href='http://nanoc.stoneship.org/docs/3-getting-started/'>Getting Started</a>
-        </li>
-      </ul>
-      <h2>Community</h2>
-      <ul>
-        <li>
-          <a href='http://groups.google.com/group/nanoc/'>Discussion Group</a>
-        </li>
-        <li>
-          <a href='irc://chat.freenode.net/#nanoc'>IRC Channel</a>
-        </li>
-        <li>
-          <a href='http://projects.stoneship.org/trac/nanoc/'>Wiki</a>
-        </li>
-      </ul>
-    </div>
+    <script src='/javascripts/scale.fix.js'></script>
+    <script src='//platform.twitter.com/widgets.js'></script>
   </body>
 </html>

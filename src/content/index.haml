@@ -1,16 +1,77 @@
 ---
-title: Wynn's home
+title: GitHub does dotfiles
 ---
 
-%h1 A Brand New nanoc Site
-%p You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:
-%ul
-  %li
-    %p
-      %strong Change this page’s content
-      by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).
-  %li
-    %p
-      %strong> Change the layout
-      , which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).
-%p If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!
+%h1
+  GitHub ❤
+  %span.mono ~/
+
+:markdown
+
+  Why would I want my dotfiles on GitHub?
+
+  * **_Backup_**, **_restore_**, and **_sync_** the prefs and settings for your toolbox. Your dotfiles might be the most important files on your machine.
+  * **_Learn_** from the community. Discover new tools for your toolbox and new tricks for the ones you already use.
+  * **_Share_** what you've learned with the rest of us.
+
+  ## Get started with a bootstrap
+
+  If you're just starting out, before you go symlinking everything in `~/*`,
+  you may want to check out a few boostrap projects that take the heavy lifting
+  out of the process. Here are a few of our favorites:
+
+  * [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical
+  organization, auto sourcing zsh files, easy zsh completion extensions, a local
+  bin folder for executables. The included Rakefile will symlink anything ending
+  in `.symlink` to your `~` folder.
+  * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes
+  a bootstrap script that rsyncs your repo to your home folder.
+  Mathias' [OS X defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) is legendary.
+  * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an
+  opinionated set of Vim plugins and Zsh setup all tuned for using
+  [Solarized](http://ethanschoonover.com/solarized) on OS X.
+  * [Josh Nichols' Homesick](https://github.com/technicalpickles/homesick) makes it easy to symlink and clone dotfiles repos.
+
+  ## Go farther with a framework
+
+  For a lot of us, a big chunk of our `~` folder is devoted to our shell and
+  our text editor. Until you're ready to roll your own setup, these projects make
+  customization safe and easy.
+
+  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a community-driven framework for managing your zsh configuration. It bundles 40+ plugins and 80+ themes.
+  * [bash-it](https://github.com/revans/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
+  * [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
+
+
+%h2 FAQ
+
+%dl.faq
+  %dt Why create this site?
+  %dd
+    Some of your
+    %a(href="http://github.com/dotfiles")
+      fellow GitHub friends
+    have found incredible value in digging through Other People's Dotfiles (OPD). We aim to share that knowledge with you, our fellow wayfaring stranger in the shell.
+
+  %dt You totally need to know about <code>/my|a/</code> great <code>/bootstrap|framework/</code>, how do I submit?
+  %dd
+    Great! We're always looking for new projects to follow. Please
+    %a(href="http://twitter.com/octodots") connect with us on Twitter.
+  %dt Your FAQ is weak. It so did not answer my question.
+  %dd
+    That's not a question. But feel free to ask
+    %a(href="http://twitter.com/octodots") ask us anything on Twitter.
+    Maybe we can expand this list.
+
+
+:markdown
+
+  ## Contribute
+
+  Want to help out? Great! Submit a [feature request](https://github.com/dotfiles/dotfiles.github.com/issues), [open an issue](https://github.com/dotfiles/dotfiles.github.com/issues), or [submit a patch](https://github.com/dotfiles/dotfiles.github.com).
+
+
+
+
+
+

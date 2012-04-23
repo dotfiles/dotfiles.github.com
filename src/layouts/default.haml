@@ -1,27 +1,35 @@
 !!!
-%html{:lang => "en"}
+%html
   %head
     %meta{:charset => "utf-8"}/
+    %meta{:content => "chrome=1", "http-equiv" => "X-UA-Compatible"}/
     %title
-      A Brand New nanoc Site -
       = @item[:title]
-    %link{:href => "/stylesheets/styles.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
-    %meta{:content => "nanoc 3.3.3", :name => "generator"}/
+      \- dotfiles.github.com
+    %link{:href => "/stylesheets/styles.css", :rel => "stylesheet"}/
+    %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
+    /[if lt IE 9]
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   %body
-    #main
-      = yield
-    #sidebar
-      %h2 Documentation
-      %ul
-        %li
-          %a{:href => "http://nanoc.stoneship.org/docs/"} Documentation
-        %li
-          %a{:href => "http://nanoc.stoneship.org/docs/3-getting-started/"} Getting Started
-      %h2 Community
-      %ul
-        %li
-          %a{:href => "http://groups.google.com/group/nanoc/"} Discussion Group
-        %li
-          %a{:href => "irc://chat.freenode.net/#nanoc"} IRC Channel
-        %li
-          %a{:href => "http://projects.stoneship.org/trac/nanoc/"} Wiki
+    .wrapper
+      %header
+        %img(alt="Forktocat" src="/images/forktocat.jpg")
+        %h1 dotfiles.github.com
+        %p
+          %em Your unofficial guide to dotfiles on GitHub.
+      %section
+        = yield
+      %footer
+        %p
+          %a(href="https://twitter.com/octodots" class="twitter-follow-button" data-show-count="false") Follow @octodots
+        %p
+          %small
+            Hosted on GitHub Pages &mdash; Theme by
+            %a{:href => "https://github.com/orderedlist"} orderedlist.
+          %small
+            %a(href="http://octodex.github.com/forktocat/") Forktocat logo
+            by
+            %a(href="https://github.com/cameronmcefee") Cameron McEfee.
+    %script{:src => "/javascripts/scale.fix.js"}
+    %script{:src => "//platform.twitter.com/widgets.js"}
+
