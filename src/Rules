@@ -13,8 +13,15 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
-  # don’t filter or layout
+require 'compass'
+Compass.add_project_configuration 'compass.rb'
+
+compile '/stylesheets/*/' do
+   filter :sass, Compass.sass_engine_options
+end
+
+route '/stylesheets/*/' do
+   item.identifier.chop + '.css'
 end
 
 compile '*' do
@@ -26,9 +33,6 @@ compile '*' do
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
-end
 
 route '*' do
   if item.binary?
