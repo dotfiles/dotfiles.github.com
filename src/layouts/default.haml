@@ -52,6 +52,10 @@
       %footer
         %p
           %a(href="https://twitter.com/octodots" class="twitter-follow-button" data-show-count="false") Follow @octodots
+        %p
+          %a(href="https://twitter.com/share" class="twitter-share-button" data-via="octodots") Tweet
+          :erb
+            <g:plusone size="medium"></g:plusone>
         :markdown
           * Tracked by [Gauges](http://get.gauges.com).
           * Hosted by [Pages](http://pages.github.com).
@@ -59,3 +63,11 @@
           * [Forktocat logo](http://octodex.github.com/forktocat/) by [Cameron McEfee](https://github.com/cameronmcefee).
     %script{:src => "/javascripts/scale.fix.js"}
     %script{:src => "//platform.twitter.com/widgets.js"}
+    :erb
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
