@@ -12,32 +12,34 @@
     <!--[if lt IE 9]>
       <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
     <![endif]-->
-    <script type='text/javascript'>
-    
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-11252985-5']);
-      _gaq.push(['_trackPageview']);
-    
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    
-    </script>
-    <script type='text/javascript'>
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
+<script type='text/javascript'>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11252985-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type='text/javascript'>
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
   </head>
   <body>
     <div class='wrapper'>
@@ -60,36 +62,38 @@
 toolbox. Your dotfiles might be the most important files on your machine.</li>
 <li><strong><em>Learn</em></strong> from the community. Discover new tools for your toolbox and new
 tricks for the ones you already use.</li>
-<li><strong><em>Share</em></strong> what you&#39;ve learned with the rest of us.</li>
+<li><strong><em>Share</em></strong> what you've learned with the rest of us.</li>
 </ul>
+
 
 <h2>Get started with a bootstrap</h2>
 
-<p>If you&#39;re just starting out, before you go symlinking everything in <code>~/*</code>,
+<p>If you're just starting out, before you go symlinking everything in <code>~/*</code>,
 you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:</p>
 
 <ul>
-<li><a href="https://github.com/holman/dotfiles">Zach Holman&#39;s dotfiles</a> features
+<li><a href="https://github.com/holman/dotfiles">Zach Holman's dotfiles</a> features
 topical organization, auto sourcing Zsh files, easy Zsh completion
 extensions, and a local bin folder for executables. The included <code>Rakefile</code> will
 symlink anything ending in <code>.symlink</code> to your <code>~</code> folder.</li>
-<li><a href="https://github.com/mathiasbynens/dotfiles">Mathias Bynens&#39; dotfiles</a>
+<li><a href="https://github.com/mathiasbynens/dotfiles">Mathias Bynens' dotfiles</a>
 includes a bootstrap script that rsyncs your repo to your home folder.
-Mathias&#39; <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.osx">OS X defaults
+Mathias' <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.osx">OS X defaults
 script</a> is
 legendary.</li>
-<li><a href="https://github.com/skwp/dotfiles">Yan Pritzker&#39;s dotfiles</a> bundles an
+<li><a href="https://github.com/skwp/dotfiles">Yan Pritzker's dotfiles</a> bundles an
 opinionated set of Vim plugins and Zsh setup all tuned for using
 <a href="http://ethanschoonover.com/solarized">Solarized</a> on OS X.</li>
-<li><a href="https://github.com/technicalpickles/homesick">Josh Nichols&#39; Homesick</a>
+<li><a href="https://github.com/technicalpickles/homesick">Josh Nichols' Homesick</a>
 makes it easy to symlink and clone dotfiles repos.</li>
 </ul>
+
 
 <h2>Go farther with a framework</h2>
 
 <p>For a lot of us, a big chunk of our <code>~</code> folder is devoted to our shell and
-our text editor. Until you&#39;re ready to roll your own setup, these projects make
+our text editor. Until you're ready to roll your own setup, these projects make
 customization safe and easy.</p>
 
 <ul>
@@ -97,45 +101,48 @@ customization safe and easy.</p>
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.</li>
 <li><a href="https://github.com/revans/bash-it">bash-it</a>
-is a &quot;shameless ripoff of oh-my-zsh,&quot; but for bash.</li>
+is a "shameless ripoff of oh-my-zsh," but for bash.</li>
 <li><a href="https://github.com/carlhuda/janus">Janus</a> is a distribution of plug-ins
 and mappings for Vim, Gvim and MacVim.</li>
-<li><a href="https://github.com/philips/ghar">Brandon Philip&#39;s ghar</a> is a standalone
+<li><a href="https://github.com/philips/ghar">Brandon Philip's ghar</a> is a standalone
 Python script for managing git repos symlinked into your home.</li>
+<li><a href="https://github.com/cowboy/dotfiles">Ben Alman's dotfiles</a> support
+different configurations per OS, linking, copying and environment setup.</li>
 <li><a href="https://github.com/freshshell/fresh">fresh</a> is a tool to source dotfiles
 from others into your own. It supports shell configuration (aliases,
 functions, etc.) as well as config files (e.g. <code>ackrc</code> and <code>gitconfig</code>).
 Think of it as <em>Bundler for your dotfiles</em>.</li>
 </ul>
 
-<h2>Don&#39;t ignore your <code>.gitignore</code></h2>
+
+<h2>Don't ignore your <code>.gitignore</code></h2>
 
 <p>GitHub has a <a href="https://github.com/github/gitignore">great collection of <code>.gitignore</code> templates</a>
 for a wide range of languages and editors. We recommend
-<a href="https://github.com/simonwhitaker/gitignore-boilerplates">Simon Whitaker&#39;s shell script</a>
+<a href="https://github.com/simonwhitaker/gitignore-boilerplates">Simon Whitaker's shell script</a>
 to help you manage them.</p>
 <h2>FAQ</h2>
 <dl class='faq'>
   <dt>Why create this site?</dt>
   <dd>
     <p>Some of your <a href="http://github.com/dotfiles">fellow GitHub friends</a> have
-    found incredible value in digging through Other People&#39;s Dotfiles
+    found incredible value in digging through Other People's Dotfiles
     (OPD). We aim to share that knowledge with you, our fellow wayfaring
     stranger in the shell.</p>
   </dd>
   <dt>You totally need to know about <code>/my|a/</code> great <code>/bootstrap|framework/</code>, how do I submit?</dt>
   <dd>
-    <p>Great! We&#39;re always looking for new projects to follow. Please <a href="http://twitter.com/octodots">connect
+    <p>Great! We're always looking for new projects to follow. Please <a href="http://twitter.com/octodots">connect
     with us on Twitter</a>.</p>
   </dd>
   <dt>Oh no! I've committed passwords/API keys/other sensitive data!</dt>
   <dd>
-    <p>We&#39;ve got you covered! Take a look at the <a href="http://help.github.com/remove-sensitive-data">sensitive data removal
+    <p>We've got you covered! Take a look at the <a href="http://help.github.com/remove-sensitive-data">sensitive data removal
     guide</a>.</p>
   </dd>
   <dt>Your FAQ is weak. It <em>so</em> did not answer my question.</dt>
   <dd>
-    <p>That&#39;s not a question. But feel free to ask <a href="http://twitter.com/octodots">ask us anything on
+    <p>That's not a question. But feel free to ask <a href="http://twitter.com/octodots">ask us anything on
     Twitter</a>. Maybe we can expand this list.</p>
   </dd>
 </dl>
@@ -149,7 +156,7 @@ to help you manage them.</p>
         </p>
         <p>
           <a class='twitter-share-button' data-via='octodots' href='https://twitter.com/share'>Tweet</a>
-          <g:plusone size='medium'></g:plusone>
+<g:plusone size='medium'></g:plusone>
         </p>
         <ul>
         <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
@@ -161,12 +168,12 @@ to help you manage them.</p>
     </div>
     <script src='/javascripts/scale.fix.js'></script>
     <script src='//platform.twitter.com/widgets.js'></script>
-    <script type='text/javascript'>
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
-    </script>
+<script type='text/javascript'>
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
   </body>
 </html>
