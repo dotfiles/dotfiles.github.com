@@ -10,64 +10,61 @@
     %meta{:content => 'width=device-width, initial-scale=1, user-scalable=no', :name => 'viewport'}/
     /[if lt IE 9]
       <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
-    :erb
-      <script type='text/javascript'>
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-11252985-5']);
+      _gaq.push(['_trackPageview']);
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-11252985-5']);
-        _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-      </script>
-
-    :erb
-      <script type='text/javascript'>
-        var _gauges = _gauges || [];
-        (function() {
-          var t   = document.createElement('script');
-          t.type  = 'text/javascript';
-          t.async = true;
-          t.id    = 'gauges-tracker';
-          t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
-          t.src = '//secure.gaug.es/track.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(t, s);
-        })();
-      </script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
 
   %body
     .wrapper
       %header
-        %img(alt='Forktocat' src='/images/forktocat.jpg')
-        %h1 dotfiles.github.com
-        %p
-          %em Your unofficial guide to dotfiles on GitHub.
+        :markdown
+          ![Forktocat](/images/forktocat.jpg)
+          # dotfiles.github.com
+          _Your unofficial guide to dotfiles on GitHub._
+
       %section
-        = yield
+        - if @item[:kind] == 'article'
+          = render '_article', content: content, item: @item
+        - else
+          = content
+        =# yield
+
       %footer
         %p
           %a(href='https://twitter.com/octodots' class='twitter-follow-button' data-show-count='false') Follow @octodots
         %p
           %a(href='https://twitter.com/share' class='twitter-share-button' data-via='octodots') Tweet
-          :erb
-            <g:plusone size='medium'></g:plusone>
+          %g:plusone{:size => 'medium'}
         :markdown
           * Tracked by [Gauges](http://get.gaug.es).
           * Hosted by [Pages](http://pages.github.com).
           * Theme by [orderedlist](http://github.com/orderedlist).
           * [Forktocat logo](http://octodex.github.com/forktocat/) by [Cameron McEfee](https://github.com/cameronmcefee).
+
     %script{:src => '/javascripts/scale.fix.js'}
     %script{:src => '//platform.twitter.com/widgets.js'}
-    :erb
-      <script type='text/javascript'>
-        (function() {
-          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-          po.src = 'https://apis.google.com/js/plusone.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-      </script>
+    :javascript
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();

@@ -1,0 +1,30 @@
+task :default => [:new_post]
+
+desc 'Create a new post'
+task :new_post, [:title] do |t, args|
+  args.with_defaults(:title => 'New Post')
+  title = args.title
+  author = `git config github.user`.gsub "\n", ''
+  time = Time.now
+
+  path = "./content/posts/#{time.strftime '%Y'}/#{time.strftime '%m'}"
+  mkdir_p path
+  filename = "#{path}/#{time.strftime '%d'}_#{title.downcase.gsub ' ', '-'}.haml"
+
+  if File.exist?(filename)
+    abort('rake aborted!') if ask("#{filename} already exists. Want to overwrite?", ['y','n']) == 'n'
+  end
+
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts '---'
+    post.puts "title: '#{title}'"
+    post.puts "author: '#{author}'"
+    post.puts "created_at: #{Time.now}"
+    post.puts 'tags: []'
+    post.puts 'published: false'
+    post.puts 'kind: article'
+    post.puts "---\n\n"
+    post.puts ":markdown\n\n"
+  end
+end

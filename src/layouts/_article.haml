@@ -1,0 +1,12 @@
+%small
+  %time{datetime: item[:created_at]} Posted #{item[:created_at].strftime '%B %d, %Y'}
+  - if item[:author]
+    by #{link_to item[:author], "http://github.com/#{item[:author]}"}
+
+%h1 #{item[:title]}
+
+= content
+
+%small
+  = "Tags: #{item[:tags].sort.map { |tag| "<em>#{tag}</em>" }.join ', '}<br/>" if item[:tags].any?
+  = "Permalink: #{link_to item, item}"
