@@ -1,0 +1,6 @@
+---
+---
+
+%ul
+  - items_with_tag(tag).each do |item|
+    %li= link_to item[:title], item

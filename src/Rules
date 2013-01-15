@@ -17,6 +17,7 @@ require 'compass'
 Compass.add_project_configuration 'compass.rb'
 
 preprocess do
+  create_tag_pages
   items.delete_if { |item| item[:publish] == false }
 end
 
@@ -25,48 +26,32 @@ compile '/stylesheets/*/' do
 end
 
 compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
+  # Item[:extension] returns 'html.erb' for multi-dotted filename
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  elsif ext == 'haml' || ext.nil?
     filter :haml
-    layout 'default'
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :rdiscount
+  else
+    raise "Filter is not configured for #{item.identifier} in Rules file."
   end
+
+  # Use layouts with .html extension or layout specified in meta
+  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
+
+  layout 'default' unless item[:layout] == "none"
 end
 
 route '/stylesheets/*/' do
    item.identifier.chop + '.css'
 end
 
-#route '*' do
-#  if item.binary?
-#    # Write item with identifier /foo/ to /foo.ext
-#    item.identifier.chop + '.' + item[:extension]
-#  else
-#    # Write item with identifier /foo/ to /foo/index.html
-#    item.identifier + 'index.html'
-#  end
-#end
-
 route '*' do
-  return item.identifier + 'index.html' if item[:content_filename].nil?
-
-  url = item[:content_filename].gsub(/^content/, '')
-
-  # Determine output extension
-  extname = '.' + item[:extension].split('.').last
-
-  if url.match(/(\.[a-zA-Z0-9]+){2}$/) # => *.html.erb, *.html.md ...
-    outext = '' # remove 2nd extension
-  elsif extname == '.sass'
-    outext = '.css'
-  else
-    url = url.split('_').join('/') # /2010/01/01_some-title.html -> /2010/01/01/some-title.html
-    outext = '/index.html' # some-title.html -> some-title/index.html
-  end
-
-  url.gsub! extname, outext
-
-  url
+  route_path item
 end
 
 layout '*', :haml, :format => :html5

@@ -1,0 +1,11 @@
+---
+title: Post Archive
+---
+
+- articles_by_year_month.each do |year, months|
+  %h2= year
+
+  %ul
+    - months.each do |month, posts|
+      - posts.each do |post|
+        %li= link_to post[:title], post

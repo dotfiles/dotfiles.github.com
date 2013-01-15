@@ -38,15 +38,14 @@
       %header
         :markdown
           ![Forktocat](/images/forktocat.jpg)
-          # [dotfiles.github.com](http://dotfiles.github.com)
+          # [dotfiles.github.com](/)
           _Your unofficial guide to dotfiles on GitHub._
 
       %section
         - if @item[:kind] == 'article'
           = render '_article', content: content, item: @item
         - else
-          = content
-        =# yield
+          = render '_page', content: content, item: @item
 
       %footer
         %p

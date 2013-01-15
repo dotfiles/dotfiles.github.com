@@ -1,9 +1,6 @@
 ---
-title: GitHub does dotfiles
+title: Recent Posts
 ---
 
-%h1 Archive
-
-%ul
-  - sorted_articles.each do |article|
-    %li #{link_to article[:title], article}
+- sorted_articles[0..4].each do |item|
+  = render '_article', :item => item

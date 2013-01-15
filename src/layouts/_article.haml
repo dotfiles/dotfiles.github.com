@@ -5,7 +5,7 @@
 
 %h1 #{link_to item[:title], item}
 
-= content
+= content || item.compiled_content(:snapshot => :pre)
 
 %small
   = "Tags: #{item[:tags].sort.map { |tag| "<em>#{tag}</em>" }.join ', '}<br/>" if item[:tags].any?
