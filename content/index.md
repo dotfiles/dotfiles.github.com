@@ -41,6 +41,13 @@ greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
+* [Trevor King's dotfiles.sh](https://github.com/wking/dotfiles-framework)
+  manages multiple
+  [dotfile repositories](https://github.com/wking/dotfiles-public) so
+  you can keep your public and private configuration separate.  It
+  also supports locally patching your dotfiles before symlinking to
+  adapt to the local machine.  Dotfile repositories may be fetched
+  via either Git or (where Git is not available) wget.
 
 ## Go farther with a framework
 
