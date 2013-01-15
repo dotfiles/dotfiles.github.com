@@ -28,6 +28,8 @@ def route_path(item)
     outext = '' # Remove 2nd extension
   elsif extname == '.sass'
     outext = '.css'
+  elsif url == '/index.haml'
+    outext = '.html'
   else
     outext = '/index.html'
   end
