@@ -3,7 +3,7 @@
   - if item[:author]
     by #{link_to item[:author], "http://github.com/#{item[:author]}"}
 
-%h1 #{item[:title]}
+%h1 #{link_to item[:title], item}
 
 = content
 
