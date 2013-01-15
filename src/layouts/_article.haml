@@ -8,5 +8,5 @@
 = content || item.compiled_content(:snapshot => :pre)
 
 %small
-  = "Tags: #{item[:tags].sort.map { |tag| "<em>#{tag}</em>" }.join ', '}<br/>" if item[:tags].any?
+  = "Tags: #{item[:tags].sort.map { |tag| link_to "<em>#{tag}</em>", "/tags/#{tag}/" }.join ', '}<br/>" if item[:tags].any?
   = "Permalink: #{link_to item, item}"
