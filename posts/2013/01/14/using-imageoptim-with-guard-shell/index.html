@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='chrome=1' http-equiv='X-UA-Compatible'>
+    <title>
+      Using ImageOptim with guard-shell
+      - dotfiles.github.com
+    </title>
+    <link href='/stylesheets/styles.css' rel='stylesheet'>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <!--[if lt IE 9]>
+      <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
+    <![endif]-->
+    <script>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-11252985-5']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        
+        var _gauges = _gauges || [];
+        (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
+          t.src = '//secure.gaug.es/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div class='wrapper'>
+      <header>
+        <p><img src="/images/forktocat.jpg" alt="Forktocat" /></p>
+        
+        <h1><a href="/">dotfiles.github.com</a></h1>
+        
+        <p><em>Your unofficial guide to dotfiles on GitHub.</em></p>
+      </header>
+      <section>
+        <small>
+  <time datetime='2013-01-14 10:14:37 -0600'>Posted January 14, 2013</time>
+  by <a href="http://github.com/adamyonk">adamyonk</a>
+</small>
+<h1><a href="/posts/2013/01/14/using-imageoptim-with-guard-shell/">Using ImageOptim with guard-shell</a></h1>
+<p>For the uninitiated, <a href="http://imageoptim.com" title="ImageOptim — make websites and apps load faster (Mac app)">ImageOptim</a> is a great Mac app that uses
+several well-known image optimization tools to compress images and help keep
+file sizes down and <a href="https://github.com/guard/guard" title="Guard is a command line tool to easily handle events on file system modifications.">Guard</a> is "a command line tool to easily handle
+events on file system modifications." If you've never tried Guard, I'd
+encourage you to take some time and check it out. With over <a href="https://rubygems.org/search?query=guard-">150
+plugins</a> now available, there's surely some way that you can
+use it to optimize your workflow.</p>
+
+<p>I like to pair the <a href="https://github.com/guard/guard-shell">guard-shell</a> gem with ImageOptim to help me
+keep my project's image assets compressed and ready for production. Make sure
+you have both guard and guard-shell in your Gemfile and set up a watcher in
+your Guardfile for new or edited images:</p>
+
+<script src="https://gist.github.com/4503714.js"></script>
+
+
+<p>An interesting side effect to note is that guard will catch the file change
+when ImageOptim is done compressing and re-open it in ImageOptim and continue
+this loop untill there's nothing else ImageOptim can compress out of the
+image.</p>
+<small>
+  Tags: <a href="/tags/automation/"><em>automation</em></a><br/>
+  Permalink: <a href="/posts/2013/01/14/using-imageoptim-with-guard-shell/">#<Nanoc::Item:0x007fae14f3d8f0></a>
+</small>
+      </section>
+      <footer>
+        <p>
+          <a class='twitter-follow-button' data-show-count='false' href='https://twitter.com/octodots'>Follow @octodots</a>
+        </p>
+        <p>
+          <a class='twitter-share-button' data-via='octodots' href='https://twitter.com/share'>Tweet</a>
+          <g:plusone size='medium'></g:plusone>
+        </p>
+        <ul>
+        <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
+        <li>Hosted by <a href="http://pages.github.com">Pages</a>.</li>
+        <li>Theme by <a href="http://github.com/orderedlist">orderedlist</a>.</li>
+        <li><a href="http://octodex.github.com/forktocat/">Forktocat logo</a> by <a href="https://github.com/cameronmcefee">Cameron McEfee</a>.</li>
+        </ul>
+      </footer>
+    </div>
+    <script src='/javascripts/scale.fix.js'></script>
+    <script src='//platform.twitter.com/widgets.js'></script>
+    <script>
+      //<![CDATA[
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      //]]>
+    </script>
+  </body>
+</html>

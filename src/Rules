@@ -16,32 +16,42 @@
 require 'compass'
 Compass.add_project_configuration 'compass.rb'
 
+preprocess do
+  create_tag_pages
+  items.delete_if { |item| item[:publish] == false }
+end
+
 compile '/stylesheets/*/' do
    filter :sass, Compass.sass_engine_options
+end
+
+compile '*' do
+  # Item[:extension] returns 'html.erb' for multi-dotted filename
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  elsif ext == 'haml' || ext.nil?
+    filter :haml
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :rdiscount
+  else
+    raise "Filter is not configured for #{item.identifier} in Rules file."
+  end
+
+  # Use layouts with .html extension or layout specified in meta
+  item[:layout] = "none" unless item[:layout] || File.extname(route_path(item)) == '.html' 
+
+  layout 'default' unless item[:layout] == "none"
 end
 
 route '/stylesheets/*/' do
    item.identifier.chop + '.css'
 end
 
-compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
-    filter :haml
-    layout 'default'
-  end
-end
-
-
 route '*' do
-  if item.binary?
-    # Write item with identifier /foo/ to /foo.ext
-    item.identifier.chop + '.' + item[:extension]
-  else
-    # Write item with identifier /foo/ to /foo/index.html
-    item.identifier + 'index.html'
-  end
+  route_path item
 end
 
 layout '*', :haml, :format => :html5

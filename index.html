@@ -12,49 +12,47 @@
     <!--[if lt IE 9]>
       <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
     <![endif]-->
-<script type='text/javascript'>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11252985-5']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<script type='text/javascript'>
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
-
+    <script>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-11252985-5']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        
+        var _gauges = _gauges || [];
+        (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '4f95a6a8f5a1f50e1b00004c');
+          t.src = '//secure.gaug.es/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      //]]>
+    </script>
   </head>
   <body>
     <div class='wrapper'>
       <header>
-        <img alt='Forktocat' src='/images/forktocat.jpg'>
-        <h1>dotfiles.github.com</h1>
-        <p>
-          <em>Your unofficial guide to dotfiles on GitHub.</em>
-        </p>
+        <p><img src="/images/forktocat.jpg" alt="Forktocat" /></p>
+        
+        <h1><a href="/">dotfiles.github.com</a></h1>
+        
+        <p><em>Your unofficial guide to dotfiles on GitHub.</em></p>
       </header>
       <section>
-        <h1>
+        <h1>GitHub does dotfiles</h1>
+<h2>
   GitHub ❤
   <span class='mono'>~/</span>
-</h1>
+</h2>
 <p>Why would I want my dotfiles on GitHub?</p>
 
 <ul>
@@ -166,7 +164,7 @@ managing dotfile dependencies so much easier.</p>
         </p>
         <p>
           <a class='twitter-share-button' data-via='octodots' href='https://twitter.com/share'>Tweet</a>
-<g:plusone size='medium'></g:plusone>
+          <g:plusone size='medium'></g:plusone>
         </p>
         <ul>
         <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
@@ -178,12 +176,14 @@ managing dotfile dependencies so much easier.</p>
     </div>
     <script src='/javascripts/scale.fix.js'></script>
     <script src='//platform.twitter.com/widgets.js'></script>
-<script type='text/javascript'>
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+    <script>
+      //<![CDATA[
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      //]]>
+    </script>
   </body>
 </html>
