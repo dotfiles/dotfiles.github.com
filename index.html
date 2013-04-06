@@ -5,7 +5,7 @@
     <meta content='chrome=1' http-equiv='X-UA-Compatible'>
     <title>
       GitHub does dotfiles
-      - dotfiles.github.com
+      - dotfiles.github.io
     </title>
     <link href='/stylesheets/styles.css' rel='stylesheet'>
     <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
@@ -43,7 +43,7 @@
     <div class='wrapper'>
       <header>
         <img alt='Forktocat' src='/images/forktocat.jpg'>
-        <h1>dotfiles.github.com</h1>
+        <h1>dotfiles.github.io</h1>
         <p>
           <em>Your unofficial guide to dotfiles on GitHub.</em>
         </p>
@@ -56,75 +56,75 @@
 <p>Why would I want my dotfiles on GitHub?</p>
 
 <ul>
-  <li><strong><em>Backup</em></strong>, <strong><em>restore</em></strong>, and <strong><em>sync</em></strong> the prefs and settings for your
+<li><strong><em>Backup</em></strong>, <strong><em>restore</em></strong>, and <strong><em>sync</em></strong> the prefs and settings for your
 toolbox. Your dotfiles might be the most important files on your machine.</li>
-  <li><strong><em>Learn</em></strong> from the community. Discover new tools for your toolbox and new
+<li><strong><em>Learn</em></strong> from the community. Discover new tools for your toolbox and new
 tricks for the ones you already use.</li>
-  <li><strong><em>Share</em></strong> what you've learned with the rest of us.</li>
+<li><strong><em>Share</em></strong> what you've learned with the rest of us.</li>
 </ul>
 
-<h2 id="get-started-with-a-bootstrap">Get started with a bootstrap</h2>
+<h2>Get started with a bootstrap</h2>
 
 <p>If you're just starting out, before you go symlinking everything in <code>~/*</code>,
 you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:</p>
 
 <ul>
-  <li><a href="https://github.com/holman/dotfiles">Zach Holman's dotfiles</a> features
+<li><a href="https://github.com/holman/dotfiles">Zach Holman's dotfiles</a> features
 topical organization, auto sourcing Zsh files, easy Zsh completion
 extensions, and a local bin folder for executables. The included <code>Rakefile</code> will
 symlink anything ending in <code>.symlink</code> to your <code>~</code> folder.</li>
-  <li><a href="https://github.com/mathiasbynens/dotfiles">Mathias Bynens' dotfiles</a>
+<li><a href="https://github.com/mathiasbynens/dotfiles">Mathias Bynens' dotfiles</a>
 includes a bootstrap script that rsyncs your repo to your home folder.
 Mathias' <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.osx">OS X defaults
 script</a> is
 legendary.</li>
-  <li><a href="https://github.com/skwp/dotfiles">Yan Pritzker's dotfiles</a> bundles an
+<li><a href="https://github.com/skwp/dotfiles">Yan Pritzker's dotfiles</a> bundles an
 opinionated set of Vim plugins and Zsh setup all tuned for using
 <a href="http://ethanschoonover.com/solarized">Solarized</a> on OS X.</li>
-  <li><a href="https://github.com/technicalpickles/homesick">Josh Nichols' Homesick</a>
+<li><a href="https://github.com/technicalpickles/homesick">Josh Nichols' Homesick</a>
 makes it easy to symlink and clone dotfiles repos.</li>
-  <li><a href="https://github.com/andsens/homeshick">Anders Ingemann's homeshick</a> is like
+<li><a href="https://github.com/andsens/homeshick">Anders Ingemann's homeshick</a> is like
 Homesick but in bash.</li>
-  <li><a href="https://github.com/cowboy/dotfiles">Ben Alman's dotfiles</a> support
+<li><a href="https://github.com/cowboy/dotfiles">Ben Alman's dotfiles</a> support
 different configurations per OS, linking, copying and environment setup.</li>
-  <li><a href="https://github.com/paulmillr/dotfiles">Paul Miller’s dotfiles</a> feature
+<li><a href="https://github.com/paulmillr/dotfiles">Paul Miller’s dotfiles</a> feature
 greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.</li>
 </ul>
 
-<h2 id="go-farther-with-a-framework">Go farther with a framework</h2>
+<h2>Go farther with a framework</h2>
 
 <p>For a lot of us, a big chunk of our <code>~</code> folder is devoted to our shell and
 our text editor. Until you're ready to roll your own setup, these projects make
 customization safe and easy.</p>
 
 <ul>
-  <li><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> is a
+<li><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.</li>
-  <li><a href="https://github.com/revans/bash-it">bash-it</a>
+<li><a href="https://github.com/revans/bash-it">bash-it</a>
 is a &quot;shameless ripoff of oh-my-zsh,&quot; but for bash.</li>
-  <li><a href="https://github.com/carlhuda/janus">Janus</a> is a distribution of plug-ins
+<li><a href="https://github.com/carlhuda/janus">Janus</a> is a distribution of plug-ins
 and mappings for Vim, Gvim and MacVim.</li>
-  <li><a href="https://github.com/philips/ghar">Brandon Philip's ghar</a> is a standalone
+<li><a href="https://github.com/philips/ghar">Brandon Philip's ghar</a> is a standalone
 Python script for managing git repos symlinked into your home.</li>
-  <li><a href="https://github.com/cowboy/dotfiles">Ben Alman's dotfiles</a> support
+<li><a href="https://github.com/cowboy/dotfiles">Ben Alman's dotfiles</a> support
 different configurations per OS, linking, copying and environment setup.</li>
-  <li><a href="https://github.com/freshshell/fresh">fresh</a> is a tool to source dotfiles
+<li><a href="https://github.com/freshshell/fresh">fresh</a> is a tool to source dotfiles
 from others into your own. It supports shell configuration (aliases,
 functions, etc.) as well as config files (e.g. <code>ackrc</code> and <code>gitconfig</code>).
 Think of it as <em>Bundler for your dotfiles</em>.</li>
 </ul>
 
-<h2 id="dont-ignore-your-gitignore">Don't ignore your <code>.gitignore</code></h2>
+<h2>Don't ignore your <code>.gitignore</code></h2>
 
 <p>GitHub has a <a href="https://github.com/github/gitignore">great collection of <code>.gitignore</code> templates</a>
 for a wide range of languages and editors. We recommend
 <a href="https://github.com/simonwhitaker/gitignore-boilerplates">Simon Whitaker's shell script</a>
 to help you manage them.</p>
 
-<h2 id="embrace-submodules">Embrace submodules</h2>
+<h2>Embrace submodules</h2>
 
 <p>Consider using <a href="http://help.github.com/submodules/">Git submodules</a> as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
@@ -154,7 +154,7 @@ managing dotfile dependencies with so much easier.</p>
     Twitter</a>. Maybe we can expand this list.</p>
   </dd>
 </dl>
-<h2 id="contribute">Contribute</h2>
+<h2>Contribute</h2>
 
 <p>Want to help out? Great! Submit a <a href="https://github.com/dotfiles/dotfiles.github.com/issues">feature request</a>, <a href="https://github.com/dotfiles/dotfiles.github.com/issues">open an issue</a>, or <a href="https://github.com/dotfiles/dotfiles.github.com">submit a patch</a>.</p>
       </section>
@@ -167,10 +167,10 @@ managing dotfile dependencies with so much easier.</p>
           <g:plusone size='medium'></g:plusone>
         </p>
         <ul>
-          <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
-          <li>Hosted by <a href="http://pages.github.com">Pages</a>.</li>
-          <li>Theme by <a href="http://github.com/orderedlist">orderedlist</a>.</li>
-          <li><a href="http://octodex.github.com/forktocat/">Forktocat logo</a> by <a href="https://github.com/cameronmcefee">Cameron McEfee</a>.</li>
+        <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
+        <li>Hosted by <a href="http://pages.github.com">Pages</a>.</li>
+        <li>Theme by <a href="http://github.com/orderedlist">orderedlist</a>.</li>
+        <li><a href="http://octodex.github.com/forktocat/">Forktocat logo</a> by <a href="https://github.com/cameronmcefee">Cameron McEfee</a>.</li>
         </ul>
       </footer>
     </div>
