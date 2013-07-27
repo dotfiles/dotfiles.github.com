@@ -1,0 +1,32 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    adsf (1.1.1)
+      rack (>= 1.0.0)
+    chunky_png (1.2.8)
+    colored (1.2)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    cri (2.3.0)
+      colored (>= 1.2)
+    fssm (0.2.10)
+    haml (4.0.3)
+      tilt
+    nanoc (3.6.4)
+      cri (~> 2.3)
+    rack (1.5.2)
+    redcarpet (3.0.0)
+    sass (3.2.10)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  compass (~> 0.12.2)
+  haml (~> 4.0.3)
+  nanoc (~> 3.6.4)
+  redcarpet

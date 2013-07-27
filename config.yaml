@@ -17,12 +17,12 @@ index_filenames: [ 'index.html' ]
 # Whether or not to generate a diff of the compiled content when compiling a
 # site. The diff will contain the differences between the compiled content
 # before and after the last site compilation.
-enable_output_diff: false
+enable_output_diff: true
 
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
   # directory. For safety reasons, this is turned off by default.
-  auto_prune: false
+  auto_prune: true
 
   # Which files and directories you want to exclude from pruning. If you version
   # your output directory, you should probably exclude VCS directories such as
@@ -35,28 +35,13 @@ prune:
 # “layout/” directories in the site directory.
 data_sources:
   -
-    # The type is the identifier of the data source. By default, this will be
-    # `filesystem_unified`.
     type: filesystem_unified
-
-    # The path where items should be mounted (comparable to mount points in
-    # Unix-like systems). This is “/” by default, meaning that items will have
-    # “/” prefixed to their identifiers. If the items root were “/en/”
-    # instead, an item at content/about.html would have an identifier of
-    # “/en/about/” instead of just “/about/”.
     items_root: /
-
-    # The path where layouts should be mounted. The layouts root behaves the
-    # same as the items root, but applies to layouts rather than items.
     layouts_root: /
-
-    # Whether to allow periods in identifiers. When turned off, everything
-    # past the first period is considered to be the extension, and when
-    # turned on, only the characters past the last period are considered to
-    # be the extension. For example,  a file named “content/about.html.erb”
-    # will have the identifier “/about/” when turned off, but when turned on
-    # it will become “/about.html/” instead.
     allow_periods_in_identifiers: false
+  -
+    type:         static
+    items_root:   /static/
 
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.

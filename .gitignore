@@ -1,3 +1,5 @@
-src/tmp/**
-.sass-cache
-output
+.sass-cache/
+tmp/
+output/
+crash.log
+output.diff

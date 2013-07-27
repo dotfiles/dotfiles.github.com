@@ -24,6 +24,14 @@ route '/stylesheets/*/' do
    item.identifier.chop + '.css'
 end
 
+route '/static/*' do
+  # /static/foo.html/ → /foo.html
+  item.identifier[7..-2]
+end
+
+compile '/static/*' do
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
