@@ -64,6 +64,13 @@ title: GitHub does dotfiles
   from others into your own. It supports shell configuration (aliases,
   functions, etc.) as well as config files (e.g. `ackrc` and `gitconfig`).
   Think of it as _Bundler for your dotfiles_.
+  * Richard "RichiH" Hartmann's [vcsh](https://github.com/RichiH/vcsh) manages
+  all your dotfiles in Git without the need for symlinks. Any number of Git
+  repositories will co-exist in parallel in your `$HOME` without interferring
+  with each other. Advanced use cases with different branches for different
+  systems are supported by default. An extensive hook system lets you customize
+  your repositories. `vcsh` includes batch push, pull, and status commands which
+  operate on all your repositories at once.
 
   ## Don't ignore your `.gitignore`
 
