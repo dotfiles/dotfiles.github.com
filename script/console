@@ -6,4 +6,4 @@ echo "===> Bundling..."
 script/bootstrap --quiet
 
 echo "===> Launching..."
-bundle console
+irb -Ilib -rnanoc
