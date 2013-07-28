@@ -1,9 +1,12 @@
 #!/bin/sh
+# Usage:
+#   script/server <port>
 
 set -e
+PORT="${1:-8484}"
 
 echo "===> Bundling..."
 script/bootstrap --quiet
 
-echo "===> Launching..."
-nanoc view -p 8484
+echo "===> Launching web server on http://localhost:$PORT"
+nanoc view -p "$PORT"
