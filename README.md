@@ -25,4 +25,5 @@ Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
 [source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
+[license]: LICENSE.md
 
