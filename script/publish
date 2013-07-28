@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+script/compile
+
+echo "===> Pushing to Pages"
+cd output
+git pull origin master
+git push origin master
