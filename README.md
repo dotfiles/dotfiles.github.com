@@ -19,6 +19,9 @@ Install project dependencies and prepare the output folder:
 
 More can be found in the README.md on that branch.
 
+### Copyright
+
+Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
 [source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
