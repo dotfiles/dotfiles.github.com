@@ -3,17 +3,23 @@
 Source for [dotfiles.github.io][], your _unofficial_ guide to doing dotfiles on
 GitHub.
 
-### Contributing
+This branch contains the compiled web site. You're probably looking for the
+[source branch][]. To get set up, fork this repository and clone the project:
 
-Patches are welcome. The site is created using [nanoc][], the awesome static
-site generator from [Denis Defreyne][], and the source is kept on the [source
-branch][] of this repository. Check out the [guide][] on that branch for
-[getting started instructions][guide].
+    git clone https://github.com/<username>/dotfiles.github.com
+
+Check out the "source" branch:
+
+    git fetch
+    git checkout -b your-topic-branch source
+
+Install project dependencies and prepare the output folder:
+
+    script/bootstrap
+
+More can be found in the README.md on that branch.
 
 
 [dotfiles.github.io]: http://dotfiles.github.io
-[nanoc]: http://nanoc.stoneship.org/
-[Denis Defreyne]: http://stoneship.org/
 [source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
-[guide]: https://github.com/dotfiles/dotfiles.github.com/tree/source#getting-started
 
