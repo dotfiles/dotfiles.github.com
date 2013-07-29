@@ -4,7 +4,7 @@ Source for [dotfiles.github.io][], your _unofficial_ guide to doing dotfiles on
 GitHub.
 
 This branch contains the compiled web site. You're probably looking for the
-[source branch][]. To get set up, fork this repository and clone the project:
+[source branch][source]. To get set up, fork this repository and clone the project:
 
     git clone https://github.com/<username>/dotfiles.github.com
 
@@ -17,13 +17,13 @@ Install project dependencies and prepare the output folder:
 
     script/bootstrap
 
-More can be found in the README.md on that branch.
+More can be found in the [README.md][source] on that branch.
 
 ### Copyright
 
 Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
-[source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
+[source]: https://github.com/dotfiles/dotfiles.github.com/tree/source
 [license]: LICENSE.md
 
