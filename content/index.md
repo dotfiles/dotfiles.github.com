@@ -39,6 +39,8 @@ different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature
 greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
+* [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
+the first JavaScript-based dotfiles powered by Grunt.
 
 ## Go farther with a framework
 
