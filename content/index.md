@@ -53,6 +53,9 @@ community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
+* [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
+scripts that help manage your dotfiles. Available on mac's homebrew package
+manager, but works on all unix operating systems.
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins
 and mappings for Vim, Gvim and MacVim.
 * [Brandon Philip's ghar](https://github.com/philips/ghar) is a standalone
