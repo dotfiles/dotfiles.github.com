@@ -83,7 +83,7 @@ to help you manage them.
 
 Consider using [Git submodules](http://help.github.com/submodules/) as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
-managing dotfile dependencies with so much easier.
+managing dotfile dependencies so much easier.
 
 ## FAQ
 
