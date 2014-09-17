@@ -41,6 +41,9 @@ greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
+* [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles),
+focused on Automation (no manual install/config), Zsh and OSX with a friendly bot to guide your way.
+
 
 ## Go farther with a framework
 
