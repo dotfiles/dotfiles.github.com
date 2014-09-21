@@ -47,10 +47,15 @@ the first JavaScript-based dotfiles powered by Grunt.
 For a lot of us, a big chunk of our `~` folder is devoted to our shell and
 our text editor. Until you're ready to roll your own setup, these projects make
 customization safe and easy.
-
+* [antigen](https://github.com/zsh-users/antigen) is a framework for
+using plugins and themes in your Zsh configuration. It will automatically
+clone the repositories containing the plugins you're using, and supports
+using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
+* [prezto](https://github.com/sorin-ionescu/prezto) is another framework for
+managing your Zsh configuration.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
