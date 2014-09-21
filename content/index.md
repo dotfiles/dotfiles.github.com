@@ -51,6 +51,9 @@ customization safe and easy.
 using plugins and themes in your Zsh configuration. It will automatically
 clone the repositories containing the plugins you're using, and supports
 using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
+* [antigen-hs] An antigen-inspired zsh plugin manager that tries to do work
+statically and only on manual invocation, minimizing the zsh startup time.
+Antigen-hs is much more minimalistic and convention over configuration than antigen.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
