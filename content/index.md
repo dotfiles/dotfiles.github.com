@@ -33,7 +33,7 @@ opinionated set of Vim plugins and Zsh setup all tuned for using
 * [Josh Nichols' Homesick](https://github.com/technicalpickles/homesick)
 makes it easy to symlink and clone dotfiles repos.
 * [Anders Ingemann's homeshick](https://github.com/andsens/homeshick) is like
-Homesick but in bash.
+Homesick but in bash. [Great to combine with myrepos.](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/)
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support
 different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature
