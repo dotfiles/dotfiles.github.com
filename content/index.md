@@ -41,6 +41,7 @@ greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
+* [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 
 ## Go farther with a framework
 
