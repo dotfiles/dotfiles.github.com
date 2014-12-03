@@ -53,7 +53,7 @@ customization safe and easy.
 using plugins and themes in your Zsh configuration. It will automatically
 clone the repositories containing the plugins you're using, and supports
 using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
-* [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the zsh startup time. Antigen-hs is much more minimalistic and convention over configuration than antigen.
+* [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the zsh startup time. Antigen-hs is much more minimalistic and emphsizes convention over configuration more strongly than antigen.
 * [dotzsh](https://github.com/dotphiles/dotzsh) dotzsh strives to be platform and
 version independent, some functionality may be lost when running under older
 versions of zsh, but it should degrade cleanly and allow you to use the same
@@ -68,8 +68,8 @@ documented modules.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
-scripts that help manage your dotfiles. Available on mac's homebrew package
-manager, but works on all unix operating systems.
+scripts that help manage your dotfiles. It is easily installable on OSX with the
+homebrew package manager, but works on all unix operating systems.
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins
 and mappings for Vim, Gvim and MacVim.
 * [Brandon Philip's ghar](https://github.com/philips/ghar) is a standalone
@@ -88,6 +88,7 @@ operate on all your repositories at once.
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone
 tool to bootstrap dotfiles, making it easy to have a "one click"
 installation/upgrade process for your dotfiles.
+* [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of ZSH plugins compatible with [antigen](https://github.com/zsh-users/antigen) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
 ## Don't ignore your `.gitignore`
 
