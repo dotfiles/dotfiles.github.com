@@ -33,7 +33,7 @@ opinionated set of Vim plugins and Zsh setup all tuned for using
 * [Josh Nichols' Homesick](https://github.com/technicalpickles/homesick)
 makes it easy to symlink and clone dotfiles repos.
 * [Anders Ingemann's homeshick](https://github.com/andsens/homeshick) is like
-Homesick but in bash.
+Homesick but in bash. [Great to combine with myrepos.](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/)
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support
 different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature
@@ -41,6 +41,7 @@ greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
+* [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 
 ## Go farther with a framework
 
@@ -61,8 +62,10 @@ setup on multiple machines of differing OS's without problems.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
-* [prezto](https://github.com/sorin-ionescu/prezto) is another framework for
-managing your Zsh configuration.
+* [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration
+framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane
+defaults, aliases, functions, auto completion, prompt themes and dozens of well
+documented modules.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
@@ -83,6 +86,9 @@ with each other. Advanced use cases with different branches for different
 systems are supported by default. An extensive hook system lets you customize
 your repositories. `vcsh` includes batch push, pull, and status commands which
 operate on all your repositories at once.
+* [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone
+tool to bootstrap dotfiles, making it easy to have a "one click"
+installation/upgrade process for your dotfiles.
 
 ## Don't ignore your `.gitignore`
 
