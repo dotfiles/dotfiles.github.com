@@ -72,6 +72,9 @@ with each other. Advanced use cases with different branches for different
 systems are supported by default. An extensive hook system lets you customize
 your repositories. `vcsh` includes batch push, pull, and status commands which
 operate on all your repositories at once.
+* [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone
+tool to bootstrap dotfiles, making it easy to have a "one click"
+installation/upgrade process for your dotfiles.
 
 ## Don't ignore your `.gitignore`
 
