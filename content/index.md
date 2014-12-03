@@ -33,7 +33,7 @@ opinionated set of Vim plugins and Zsh setup all tuned for using
 * [Josh Nichols' Homesick](https://github.com/technicalpickles/homesick)
 makes it easy to symlink and clone dotfiles repos.
 * [Anders Ingemann's homeshick](https://github.com/andsens/homeshick) is like
-Homesick but in bash.
+Homesick but in bash. [Great to combine with myrepos.](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/)
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support
 different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature
@@ -41,9 +41,9 @@ greatly customized zsh with auto-completion and syntax highlighting,
 a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
+* [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles),
 focused on Automation (no manual install/config), Zsh and OSX with a friendly bot to guide your way.
-
 
 ## Go farther with a framework
 
@@ -51,14 +51,27 @@ For a lot of us, a big chunk of our `~` folder is devoted to our shell and
 our text editor. Until you're ready to roll your own setup, these projects make
 customization safe and easy.
 
+* [antigen](https://github.com/zsh-users/antigen) is a framework for
+using plugins and themes in your Zsh configuration. It will automatically
+clone the repositories containing the plugins you're using, and supports
+using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
+* [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the zsh startup time. Antigen-hs is much more minimalistic and emphsizes convention over configuration more strongly than antigen.
+* [dotzsh](https://github.com/dotphiles/dotzsh) dotzsh strives to be platform and
+version independent, some functionality may be lost when running under older
+versions of zsh, but it should degrade cleanly and allow you to use the same
+setup on multiple machines of differing OS's without problems.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
+* [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration
+framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane
+defaults, aliases, functions, auto completion, prompt themes and dozens of well
+documented modules.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
-scripts that help manage your dotfiles. Available on mac's homebrew package
-manager, but works on all unix operating systems.
+scripts that help manage your dotfiles. It is easily installable on OSX with the
+homebrew package manager, but works on all unix operating systems.
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins
 and mappings for Vim, Gvim and MacVim.
 * [Brandon Philip's ghar](https://github.com/philips/ghar) is a standalone
@@ -74,6 +87,10 @@ with each other. Advanced use cases with different branches for different
 systems are supported by default. An extensive hook system lets you customize
 your repositories. `vcsh` includes batch push, pull, and status commands which
 operate on all your repositories at once.
+* [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone
+tool to bootstrap dotfiles, making it easy to have a "one click"
+installation/upgrade process for your dotfiles.
+* [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of ZSH plugins compatible with [antigen](https://github.com/zsh-users/antigen) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
 ## Don't ignore your `.gitignore`
 
