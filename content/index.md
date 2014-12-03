@@ -52,6 +52,10 @@ customization safe and easy.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a
 community-driven framework for managing your Zsh configuration. It bundles
 40+ plugins and 80+ themes.
+* [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration
+framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane
+defaults, aliases, functions, auto completion, prompt themes and dozens of well
+documented modules.
 * [bash-it](https://github.com/revans/bash-it)
 is a "shameless ripoff of oh-my-zsh," but for bash.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell
