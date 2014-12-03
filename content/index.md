@@ -48,6 +48,7 @@ the first JavaScript-based dotfiles powered by Grunt.
 For a lot of us, a big chunk of our `~` folder is devoted to our shell and
 our text editor. Until you're ready to roll your own setup, these projects make
 customization safe and easy.
+
 * [antigen](https://github.com/zsh-users/antigen) is a framework for
 using plugins and themes in your Zsh configuration. It will automatically
 clone the repositories containing the plugins you're using, and supports
