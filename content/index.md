@@ -42,6 +42,8 @@ a bunch of useful git extras and colourful themes for OS X Terminal and Sublime 
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles),
 the first JavaScript-based dotfiles powered by Grunt.
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
+* [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles),
+focused on Automation (no manual install/config), Zsh and OSX with a friendly bot to guide your way.
 
 ## Go farther with a framework
 
