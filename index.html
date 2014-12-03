@@ -83,7 +83,7 @@
         <li><a href="https://github.com/technicalpickles/homesick">Josh Nichols&#39; Homesick</a>
         makes it easy to symlink and clone dotfiles repos.</li>
         <li><a href="https://github.com/andsens/homeshick">Anders Ingemann&#39;s homeshick</a> is like
-        Homesick but in bash.</li>
+        Homesick but in bash. <a href="http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/">Great to combine with myrepos.</a></li>
         <li><a href="https://github.com/cowboy/dotfiles">Ben Alman&#39;s dotfiles</a> support
         different configurations per OS, linking, copying and environment setup.</li>
         <li><a href="https://github.com/paulmillr/dotfiles">Paul Miller’s dotfiles</a> feature
@@ -91,6 +91,7 @@
         a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.</li>
         <li><a href="https://github.com/eduardolundgren/dotfiles">Eduardo Lundgren&#39;s dotfiles</a>,
         the first JavaScript-based dotfiles powered by Grunt.</li>
+        <li><a href="http://git.io/.files">xero&#39;s dotfiles</a> are managed with gnu stow, a free, portable, lightweight symlink farm manager.</li>
         </ul>
         
         <h2>Go farther with a framework</h2>
@@ -100,14 +101,27 @@
         customization safe and easy.</p>
         
         <ul>
+        <li><a href="https://github.com/zsh-users/antigen">antigen</a> is a framework for
+        using plugins and themes in your Zsh configuration. It will automatically
+        clone the repositories containing the plugins you&#39;re using, and supports
+        using <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> plugins and themes.</li>
+        <li><a href="https://github.com/Tarrasch/antigen-hs">antigen-hs</a> is an antigen-inspired zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the zsh startup time. Antigen-hs is much more minimalistic and emphsizes convention over configuration more strongly than antigen.</li>
+        <li><a href="https://github.com/dotphiles/dotzsh">dotzsh</a> dotzsh strives to be platform and
+        version independent, some functionality may be lost when running under older
+        versions of zsh, but it should degrade cleanly and allow you to use the same
+        setup on multiple machines of differing OS&#39;s without problems.</li>
         <li><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> is a
         community-driven framework for managing your Zsh configuration. It bundles
         40+ plugins and 80+ themes.</li>
+        <li><a href="https://github.com/sorin-ionescu/prezto">Prezto</a> is a configuration
+        framework for Zsh. It&#39;s a lightweight alternative to oh-my-zsh with sane
+        defaults, aliases, functions, auto completion, prompt themes and dozens of well
+        documented modules.</li>
         <li><a href="https://github.com/revans/bash-it">bash-it</a>
         is a &quot;shameless ripoff of oh-my-zsh,&quot; but for bash.</li>
         <li><a href="https://github.com/thoughtbot/rcm">rcm</a> is a set of well-documented shell
-        scripts that help manage your dotfiles. Available on mac&#39;s homebrew package
-        manager, but works on all unix operating systems.</li>
+        scripts that help manage your dotfiles. It is easily installable on OSX with the
+        homebrew package manager, but works on all unix operating systems.</li>
         <li><a href="https://github.com/carlhuda/janus">Janus</a> is a distribution of plug-ins
         and mappings for Vim, Gvim and MacVim.</li>
         <li><a href="https://github.com/philips/ghar">Brandon Philip&#39;s ghar</a> is a standalone
@@ -123,6 +137,10 @@
         systems are supported by default. An extensive hook system lets you customize
         your repositories. <code>vcsh</code> includes batch push, pull, and status commands which
         operate on all your repositories at once.</li>
+        <li><a href="https://github.com/anishathalye/dotbot">Dotbot</a> is a lightweight standalone
+        tool to bootstrap dotfiles, making it easy to have a &quot;one click&quot;
+        installation/upgrade process for your dotfiles.</li>
+        <li><a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh-plugins</a> is a list of ZSH plugins compatible with <a href="https://github.com/zsh-users/antigen">antigen</a> and <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>.</li>
         </ul>
         
         <h2>Don&#39;t ignore your <code>.gitignore</code></h2>
@@ -136,7 +154,7 @@
         
         <p>Consider using <a href="http://help.github.com/submodules/">Git submodules</a> as you
         start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
-        managing dotfile dependencies with so much easier.</p>
+        managing dotfile dependencies so much easier.</p>
         
         <h2>FAQ</h2>
         
