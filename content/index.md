@@ -53,9 +53,7 @@ customization safe and easy.
 using plugins and themes in your Zsh configuration. It will automatically
 clone the repositories containing the plugins you're using, and supports
 using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
-* [antigen-hs] An antigen-inspired zsh plugin manager that tries to do work
-statically and only on manual invocation, minimizing the zsh startup time.
-Antigen-hs is much more minimalistic and convention over configuration than antigen.
+* [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the zsh startup time. Antigen-hs is much more minimalistic and convention over configuration than antigen.
 * [dotzsh](https://github.com/dotphiles/dotzsh) dotzsh strives to be platform and
 version independent, some functionality may be lost when running under older
 versions of zsh, but it should degrade cleanly and allow you to use the same
