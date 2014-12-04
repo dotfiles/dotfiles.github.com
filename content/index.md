@@ -44,6 +44,12 @@ the first JavaScript-based dotfiles powered by Grunt.
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles),
 focused on Automation (no manual install/config), Zsh and OSX with a friendly bot to guide your way.
+* [Trevor King's dotfiles.sh](https://github.com/wking/dotfiles-framework)
+  manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so
+  you can keep your public and private configuration separate.  It
+  also supports locally patching your dotfiles before symlinking to
+  adapt to the local machine.  Dotfile repositories may be fetched
+  via either Git or (where Git is not available) wget.
 
 ## Go farther with a framework
 
