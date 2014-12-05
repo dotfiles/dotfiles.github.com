@@ -72,8 +72,9 @@ documented modules.
 is a "shameless ripoff of oh-my-zsh," but for bash.
 
 ### Vim
-* [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins
-and mappings for Vim, Gvim and MacVim.
+* [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
+* [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for [Vim](http://www.vim.org/).
+* [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for [Vim](http://www.vim.org/). It works with Pathogen compatible vim plugins.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone
