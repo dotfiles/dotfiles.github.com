@@ -5,8 +5,7 @@
 set -e
 PORT="${1:-8484}"
 
-echo "===> Bundling..."
-script/bootstrap --quiet
+script/compile
 
 echo "===> Launching web server on http://localhost:$PORT"
 nanoc view -p "$PORT"
