@@ -36,5 +36,5 @@ Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 [guide]: https://github.com/dotfiles/dotfiles.github.com/tree/source#getting-started
 [local]: http://localhost:8484
 [pr]: http://help.github.com/send-pull-requests/
-[contributing]: LICENSE.md
+[contributing]: https://github.com/dotfiles/dotfiles.github.com/blob/source/CONTRIBUTING.md
 [license]: LICENSE.md
