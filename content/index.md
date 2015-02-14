@@ -45,6 +45,7 @@ customization safe and easy.
 
 ### Bash
 * [bash-it](https://github.com/revans/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
+* [Liquid Prompt](https://github.com/nojhan/liquidprompt) is a full-featured and carefully designed adaptive prompt for Bash (and Zsh).
 
 ### Vim
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
