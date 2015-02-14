@@ -47,10 +47,15 @@ customization safe and easy.
 * [bash-it](https://github.com/revans/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
 * [Liquid Prompt](https://github.com/nojhan/liquidprompt) is a full-featured and carefully designed adaptive prompt for Bash (and Zsh).
 
+### Emacs
+* [Cask](https://github.com/cask/cask) is a package manager for Emacs.
+* [use-package](https://github.com/jwiegley/use-package) is a declaration macro for simplifying your `.emacs`
+* [Prelude](https://github.com/bbatsov/prelude) is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+
 ### Vim
-* [Janus](https://github.com/carlhuda/janus) is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
-* [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for [Vim](http://www.vim.org/).
-* [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for [Vim](http://www.vim.org/). It works with Pathogen compatible vim plugins.
+* [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
+* [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
+* [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
