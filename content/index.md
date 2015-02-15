@@ -27,6 +27,8 @@ out of the process. Here are a few of our favorites:
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OSX with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use [myrepos](http://myrepos.branchable.com/) in combination with [vcsh](https://github.com/RichiH/vcsh) to let there exist a togglable Git repository for each set of dotfiles, even those coexisting in the same directory. There's even a `bootstrap` script.
+* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on android development and reverse engineering on OS X.
+
 
 ## Go farther with a framework
 
@@ -71,6 +73,9 @@ customization safe and easy.
 * [homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on OSX with the homebrew package manager, but works on all unix operating systems.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
+
+### Tutorials
+* Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) on getting started using a dotfiles repository. 
 
 ## Don't ignore your `.gitignore`
 
