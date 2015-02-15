@@ -27,6 +27,8 @@ out of the process. Here are a few of our favorites:
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OSX with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use [myrepos](http://myrepos.branchable.com/) in combination with [vcsh](https://github.com/RichiH/vcsh) to let there exist a togglable Git repository for each set of dotfiles, even those coexisting in the same directory. There's even a `bootstrap` script.
+* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on android development and reverse engineering on OS X.
+
 
 ## Go farther with a framework
 
