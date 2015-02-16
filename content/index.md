@@ -63,6 +63,7 @@ customization safe and easy.
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
 * [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
+* [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
