@@ -28,6 +28,7 @@ out of the process. Here are a few of our favorites:
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OSX with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use [myrepos](http://myrepos.branchable.com/) in combination with [vcsh](https://github.com/RichiH/vcsh) to let there exist a togglable Git repository for each set of dotfiles, even those coexisting in the same directory. There's even a `bootstrap` script.
 * [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on android development and reverse engineering on OS X.
+* [dotphiles](https://github.com/dotphiles/dotphiles) - A community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or O/S, allowing you to use the same settings on all your machines.
 
 
 ## Go farther with a framework
@@ -64,17 +65,19 @@ customization safe and easy.
 
 #### Vim
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
+* [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
 * [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
-* [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
+* [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine.  Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
+* [Dotsync](https://github.com/dotphiles/dotsync) utility for syncing dotfiles between multiple machines from a git repo or push using rsync
 * [fresh](https://github.com/freshshell/fresh) is a tool to source dotfiles from others into your own. It supports shell configuration (aliases, functions, etc.) as well as config files (e.g. `ackrc` and `gitconfig`). Think of it as _Bundler for your dotfiles_.
-* [ghar](https://github.com/philips/ghar) by Brandon Philip. Ghar is a standalone Python script for managing git repos symlinked into your home.
+* [Ghar](https://github.com/philips/ghar) by Brandon Philip. Ghar is a standalone Python script for managing git repos symlinked into your home.
+* [Homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [Homesick](https://github.com/technicalpickles/homesick), by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
-* [homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on OSX with the homebrew package manager, but works on all unix operating systems.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
 
