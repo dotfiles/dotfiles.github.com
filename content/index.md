@@ -81,7 +81,8 @@ customization safe and easy.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on OSX with the homebrew package manager, but works on all unix operating systems.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
 * [dotty](https://github.com/vibhavp/dotty) by Vibhav Pant. `dotty` uses a simple JSON-formatted file to symlink and/or copy your dotfiles. It can also execute shell commands and check for directories, and create them accordingly.
-* 
+
+
 ### Tutorials
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) on getting started using a dotfiles repository.
 
