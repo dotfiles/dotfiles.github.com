@@ -70,6 +70,7 @@ customization safe and easy.
 * [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
 * [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
+* [spf13-vim](https://github.com/spf13/spf13-vim) is Steve Francia's Vim distribution of vim plugins and resources for Vim, Gvim and MacVim.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
