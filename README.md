@@ -29,9 +29,6 @@ maintainer will merge your changes and publish them to GitHub Pages.
 Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
-[Denis Defreyne]: http://stoneship.org/
-[source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
-[guide]: https://github.com/dotfiles/dotfiles.github.com/tree/source#getting-started
 [local]: http://localhost:8484
 [pr]: http://help.github.com/send-pull-requests/
 [contributing]: https://github.com/dotfiles/dotfiles.github.com/blob/source/CONTRIBUTING.md
