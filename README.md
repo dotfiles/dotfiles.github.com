@@ -26,10 +26,9 @@ maintainer will merge your changes and publish them to GitHub Pages.
 
 ### Copyright
 
-Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
+Copyright (c) Wynn Netherland and Adam Jahnke.
 
 [dotfiles.github.io]: http://dotfiles.github.io
 [local]: http://localhost:8484
 [pr]: http://help.github.com/send-pull-requests/
 [contributing]: CONTRIBUTING.md
-[license]: LICENSE.md
