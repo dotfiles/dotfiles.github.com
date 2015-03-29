@@ -3,7 +3,6 @@
 Source for [dotfiles.github.io][], your _unofficial_ guide to doing dotfiles on
 GitHub.
 
-
 See the [CONTRIBUTING][contributing] guide for creating great pull requests.
 
 ### Quick start
