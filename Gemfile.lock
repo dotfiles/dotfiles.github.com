@@ -12,14 +12,11 @@ GEM
     cri (2.3.0)
       colored (>= 1.2)
     fssm (0.2.10)
-    haml (4.0.6)
-      tilt
     nanoc (3.6.4)
       cri (~> 2.3)
     rack (1.5.2)
     redcarpet (3.0.0)
     sass (3.2.10)
-    tilt (2.0.1)
 
 PLATFORMS
   ruby
@@ -27,6 +24,5 @@ PLATFORMS
 DEPENDENCIES
   adsf
   compass (~> 0.12.2)
-  haml
   nanoc (~> 3.6.4)
   redcarpet
