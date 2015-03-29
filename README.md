@@ -31,5 +31,5 @@ Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 [dotfiles.github.io]: http://dotfiles.github.io
 [local]: http://localhost:8484
 [pr]: http://help.github.com/send-pull-requests/
-[contributing]: https://github.com/dotfiles/dotfiles.github.com/blob/source/CONTRIBUTING.md
+[contributing]: CONTRIBUTING.md
 [license]: LICENSE.md
