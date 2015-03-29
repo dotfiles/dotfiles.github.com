@@ -7,7 +7,7 @@ See the [CONTRIBUTING][contributing] guide for creating great pull requests.
 
 ### Quick start
 
-Install project dependencies and prep build folder:
+Install project dependencies:
 
     script/bootstrap
 
