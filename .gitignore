@@ -1,5 +1,2 @@
-.sass-cache/
-tmp/
-output/
-crash.log
-output.diff
+_site
+.sass-cache

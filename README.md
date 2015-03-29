@@ -21,7 +21,7 @@ You can now browse to [http://localhost:8484][local] to preview changes.
 ### Publishing changes
 
 Once you're satisfied with your changes, push your topic branch to your remote
-and open a [pull request][pr] against the `source` branch in the canonical repo
+and open a [pull request][pr] in the canonical repo
 at dotfiles/dotfiles.github.com. If your patch is accepted, a project
 maintainer will merge your changes and publish them to GitHub Pages.
 
@@ -30,7 +30,6 @@ maintainer will merge your changes and publish them to GitHub Pages.
 Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
-[nanoc]: http://nanoc.stoneship.org/
 [Denis Defreyne]: http://stoneship.org/
 [source branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
 [guide]: https://github.com/dotfiles/dotfiles.github.com/tree/source#getting-started

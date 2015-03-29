@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta content='chrome=1' http-equiv='X-UA-Compatible'>
     <title>
-      <%= @item[:title] %>
+      {{ page.title }}
       - dotfiles.github.io
     </title>
     <link href='/stylesheets/styles.css' rel='stylesheet'>
@@ -49,7 +49,7 @@
         </p>
       </header>
       <section>
-        <%= yield %>
+        {{ content }}
       </section>
       <footer>
         <p>
