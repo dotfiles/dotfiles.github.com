@@ -1,7 +1,0 @@
-#!/bin/sh
-
-set -e
-
-echo "===> Pushing to Pages"
-git pull origin master
-git push origin master
