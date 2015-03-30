@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-echo "===> Bundling..."
-script/bootstrap --quiet
-
-echo "===> Compiling..."
-bundle exec jekyll build
