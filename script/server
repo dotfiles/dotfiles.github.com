@@ -1,0 +1,9 @@
+#!/bin/sh
+# Usage:
+#   script/server <port>
+
+set -e
+PORT="${1:-8484}"
+
+echo "===> Launching web server on http://localhost:$PORT"
+bundle exec jekyll server --watch --port "$PORT"

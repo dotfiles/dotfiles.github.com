@@ -1,29 +1,35 @@
 ## dotfiles.github.io
 
-Source for [dotfiles.github.io][], your _unofficial_ guide to doing dotfiles on
+Source for [dotfiles.github.io], your _unofficial_ guide to doing dotfiles on
 GitHub.
 
-This branch contains the compiled web site. You're probably looking for the
-[source branch][source]. To get set up, fork this repository and clone the project:
+See the [CONTRIBUTING][contributing] guide for creating great pull requests.
 
-    git clone https://github.com/<username>/dotfiles.github.com
+### Quick start
 
-Check out the "source" branch:
-
-    git fetch
-    git checkout -b your-topic-branch source
-
-Install project dependencies and prepare the output folder:
+Install project dependencies:
 
     script/bootstrap
 
-More can be found in the [README.md][source] on that branch.
+Boot local web server to preview changes:
+
+    script/server
+
+You can now browse to [http://localhost:8484][local] to preview changes.
+
+### Publishing changes
+
+Once you're satisfied with your changes, push your topic branch to your remote
+and open a [pull request][pr] in the canonical repo
+at dotfiles/dotfiles.github.com. If your patch is accepted, a project
+maintainer will merge your changes and publish them to GitHub Pages.
 
 ### Copyright
 
-Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][] for details.
+Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][license] for details.
 
 [dotfiles.github.io]: http://dotfiles.github.io
-[source]: https://github.com/dotfiles/dotfiles.github.com/tree/source
+[local]: http://localhost:8484
+[pr]: http://help.github.com/send-pull-requests/
+[contributing]: CONTRIBUTING.md
 [license]: LICENSE.md
-

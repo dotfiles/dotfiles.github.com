@@ -1,0 +1,7 @@
+markdown: redcarpet
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - script
