@@ -29,13 +29,11 @@ Ideally, a bug report should include a pull request with failing specs.
 
 ## Submitting a Pull Request
 1. [Fork the repository.][fork]
-2. [Create a topic branch][branch] based on the ["source" branch][source].
+2. [Create a topic branch][branch].
 3. Preview your changes locally using `script/server`.
 4. Commit and push your changes.
-5. [Submit a pull request][pr] against dotfiles/dotfiles.github.com source
-   branch.
+5. [Submit a pull request][pr] against dotfiles/dotfiles.github.com.
 
 [fork]: http://help.github.com/fork-a-repo/
 [branch]: http://learn.github.com/p/branching.html
-["source" branch]: https://github.com/dotfiles/dotfiles.github.com/tree/source
 [pr]: http://help.github.com/send-pull-requests/
