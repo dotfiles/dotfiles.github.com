@@ -75,6 +75,7 @@ customization safe and easy.
 
 ### General-purpose dotfile utilities
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
+* [dotfiler](https://github.com/svetlyak40wt/dotfiler) - Inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine.  Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
 * [Dotsync](https://github.com/dotphiles/dotsync) utility for syncing dotfiles between multiple machines from a git repo or push using rsync
 * [dotty](https://github.com/vibhavp/dotty) by Vibhav Pant. `dotty` uses a simple JSON-formatted file to symlink and/or copy your dotfiles. It can also execute shell commands and check for directories, and create them accordingly.
