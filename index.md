@@ -85,6 +85,7 @@ customization safe and easy.
 * [Homesick](https://github.com/technicalpickles/homesick), by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on OSX with the homebrew package manager, but works on all unix operating systems.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
+* [Homemaker](https://github.com/FooSoft/homemaker) by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage both common and machine-specific dotfile settings. Homemaker can be configured in TOML, YAML or JSON.
 
 
 ### Tutorials
