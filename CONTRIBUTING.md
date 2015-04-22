@@ -32,7 +32,7 @@ Ideally, a bug report should include a pull request with failing specs.
 2. [Create a topic branch][branch].
 3. Preview your changes locally using `script/server`.
 4. Commit and push your changes.
-5. [Submit a pull request][pr] against dotfiles/dotfiles.github.com.
+5. [Submit a pull request][pr] against the master branch of dotfiles/dotfiles.github.com.
 
 [fork]: http://help.github.com/fork-a-repo/
 [branch]: http://learn.github.com/p/branching.html
