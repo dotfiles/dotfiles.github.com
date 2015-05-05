@@ -64,6 +64,7 @@ customization safe and easy.
 #### Emacs
 * [Cask](https://github.com/cask/cask) is a package manager for Emacs.
 * [Prelude](https://github.com/bbatsov/prelude) is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+* [Spacemacs](https://github.com/syl20bnr/spacemacs) is a Emacs 24 distribution that builds on Evil-mode with ports of popular Vim plugins to closer emulate a Vim environment.
 * [use-package](https://github.com/jwiegley/use-package) is a declaration macro for simplifying your `.emacs`
 
 #### Vim
