@@ -76,6 +76,7 @@ customization safe and easy.
 * [spf13-vim](https://github.com/spf13/spf13-vim) is Steve Francia's Vim distribution of vim plugins and resources for Vim, Gvim and MacVim.
 
 ### General-purpose dotfile utilities
+* [Config Curator](https://github.com/razor-x/config_curator) lets you define how your complete configuration should be installed in a single YAML file which you check into VCS. Supports files, entire directories, and creating symlinks.
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) - Inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine.  Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
