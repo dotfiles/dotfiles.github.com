@@ -73,6 +73,7 @@ customization safe and easy.
 * [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
 * [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
+* [vim-plug](https://github.com/junegunn/vim-plug) is a simple plugin manager that supports parallel installations / upgrades.
 * [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
 * [spf13-vim](https://github.com/spf13/spf13-vim) is Steve Francia's Vim distribution of vim plugins and resources for Vim, Gvim and MacVim.
 
