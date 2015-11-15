@@ -47,7 +47,7 @@ customization safe and easy.
 * [bash-it](https://github.com/Bash-it/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
 
 #### Fish
-* [oh-my-fish](https://github.com/bpinto/oh-my-fish) a fish shell framework inspired by oh-my-zsh.
+* [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) a fish shell framework inspired by oh-my-zsh.
 
 #### Zsh
 * [antigen](https://github.com/zsh-users/antigen) is a framework for using plugins and themes in your Zsh configuration. It will automatically clone repositories containing the plugins you're using without you having to manually create submodules or clones, and supports using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes as well as ones published as separate repositories.
