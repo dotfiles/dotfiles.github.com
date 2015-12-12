@@ -34,7 +34,7 @@ out of the process. Here are a few of our favorites:
 
 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
 
-## Go farther with a framework
+## Go further with a framework
 
 For a lot of us, a big chunk of our `~` folder is devoted to our shell and
 our text editor. Until you're ready to roll your own setup, these projects make
