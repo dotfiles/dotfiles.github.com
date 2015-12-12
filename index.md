@@ -124,7 +124,7 @@ with us on Twitter](http://twitter.com/octodots).
 
 ### Oh no! I've committed passwords/API keys/other sensitive data!
 We've got you covered! Take a look at the [sensitive data removal
-guide](http://help.github.com/remove-sensitive-data).
+guide](https://help.github.com/articles/remove-sensitive-data/).
 
 ### Your FAQ is weak. It <em>so</em> did not answer my question.
 
