@@ -23,7 +23,7 @@ out of the process. Here are a few of our favorites:
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [OS X defaultsscript](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) is legendary.
 * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on OS X.
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
-* [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized zsh with auto-completion and syntax highlighting, a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text 2.
+* [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized zsh with auto-completion and syntax highlighting, a bunch of useful git extras and colourful themes for OS X Terminal and Sublime Text.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OSX with a friendly bot to guide your way.
