@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.2
+before_script:
+  - gem install awesome_bot
+script:
+  - awesome_bot index.md --allow-dupe --allow-redirect
+  - awesome_bot README.md --allow-dupe --allow-redirect --white-list http://localhost:8484
