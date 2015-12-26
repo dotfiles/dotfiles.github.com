@@ -32,6 +32,7 @@ out of the process. Here are a few of our favorites:
 * [dotphiles](https://github.com/dotphiles/dotphiles) - A community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or O/S, allowing you to use the same settings on all your machines.
 * [jh3y's kody](https://github.com/jh3y/kody) - A dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) 
+* [dkhamsing's dotfiles](https://github.com/dkhamsing/dotfiles)
 
 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
 
