@@ -120,6 +120,11 @@ Consider using [Git submodules](http://help.github.com/submodules/) as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
 managing dotfile dependencies so much easier.
 
+## Talk to others
+
+In addition to the GitHub dotfiles community, there is a great [vcs-home
+group](https://vcs-home.branchable.com/), with a mailing list, IRC channel, and wiki.
+
 ## FAQ
 
 ### Why create this site?
