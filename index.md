@@ -27,7 +27,7 @@ out of the process. Here are a few of our favorites:
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
 * [xero's dotfiles](http://git.io/.files) are managed with gnu stow, a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OSX with a friendly bot to guide your way.
-* [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use [myrepos](http://myrepos.branchable.com/) in combination with [vcsh](https://github.com/RichiH/vcsh) to let there exist a togglable Git repository for each set of dotfiles, even those coexisting in the same directory. There's even a `bootstrap` script.
+* [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow for symlink and `git-subtree` for repository management.
 * [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on android development and reverse engineering on OS X.
 * [dotphiles](https://github.com/dotphiles/dotphiles) - A community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or O/S, allowing you to use the same settings on all your machines.
 * [jh3y's kody](https://github.com/jh3y/kody) - A dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
