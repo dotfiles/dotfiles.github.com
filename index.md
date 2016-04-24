@@ -50,6 +50,8 @@ customization safe and easy.
 
 #### Fish
 
+* [fisherman](https://github.com/fisherman/fisherman) Zero-configuration, concurrent plugin manager for the fish shell – http://fisherman.sh
+
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) a fish shell framework inspired by oh-my-zsh.
 
 #### Zsh
