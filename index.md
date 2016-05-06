@@ -50,7 +50,7 @@ customization safe and easy.
 
 #### Fish
 
-* [fisherman](http://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish shell](http://fish.sh)
+* [fisherman](http://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
 
 #### Zsh
