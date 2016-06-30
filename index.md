@@ -62,6 +62,7 @@ customization safe and easy.
 * [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane defaults, aliases, functions, auto completion, prompt themes and dozens of well documented modules.
 * [slimzsh](https://github.com/changs/slimzsh) is a small starter framework for Zsh that features the pure prompt, syntax highlighting and tab completion.
 * [zgen](https://github.com/tarjoilija/zgen) is a lightweight plugin manager for Zsh inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. Zgen will also automatically handle cloning repositories for plugins you're using without you manually maintaining submodules or clones, and can use oh-my-zsh formatted plugins and themes.
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) theme.
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of Zsh plugins, themes and completions compatible with Zsh frameworks like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [zgen](https://github.com/tarjoilija/zgen).
 
 ### Editors
