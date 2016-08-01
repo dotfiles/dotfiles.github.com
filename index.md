@@ -20,7 +20,7 @@ you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
 * [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing Zsh files, easy Zsh completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
-* [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [OS X defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) is legendary.
+* [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
 * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on OS X.
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized Zsh with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for OS X Terminal and Sublime Text.
