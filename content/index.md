@@ -42,7 +42,7 @@ customization safe and easy.
 * [Liquid Prompt](https://github.com/nojhan/liquidprompt) is a full-featured and carefully designed adaptive prompt for Bash and Zsh.
 
 #### Bash
-* [bash-it](https://github.com/revans/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
+* [bash-it](https://github.com/Bash-it/bash-it) is a "shameless ripoff of oh-my-zsh," but for bash.
 
 #### Fish
 * [oh-my-fish](https://github.com/bpinto/oh-my-fish) a fish shell framework inspired by oh-my-zsh.
