@@ -34,6 +34,7 @@ out of the process. Here are a few of our favorites:
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
 * [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire OS X environment.
+* [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom Zsh and Terminal/iTerm themes and useful aliases for web developers.
 
 ## Go further with a framework
 
