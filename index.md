@@ -133,11 +133,6 @@ If you get fed up with submodules, many people prefer
 which lets you merge subtrees (other repositories) into one Git repository, and
 later split and push changes back out.
 
-## Talk to others
-
-In addition to the GitHub dotfiles community, there is a great [vcs-home
-group](https://vcs-home.branchable.com/), with a mailing list, IRC channel, and wiki.
-
 ## FAQ
 
 ### Why create this site?
