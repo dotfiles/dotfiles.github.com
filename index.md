@@ -110,7 +110,7 @@ customization safe and easy.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on OS X with the homebrew package manager, but works on all Unix operating systems.
 * The [Super User Spark](https://github.com/NorfairKing/super-user-spark) is a declarative domain specific language that allows you to specify the deployment of your dotfiles. It also includes a compiler and interpreter for the language.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
-* [yadm](https://github.com/TheLocehiliosan/yadm) by Tim Byrne. `yadm` is a dotfile management tool with 3 main features: Manages files across systems using a single Git repository. Provides a way to use alternate files on a specific OS or host. Supplies a method of encrypting confidential data so it can safely be stored in your repository.
+* [yadm](https://thelocehiliosan.github.io/yadm/) by Tim Byrne. `yadm` is a dotfile management tool with 3 main features: Manages files across systems using a single Git repository. Provides a way to use alternate files on a specific OS or host. Supplies a method of encrypting confidential data so it can safely be stored in your repository.
 
 ### Tutorials
 
