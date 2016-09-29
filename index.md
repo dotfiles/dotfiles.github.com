@@ -118,6 +118,7 @@ customization safe and easy.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
 * Wes Bos has a series of [free videos](http://commandlinepoweruser.com/) introducing Zsh, oh-my-zsh, and z.
 * Dries Vints wrote [an extensive blog post](https://driesvints.com/blog/getting-started-with-dotfiles/) on why and how he created [his dotfiles](https://github.com/driesvints/dotfiles).
+* Michael J. Smalley wrote a [popular blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) with an associated [git repo](https://github.com/michaeljsmalley/dotfiles) that includes a dotfiles installer script.
 
 ## Don't ignore your `.gitignore`
 
