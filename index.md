@@ -34,7 +34,7 @@ out of the process. Here are a few of our favorites:
 * [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
-* [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire OS X environment.
+* [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom Zsh and Terminal/iTerm themes and useful aliases for web developers.
 
 ## Go further with a framework
