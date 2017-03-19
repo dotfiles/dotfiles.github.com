@@ -90,7 +90,6 @@ customization safe and easy.
 
 ### General-purpose dotfile utilities
 
-* [Alterant](https://github.com/autonomy/alterant) by Andrew Rynhard is a self-contained dotfile manager and lightweight provisioning tool that supports encryption of sensitive data, multiline command execution, and a single file configuration for multiple machines.
 * [Config Curator](https://github.com/razor-x/config_curator) lets you define how your complete configuration should be installed in a single YAML file which you check into VCS. Supports files, entire directories, and creating symlinks.
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
