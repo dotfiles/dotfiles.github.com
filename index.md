@@ -39,6 +39,7 @@ out of the process. Here are a few of our favorites:
 * [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, Zsh and Tmux environments for nerds.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
+* [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for MacOS focused on Web development
 
 ## Go further with a framework
 
