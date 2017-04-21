@@ -40,7 +40,7 @@ out of the process. Here are a few of our favorites:
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for MacOS focused on Web development
-$ [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opiniated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and OS X.
+* [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opiniated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and OS X.
 
 ## Go further with a framework
 
