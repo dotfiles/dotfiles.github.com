@@ -30,7 +30,7 @@ out of the process. Here are a few of our favorites:
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OS X with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow (like xero's) for symlink management, and `git-subtree` for repository integration.
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
-* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on Android development and reverse engineering on OS X.
+* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development and reverse engineering on OS X.
 * [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
@@ -87,7 +87,7 @@ customization safe and easy.
 
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
 * [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
-* [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
+* [Pathogen](https://github.com/tpope/vim-pathogen) is a plugin manager for Vim.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
 * [vim-plug](https://github.com/junegunn/vim-plug) is a simple plugin manager that supports parallel installations / upgrades.
 * [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
