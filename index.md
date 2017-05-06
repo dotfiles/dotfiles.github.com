@@ -58,7 +58,7 @@ customization safe and easy.
 
 #### Fish
 
-* [fisherman](http://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
+* [fisherman](https://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
 
 #### Zsh
@@ -132,7 +132,7 @@ GitHub has a great [collection of `.gitignore` templates](https://github.com/git
 
 ## Embrace submodules / subtrees
 
-Consider using [Git submodules](http://help.github.com/submodules/) as you
+Consider using [Git submodules](https://help.github.com/submodules/) as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
 managing dotfile dependencies so much easier.
 
@@ -145,7 +145,7 @@ later split and push changes back out.
 
 ### Why create this site?
 
-Some of your [fellow GitHub friends](http://github.com/dotfiles) have
+Some of your [fellow GitHub friends](https://github.com/dotfiles) have
 found incredible value in digging through Other People's Dotfiles
 (OPD). We aim to share that knowledge with you, our fellow wayfaring
 stranger in the shell.
@@ -153,7 +153,7 @@ stranger in the shell.
 ### You totally need to know about a great bootstrap or framework, how do I submit?
 
 Great! We're always looking for new projects to follow. Please submit a PR or [connect
-with us on Twitter](http://twitter.com/octodots).
+with us on Twitter](https://twitter.com/octodots).
 
 ### Oh no! I've committed passwords/API keys/other sensitive data!
 
@@ -163,7 +163,7 @@ guide](https://help.github.com/articles/remove-sensitive-data/).
 ### Your FAQ is weak. It *so* did not answer my question.
 
 That's not a question. But feel free to [ask us anything on
-Twitter](http://twitter.com/octodots), or to create an issue on this repository. Maybe we can expand this list.
+Twitter](https://twitter.com/octodots), or to create an issue on this repository. Maybe we can expand this list.
 
 ## Contribute
 
