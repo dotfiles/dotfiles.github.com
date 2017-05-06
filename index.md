@@ -26,11 +26,11 @@ out of the process. Here are a few of our favorites:
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized Zsh with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for OS X Terminal and Sublime Text.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
-* [xero's dotfiles](http://git.io/.files) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
+* [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and OS X with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow (like xero's) for symlink management, and `git-subtree` for repository integration.
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
-* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles/) focus on Android development and reverse engineering on OS X.
+* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development and reverse engineering on OS X.
 * [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
@@ -58,7 +58,7 @@ customization safe and easy.
 
 #### Fish
 
-* [fisherman](http://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
+* [fisherman](https://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
 
 #### Zsh
@@ -67,11 +67,11 @@ customization safe and easy.
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired Zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the Zsh startup time. Antigen-hs is much more minimalistic and emphasizes convention over configuration more strongly than antigen.
 * [dotzsh](https://github.com/dotphiles/dotzsh) strives to be platform and version independent, some functionality may be lost when running under older versions of Zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OS's without problems.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a community-driven framework for managing your Zsh configuration. It bundles 40+ plugins and 80+ themes.
-* [Prezto](https://github.com/zsh-users/prezto) is a configuration framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane defaults, aliases, functions, auto completion, prompt themes and dozens of well documented modules.
+* [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane defaults, aliases, functions, auto completion, prompt themes and dozens of well documented modules.
 * [slimzsh](https://github.com/changs/slimzsh) is a small starter framework for Zsh that features the pure prompt, syntax highlighting and tab completion.
 * [zgen](https://github.com/tarjoilija/zgen) is a lightweight plugin manager for Zsh inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. Zgen will also automatically handle cloning repositories for plugins you're using without you manually maintaining submodules or clones, and can use oh-my-zsh formatted plugins and themes.
 * [zplug](https://github.com/zplug/zplug) is a next-generation plugin manager for zsh. There is more to zsh plugin manager than increasing its speed. Also, there is nothing that zplug cannnot do.
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) theme.
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh) theme.
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of Zsh plugins, themes and completions compatible with Zsh frameworks like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [zgen](https://github.com/tarjoilija/zgen).
 
 ### Editors
@@ -87,8 +87,8 @@ customization safe and easy.
 
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
 * [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
-* [Pathogen](https://github.com/tpope/vim-pathogen/) is a plugin manager for Vim.
-* [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
+* [Pathogen](https://github.com/tpope/vim-pathogen) is a plugin manager for Vim.
+* [Vundle](https://github.com/VundleVim/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
 * [vim-plug](https://github.com/junegunn/vim-plug) is a simple plugin manager that supports parallel installations / upgrades.
 * [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
 * [spf13-vim](https://github.com/spf13/spf13-vim) is Steve Francia's Vim distribution of vim plugins and resources for Vim, Gvim and MacVim.
@@ -128,11 +128,11 @@ customization safe and easy.
 
 ## Don't ignore your `.gitignore`
 
-GitHub has a great [collection of `.gitignore` templates](https://github.com/github/gitignore) for a wide range of languages and editors. We recommend Simon Whitaker's [gitignore-boilerplates](https://github.com/simonwhitaker/gitignore-boilerplates) to help you manage them.
+GitHub has a great [collection of `.gitignore` templates](https://github.com/github/gitignore) for a wide range of languages and editors. We recommend Simon Whitaker's [gitignore-boilerplates](https://github.com/simonwhitaker/gibo) to help you manage them.
 
 ## Embrace submodules / subtrees
 
-Consider using [Git submodules](http://help.github.com/submodules/) as you
+Consider using [Git submodules](https://help.github.com/submodules/) as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
 managing dotfile dependencies so much easier.
 
@@ -145,7 +145,7 @@ later split and push changes back out.
 
 ### Why create this site?
 
-Some of your [fellow GitHub friends](http://github.com/dotfiles) have
+Some of your [fellow GitHub friends](https://github.com/dotfiles) have
 found incredible value in digging through Other People's Dotfiles
 (OPD). We aim to share that knowledge with you, our fellow wayfaring
 stranger in the shell.
@@ -153,7 +153,7 @@ stranger in the shell.
 ### You totally need to know about a great bootstrap or framework, how do I submit?
 
 Great! We're always looking for new projects to follow. Please submit a PR or [connect
-with us on Twitter](http://twitter.com/octodots).
+with us on Twitter](https://twitter.com/octodots).
 
 ### Oh no! I've committed passwords/API keys/other sensitive data!
 
@@ -163,7 +163,7 @@ guide](https://help.github.com/articles/remove-sensitive-data/).
 ### Your FAQ is weak. It *so* did not answer my question.
 
 That's not a question. But feel free to [ask us anything on
-Twitter](http://twitter.com/octodots), or to create an issue on this repository. Maybe we can expand this list.
+Twitter](https://twitter.com/octodots), or to create an issue on this repository. Maybe we can expand this list.
 
 ## Contribute
 
