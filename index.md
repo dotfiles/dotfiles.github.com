@@ -107,6 +107,7 @@ customization safe and easy.
 * [fresh](https://github.com/freshshell/fresh) is a tool to source dotfiles from others into your own. It supports shell configuration (aliases, functions, etc.) as well as config files (e.g. `ackrc` and `gitconfig`). Think of it as _Bundler for your dotfiles_.
 * [Ghar](https://github.com/philips/ghar) by Brandon Philip. Ghar is a standalone Python script for managing Git repos symlinked into your home.
 * [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager, useful for automatically (and safely) linking your dotfiles folder into your home directory.
+* [Homely](https://homely.readthedocs.io/) helps you script your dotfile installation using Python. If you're getting frustrated by the limitations of pure shell scripts, then this is the tool for you. Homely also has a clever Automatic Cleanup feature and good tutorials.
 * [Homemaker](https://github.com/FooSoft/homemaker) by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage both common and machine-specific dotfile settings. Homemaker can be configured in TOML, YAML or JSON.
 * [Homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [Homesick](https://github.com/technicalpickles/homesick), by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
