@@ -28,8 +28,8 @@ maintainer will merge your changes and publish them to GitHub Pages.
 
 Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][license] for details.
 
-[dotfiles.github.io]: http://dotfiles.github.io
+[dotfiles.github.io]: https://dotfiles.github.io
 [local]: http://localhost:8484
-[pr]: http://help.github.com/send-pull-requests/
+[pr]: https://help.github.com/articles/about-pull-requests/
 [contributing]: CONTRIBUTING.md
 [license]: LICENSE.md
