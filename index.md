@@ -22,7 +22,7 @@ out of the process. Here are a few of our favorites:
 * [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
 * [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing Zsh files, easy Zsh completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
-* [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on OS X.
+* [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on macOS.
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized Zsh with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for OS X Terminal and Sublime Text.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
@@ -59,7 +59,7 @@ customization safe and easy.
 
 #### Fish
 
-* [fisherman](https://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](http://fish.sh)
+* [fisherman](https://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](https://fish.sh)
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
 
 #### Zsh
@@ -110,7 +110,7 @@ customization safe and easy.
 * [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager, useful for automatically (and safely) linking your dotfiles folder into your home directory.
 * [Homely](https://homely.readthedocs.io/) helps you script your dotfile installation using Python. If you're getting frustrated by the limitations of pure shell scripts, then this is the tool for you. Homely also has a clever Automatic Cleanup feature and good tutorials.
 * [Homemaker](https://github.com/FooSoft/homemaker) by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage both common and machine-specific dotfile settings. Homemaker can be configured in TOML, YAML or JSON.
-* [Homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](http://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
+* [Homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [Homesick](https://github.com/technicalpickles/homesick), by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
 * [myrepos](https://myrepos.branchable.com/) is a tool to manage all your version control repositories at once.
 * [Pearl](https://github.com/pearl-core/pearl) is a brand new revolutionary package manager that allows to automatically activate dotfiles whenever shells or editors start via a smart hook mechanism. Dotfiles are treated as packages that coexist together seamlessly and can be fully controlled and synced across different systems. There is a wide range of packages already available in the [Official Pearl Hub](https://github.com/pearl-hub).
@@ -124,7 +124,7 @@ customization safe and easy.
 
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about getting started using a dotfiles repository.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
-* Wes Bos has a series of [free videos](http://commandlinepoweruser.com/) introducing Zsh, oh-my-zsh, and z.
+* Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing Zsh, oh-my-zsh, and z.
 * Dries Vints wrote [an extensive blog post](https://driesvints.com/blog/getting-started-with-dotfiles/) on why and how he created [his dotfiles](https://github.com/driesvints/dotfiles).
 * Michael J. Smalley wrote a [popular blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) with an associated [git repo](https://github.com/michaeljsmalley/dotfiles) that includes a dotfiles installer script.
 
