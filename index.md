@@ -42,6 +42,7 @@ out of the process. Here are a few of our favorites:
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for MacOS focused on Web development
 * [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opiniated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and OS X.
 * [Diki Ananta's dotfiles](https://github.com/dikiaap/dotfiles) is focused on Window Manager users, especially for [i3](https://github.com/i3/i3), and Web developers. It has various configs for standard of window manager.
+* [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs. 
 
 ## Go further with a framework
 
