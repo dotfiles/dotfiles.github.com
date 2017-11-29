@@ -129,6 +129,7 @@ customization safe and easy.
 * Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing Zsh, oh-my-zsh, and z.
 * Dries Vints wrote [an extensive blog post](https://medium.com/@driesvints/getting-started-with-dotfiles-76bf046d035c) on why and how he created [his dotfiles](https://github.com/driesvints/dotfiles).
 * Michael J. Smalley wrote a [popular blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) with an associated [git repo](https://github.com/michaeljsmalley/dotfiles) that includes a dotfiles installer script.
+* Rosco Kalis wrote an article about [setting up dotfiles](https://blog.kalis.me/dotfiles-automating-macos-system-configuration/), and a second one specifically about his [automated repository management](https://blog.kalis.me/increasing-development-productivity-repository-management/).
 
 ## Don't ignore your `.gitignore`
 
