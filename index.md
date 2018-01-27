@@ -76,6 +76,7 @@ customization safe and easy.
 * [zplug](https://github.com/zplug/zplug) is a next-generation plugin manager for zsh. There is more to zsh plugin manager than increasing its speed. Also, there is nothing that zplug cannnot do.
 * [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh) theme.
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of Zsh plugins, themes and completions compatible with Zsh frameworks like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [zgen](https://github.com/tarjoilija/zgen).
+* [toasty-zsh](https://github.com/5paceToast/toasty-zsh) is a simplistic zsh plugin and configuration system that aims to provide a "sane defaults" set for any zsh config and is optimized for system-wide installation
 
 ### Editors
 
