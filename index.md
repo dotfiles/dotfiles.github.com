@@ -36,6 +36,7 @@ out of the process. Here are a few of our favorites:
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
 * [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom Zsh and Terminal/iTerm themes and useful aliases for web developers.
+* [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
 * [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, Zsh and Tmux environments for nerds.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
