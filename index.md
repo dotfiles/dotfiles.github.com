@@ -41,7 +41,7 @@ out of the process. Here are a few of our favorites:
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
-* [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opiniated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
+* [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
 * [Diki Ananta's dotfiles](https://github.com/dikiaap/dotfiles) is focused on Window Manager users, especially for [i3](https://github.com/i3/i3), and Web developers. It has various configs for standard of window manager.
 * [Nikita Sobolev's dotfiles](https://github.com/sobolevn/dotfiles) contains Python, Node, and Elixir configurations for macOS alongside with the most user-friendly command line tools for the developer happiness.
 * [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs. 
@@ -100,7 +100,7 @@ customization safe and easy.
 
 ### General-purpose dotfile utilities
 
-* [Config Curator](https://github.com/rxrc/curator) defines your dotfile installation in a simple but powerful config file. Sync files, directories, and symlinks across multiple enviroments with this ludicrous-speed Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
+* [Config Curator](https://github.com/rxrc/curator) defines your dotfile installation in a simple but powerful config file. Sync files, directories, and symlinks across multiple environments with this ludicrous-speed Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotdrop](https://github.com/deadc0de6/dotdrop) makes the management of dotfiles between different hosts easy. It allows to store your dotfiles on git and automagically deploy different versions on different setups.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
@@ -121,7 +121,7 @@ customization safe and easy.
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on macOS with the homebrew package manager, but works on all Unix operating systems.
 * [stowsh](https://github.com/williamsmj/stowsh) is a clone of GNU Stow written in bash with minimal dependencies.
 * The [Super User Spark](https://github.com/NorfairKing/super-user-spark) is a declarative domain specific language that allows you to specify the deployment of your dotfiles. It also includes a compiler and interpreter for the language.
-* [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interferring with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
+* [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interfering with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
 * [yadm](https://thelocehiliosan.github.io/yadm/) by Tim Byrne. `yadm` is a dotfile management tool with 3 main features: Manages files across systems using a single Git repository. Provides a way to use alternate files on a specific OS or host. Supplies a method of encrypting confidential data so it can safely be stored in your repository.
 
 ### Tutorials
