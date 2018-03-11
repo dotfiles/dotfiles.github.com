@@ -19,6 +19,7 @@ If you're just starting out, before you go symlinking everything in `~/*`,
 you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
+* [Overbryd's dotfiles](https://github.com/Overbryd/dotfiles) features a 0-100 macOS bootstrap and topical setup maintained with a simple Makefile
 * [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
 * [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing Zsh files, easy Zsh completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
