@@ -19,33 +19,33 @@ If you're just starting out, before you go symlinking everything in `~/*`,
 you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
-* [Overbryd's dotfiles](https://github.com/Overbryd/dotfiles) features a 0-100 macOS bootstrap and topical setup maintained with a simple Makefile
-* [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
-* [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing Zsh files, easy Zsh completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
-* [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
-* [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on macOS.
-* [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
-* [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized Zsh with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for macOS Terminal and Sublime Text.
-* [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
-* [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for Zsh and macOS with a friendly bot to guide your way.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow (like xero's) for symlink management, and `git-subtree` for repository integration.
-* [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
-* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development and reverse engineering on macOS.
-* [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
-* [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
-* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
-* [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom Zsh and Terminal/iTerm themes and useful aliases for web developers.
-* [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
-* [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, Zsh and Tmux environments for nerds.
+* [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development and reverse engineering on macOS.
+* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
+* [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
-* [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
-* [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
-* [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
 * [Diki Ananta's dotfiles](https://github.com/dikiaap/dotfiles) is focused on Window Manager users, especially for [i3](https://github.com/i3/i3), and Web developers. It has various configs for standard of window manager.
-* [Nikita Sobolev's dotfiles](https://github.com/sobolevn/dotfiles) contains Python, Node, and Elixir configurations for macOS alongside with the most user-friendly command line tools for the developer happiness.
+* [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
+* [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
+* [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
+* [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
+* [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
+* [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
+* [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
+* [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
 * [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs. 
+* [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
+* [Nikita Sobolev's dotfiles](https://github.com/sobolevn/dotfiles) contains Python, Node, and Elixir configurations for macOS alongside with the most user-friendly command line tools for the developer happiness.
+* [Overbryd's dotfiles](https://github.com/Overbryd/dotfiles) features a 0-100 macOS bootstrap and topical setup maintained with a simple Makefile
+* [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized Zsh with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for macOS Terminal and Sublime Text.
+* [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, Zsh and Tmux environments for nerds.
+* [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
+* [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
+* [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
+* [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and Zsh setup all tuned for using [Solarized](http://ethanschoonover.com/solarized) on macOS.
+* [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing Zsh files, easy Zsh completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
 
 ## Go further with a framework
 
@@ -68,17 +68,22 @@ customization safe and easy.
 
 #### Zsh
 
-* [antigen](https://github.com/zsh-users/antigen) is a framework for using plugins and themes in your Zsh configuration. It will automatically clone repositories containing the plugins you're using without you having to manually create submodules or clones, and supports using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes as well as ones published as separate repositories.
+##### Frameworks
+
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired Zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the Zsh startup time. Antigen-hs is much more minimalistic and emphasizes convention over configuration more strongly than antigen.
+* [antigen](https://github.com/zsh-users/antigen) is a framework for using plugins and themes in your Zsh configuration. It will automatically clone repositories containing the plugins you're using without you having to manually create submodules or clones, and supports using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes as well as ones published as separate repositories.
 * [dotzsh](https://github.com/dotphiles/dotzsh) strives to be platform and version independent, some functionality may be lost when running under older versions of Zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OS's without problems.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a community-driven framework for managing your Zsh configuration. It bundles 40+ plugins and 80+ themes.
 * [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for Zsh. It's a lightweight alternative to oh-my-zsh with sane defaults, aliases, functions, auto completion, prompt themes and dozens of well documented modules.
 * [slimzsh](https://github.com/changs/slimzsh) is a small starter framework for Zsh that features the pure prompt, syntax highlighting and tab completion.
+* [toasty-zsh](https://github.com/5paceToast/toasty-zsh) is a simplistic zsh plugin and configuration system that aims to provide a "sane defaults" set for any zsh config and is optimized for system-wide installation
 * [zgen](https://github.com/tarjoilija/zgen) is a lightweight plugin manager for Zsh inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. Zgen will also automatically handle cloning repositories for plugins you're using without you manually maintaining submodules or clones, and can use oh-my-zsh formatted plugins and themes.
 * [zplug](https://github.com/zplug/zplug) is a next-generation plugin manager for zsh. There is more to zsh plugin manager than increasing its speed. Also, there is nothing that zplug cannnot do.
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh) theme.
+
+##### Zsh Resources
+
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) is a list of Zsh plugins, themes and completions compatible with Zsh frameworks like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [zgen](https://github.com/tarjoilija/zgen).
-* [toasty-zsh](https://github.com/5paceToast/toasty-zsh) is a simplistic zsh plugin and configuration system that aims to provide a "sane defaults" set for any zsh config and is optimized for system-wide installation
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) A quickstart for zgen. It includes zgen setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh) theme.
 
 ### Editors
 
@@ -91,13 +96,13 @@ customization safe and easy.
 
 #### Vim
 
+* [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
 * [Janus](https://github.com/carlhuda/janus) is a distribution of plugins and mappings for Vim, Gvim and MacVim.
 * [Neobundle](https://github.com/Shougo/neobundle.vim) is a next generation Vim plugin manager.
 * [Pathogen](https://github.com/tpope/vim-pathogen) is a plugin manager for Vim.
-* [Vundle](https://github.com/VundleVim/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
-* [vim-plug](https://github.com/junegunn/vim-plug) is a simple plugin manager that supports parallel installations / upgrades.
-* [dotvim](https://github.com/dotphiles/dotvim) is a community driven framework for vim.
 * [spf13-vim](https://github.com/spf13/spf13-vim) is Steve Francia's Vim distribution of vim plugins and resources for Vim, Gvim and MacVim.
+* [vim-plug](https://github.com/junegunn/vim-plug) is a simple plugin manager that supports parallel installations / upgrades.
+* [Vundle](https://github.com/VundleVim/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for Vim. It works with Pathogen compatible vim plugins.
 
 ### General-purpose dotfile utilities
 
@@ -121,9 +126,9 @@ customization safe and easy.
 * [Pearl](https://github.com/pearl-core/pearl) is a brand new revolutionary package manager that allows to automatically activate dotfiles whenever shells or editors start via a smart hook mechanism. Dotfiles are treated as packages that coexist together seamlessly and can be fully controlled and synced across different systems. There is a wide range of packages already available in the [Official Pearl Hub](https://github.com/pearl-hub).
 * [rcm](https://github.com/thoughtbot/rcm) is a set of well-documented shell scripts that help manage your dotfiles. It is easily installable on macOS with the homebrew package manager, but works on all Unix operating systems.
 * [stowsh](https://github.com/williamsmj/stowsh) is a clone of GNU Stow written in bash with minimal dependencies.
-* The [Super User Spark](https://github.com/NorfairKing/super-user-spark) is a declarative domain specific language that allows you to specify the deployment of your dotfiles. It also includes a compiler and interpreter for the language.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interfering with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
 * [yadm](https://thelocehiliosan.github.io/yadm/) by Tim Byrne. `yadm` is a dotfile management tool with 3 main features: Manages files across systems using a single Git repository. Provides a way to use alternate files on a specific OS or host. Supplies a method of encrypting confidential data so it can safely be stored in your repository.
+* The [Super User Spark](https://github.com/NorfairKing/super-user-spark) is a declarative domain specific language that allows you to specify the deployment of your dotfiles. It also includes a compiler and interpreter for the language.
 
 ### Tutorials
 
@@ -161,8 +166,7 @@ stranger in the shell.
 
 ### You totally need to know about a great bootstrap or framework, how do I submit?
 
-Great! We're always looking for new projects to follow. Please submit a PR or [connect
-with us on Twitter](https://twitter.com/octodots).
+Great! We're always looking for new projects to follow. Please submit a PR or an Issue.
 
 ### Oh no! I've committed passwords/API keys/other sensitive data!
 
