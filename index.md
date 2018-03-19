@@ -33,6 +33,7 @@ out of the process. Here are a few of our favorites:
 * [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
+* [kutsan's dotfiles](https://github.com/kutsan/dotfiles) includes ongoing configuration files for various interfaces and text-based command-line applications such as vim, zsh, tmux, ranger, mutt, newsboat and more.
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
 * [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs. 
