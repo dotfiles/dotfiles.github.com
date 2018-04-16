@@ -31,7 +31,6 @@ out of the process. Here are a few of our favorites:
 * [Dries Vints' dotfiles](https://github.com/driesvints/dotfiles) leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile) and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
 * [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
-* [Guthrie McAfee Armstrong's dotfiles](https://github.com/gmarmstrong/dotfiles) declare a [NixOS](https://nixos.org) system configuration and user environment with [Home Manager](https://github.com/rycee/home-manager) for Nix. The Nix configuration is purely functional and reproducible.
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [kutsan's dotfiles](https://github.com/kutsan/dotfiles) includes ongoing configuration files for various interfaces and text-based command-line applications such as vim, zsh, tmux, ranger, mutt, newsboat and more.
