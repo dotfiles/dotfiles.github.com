@@ -121,6 +121,7 @@ customization safe and easy.
 * [Ghar](https://github.com/philips/ghar) by Brandon Philip. Ghar is a standalone Python script for managing Git repos symlinked into your home.
 * [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager, useful for automatically (and safely) linking your dotfiles folder into your home directory.
 * [Homely](https://homely.readthedocs.io/) helps you script your dotfile installation using Python. If you're getting frustrated by the limitations of pure shell scripts, then this is the tool for you. Homely also has a clever Automatic Cleanup feature and good tutorials.
+* [Home Manager](https://github.com/rycee/home-manager) by Robert Helgesson is a system built for managing [NixOS](https://nixos.org) user environments using the [Nix](https://nixos.org/nix/) package manager and the [Nixpkgs](https://nixos.org/nixpkgs/) libraries.
 * [Homemaker](https://github.com/FooSoft/homemaker) by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage both common and machine-specific dotfile settings. Homemaker can be configured in TOML, YAML or JSON.
 * [Homeshick](https://github.com/andsens/homeshick) by Anders Ingemann is like Homesick but written in bash. Great to combine with [myrepos](https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
 * [Homesick](https://github.com/technicalpickles/homesick), by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
