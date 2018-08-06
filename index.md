@@ -116,6 +116,7 @@ customization safe and easy.
 * [dotdrop](https://github.com/deadc0de6/dotdrop) makes the management of dotfiles between different hosts easy. It allows to store your dotfiles on git and automagically deploy different versions on different setups.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine. Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
+* [dotgit](https://github.com/kobus-v-schoor/dotgit) by Kobus van Schoor. A comprehensive and versatile dotfiles manager which helps to synchronize your dotfiles between multiple computers and devices.
 * [Dotsync](https://github.com/dotphiles/dotsync) utility for syncing dotfiles between multiple machines from a Git repo or push using rsync.
 * [dotty](https://github.com/vibhavp/dotty) by Vibhav Pant. `dotty` uses a simple JSON-formatted file to symlink and/or copy your dotfiles. It can also execute shell commands and check for directories, and create them accordingly.
 * [Ellipsis](https://github.com/ellipsis/ellipsis) is a package manager for dotfiles.
