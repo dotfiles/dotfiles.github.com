@@ -38,6 +38,7 @@ out of the process. Here are a few of our favorites:
 * [Jonas Devlieghere's dotfiles](https://github.com/JDevlieghere/dotfiles) for both macOS and Linux has a little bit of everything for compiler development in the terminal.
 * [kutsan's dotfiles](https://github.com/kutsan/dotfiles) includes ongoing configuration files for various interfaces and text-based command-line applications such as vim, zsh, tmux, ranger, mutt, newsboat and more.
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
+* [Matt Smith's dotfiles](https://github.com/mattorb/dotfiles) includes a one-liner install, fish, vscode, mac desktop app installs via brew cask, os x customizations inspired by Mathias, etc.  No dotfiles framework, just shell scripts to set everything up.
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
 * [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs. 
 * [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
