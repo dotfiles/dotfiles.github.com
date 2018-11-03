@@ -77,6 +77,7 @@ customization safe and easy.
 
 ##### Frameworks
 
+* [Antibody](https://github.com/getantibody/antibody) is a shell plugin manager made from the ground up thinking about performance.
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) is an antigen-inspired Zsh plugin manager that tries to do work statically and only on manual invocation, minimizing the Zsh startup time. Antigen-hs is much more minimalistic and emphasizes convention over configuration more strongly than antigen.
 * [antigen](https://github.com/zsh-users/antigen) is a framework for using plugins and themes in your Zsh configuration. It will automatically clone repositories containing the plugins you're using without you having to manually create submodules or clones, and supports using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes as well as ones published as separate repositories.
 * [dotzsh](https://github.com/dotphiles/dotzsh) strives to be platform and version independent, some functionality may be lost when running under older versions of Zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OS's without problems.
@@ -113,6 +114,7 @@ customization safe and easy.
 
 ### General-purpose dotfile utilities
 
+* [Bonclay](https://github.com/talal/bonclay) is a simple dotfiles manager. Well, technically, it is a backup/restore/sync tool magiggy.
 * [Config Curator](https://github.com/rxrc/curator) defines your dotfile installation in a simple but powerful config file. Sync files, directories, and symlinks across multiple environments with this ludicrous-speed Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotdrop](https://github.com/deadc0de6/dotdrop) makes the management of dotfiles between different hosts easy. It allows to store your dotfiles on git and automagically deploy different versions on different setups.
