@@ -40,6 +40,7 @@ out of the process. Here are a few of our favorites:
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) includes a bootstrap script that rsyncs your repo to your home folder. Mathias' [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) is legendary.
 * [Matt Smith's dotfiles](https://github.com/mattorb/dotfiles) includes a one-liner install, fish, vscode, mac desktop app installs via brew cask, os x customizations inspired by Mathias, etc.  No dotfiles framework, just shell scripts to set everything up.
 * [mihaliak's dotfiles](https://github.com/mihaliak/dotfiles) for macOS focused on Web development
+* [Mohit Singh's dotfiles](https://github.com/mohitsinghs/dotfiles) has a lightweight setup for JavaScript development environment on macOS.
 * [neeasade's dotfiles](https://github.com/neeasade/dotfiles) utilize a template based theming system, with the ability to switch between themes without restarting programs.
 * [Nelson Estevão's dotfiles](https://github.com/nelsonmestevao/dotfiles) uses a modular repository structure. It features configuration files for popular software like neovim, zsh and i3wm. Just delete the directories that you are not interested and run `install.sh`.
 * [Nick Plekhanov’s dotfiles](https://github.com/nicksp/dotfiles) features properly customized Zsh and iTerm environments, along with Atom editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web developers.
