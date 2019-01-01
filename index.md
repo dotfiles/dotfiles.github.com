@@ -33,6 +33,7 @@ out of the process. Here are a few of our favorites:
 * [Eduardo Lundgren's dotfiles](https://github.com/eduardolundgren/dotfiles), the first JavaScript-based dotfiles powered by Grunt.
 * [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
 * [Felix Volny's dotconfig](https://github.com/volny/dotconfig) is a one-script install to setup a complete JavaScript development environment on MacOS, including tmux, neovim, zsh, and iterm2 configuration.
+* [Huy Vo's dotfiles](https://github.com/huyvohcmc/dotfiles), a lightweight yet powerful dotfiles for MacOS users. It uses GNU Stow to manage the symlinks, Zsh as the shell environment and Nvim + Tmux for the coding (along with other useful tools).
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
 * [Jonas Devlieghere's dotfiles](https://github.com/JDevlieghere/dotfiles) for both macOS and Linux has a little bit of everything for compiler development in the terminal.
