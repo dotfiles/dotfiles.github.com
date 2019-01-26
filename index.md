@@ -73,8 +73,8 @@ customization safe and easy.
 
 #### Fish
 
-* [fisherman](https://github.com/fisherman/fisherman) is a concurrent plugin manager for [fish-shell](https://fish.sh)
-* [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
+* [Fisher](https://github.com/jorgebucaran/fisher) A package manager for the [fish shell](https://fishshell.com).
+* [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) is a fish-shell framework inspired by oh-my-zsh.
 
 #### Zsh
 
