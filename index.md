@@ -146,6 +146,7 @@ customization safe and easy.
 * [vcsh](https://github.com/RichiH/vcsh) by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without the need for symlinks. Any number of Git repositories will co-exist in parallel in your `$HOME` without interfering with each other. Advanced use cases with different branches for different systems are supported by default. An extensive hook system lets you customize your repositories. `vcsh` includes batch push, pull, and status commands which operate on all your repositories at once.
 * [yadm](https://thelocehiliosan.github.io/yadm/) by Tim Byrne. `yadm` is a dotfile management tool with 3 main features: Manages files across systems using a single Git repository. Provides a way to use alternate files on a specific OS or host. Supplies a method of encrypting confidential data so it can safely be stored in your repository.
 * The [Super User Spark](https://github.com/NorfairKing/super-user-spark) is a declarative domain specific language that allows you to specify the deployment of your dotfiles. It also includes a compiler and interpreter for the language.
+* [yadoma](https://github.com/esc/yadoma) by Valentin Haenel. `yadoma` is a simple dotfile management tool that uses YAML as configuration syntax and the pile-of-symlinks approach. It can manage multiple hosts, supports variable symlink targets and is infinitely hackable.
 
 ### Tutorials
 
