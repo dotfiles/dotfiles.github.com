@@ -25,7 +25,7 @@ out of the process. Here are a few of our favorites:
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom ZSH and Terminal/iTerm themes and useful aliases for web developers.
 * [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development, reverse engineering and blockchain (crypto currencies) development on macOS.
 * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains articles, tools and other resources to get you up to speed with dotfiles.
-* [bashdot](https://github.com/weavenet/bashdot) A minimalist dotfile management framework, written 100% in bash.
+* [bashdot](https://github.com/bashdot/bashdot) A minimalist dotfile management framework, written 100% in bash.
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Darryl Abbate's dotfiles](https://github.com/rootbeersoup/dotfiles) can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh) for absolutely effortless setup on a fresh macOS machine.
