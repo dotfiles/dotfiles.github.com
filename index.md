@@ -152,7 +152,7 @@ customization safe and easy.
 
 ### Tutorials
 
-* Abdullah Khan wrote a [How to manage dotfiles securely](https://theak.me/blog/how-to-manage-dotfiles.html) on how you can encrypt your dotfiles using your gpg keys.
+* Abdullah Khan wrote [How to manage dotfiles securely](https://theak.me/blog/how-to-manage-dotfiles.html) which shows how you can encrypt your dotfiles using your gpg keys.
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about getting started using a dotfiles repository.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
 * Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing ZSH, oh-my-zsh, and z.
