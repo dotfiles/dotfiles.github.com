@@ -21,6 +21,7 @@ out of the process. Here are a few of our favorites:
 
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for ZSH and macOS with a friendly bot to guide your way.
 * [Aditya Pillai's Jumpstart](https://github.com/adityarpillai/jumpstart) is a _user-tailored customizable_ bootstrap installation script for macOS (formerly Mac OS X). Jumpstart is a fully-fledged tool that quickly installs a development setup to your macOS computer and replaces the need for manually setting up dotfiles. Jumpstart implements the best practices and setups for all-around development environment.
+* [Anders Ballegaard's dotfiles](https://github.com/AndersBallegaard/dotfiles) Mostly custom aliases I find useful for network engineering, and Python development. Oh and it updates automatically
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow (like xero's) for symlink management, and `git-subtree` for repository integration.
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom ZSH and Terminal/iTerm themes and useful aliases for web developers.
 * [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development, reverse engineering and blockchain (crypto currencies) development on macOS.
