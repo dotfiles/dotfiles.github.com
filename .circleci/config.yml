@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install awesome_bot
+          command: gem install awesome_bot
+
+      - run:
+          name: Check index.md
+          command: awesome_bot index.md --allow-dupe --allow-redirect
+
+      - run:
+          name: Check readme.md
+          command: awesome_bot README.md --allow-dupe --allow-redirect --white-list http://localhost:8484
