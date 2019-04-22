@@ -19,6 +19,7 @@ If you're just starting out, before you go symlinking everything in `~/*`,
 you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
+* [Abdullah's dotfiles](https://gitlab.com/Abdullah/cfg.git)
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for ZSH and macOS with a friendly bot to guide your way.
 * [Aditya Pillai's Jumpstart](https://github.com/adityarpillai/jumpstart) is a _user-tailored customizable_ bootstrap installation script for macOS (formerly Mac OS X). Jumpstart is a fully-fledged tool that quickly installs a development setup to your macOS computer and replaces the need for manually setting up dotfiles. Jumpstart implements the best practices and setups for all-around development environment.
 * [Anders Ballegaard's dotfiles](https://github.com/AndersBallegaard/dotfiles) Mostly custom aliases I find useful for network engineering, and Python development. Oh and it updates automatically
@@ -153,6 +154,7 @@ customization safe and easy.
 
 ### Tutorials
 
+* Abdullah wrote a [How to manage dotfiles securely](https://abdullah.today/blog/how-to-manage-dotfiles.html), a step by step guide to encrypt your dotfiles using your gpg keys.
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about getting started using a dotfiles repository.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
 * Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing ZSH, oh-my-zsh, and z.
