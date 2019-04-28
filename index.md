@@ -20,6 +20,7 @@ you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
 * [Abdullah's dotfiles](https://gitlab.com/Abdullah/cfg.git)
+* [Abhishek Keshri's Dotfiles](https://github.com/2kabhishek/Dotfiles) has configurations for zsh with custom [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) prompt, vim, git, tmux, compiz etc. It also has a branch for [Termux](https://github.com/termux/termux-app). Comes with a handy setup script.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for ZSH and macOS with a friendly bot to guide your way.
 * [Aditya Pillai's Jumpstart](https://github.com/adityarpillai/jumpstart) is a _user-tailored customizable_ bootstrap installation script for macOS (formerly Mac OS X). Jumpstart is a fully-fledged tool that quickly installs a development setup to your macOS computer and replaces the need for manually setting up dotfiles. Jumpstart implements the best practices and setups for all-around development environment.
 * [Anders Ballegaard's dotfiles](https://github.com/AndersBallegaard/dotfiles) Mostly custom aliases I find useful for network engineering, and Python development. Oh and it updates automatically
