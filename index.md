@@ -62,6 +62,7 @@ out of the process. Here are a few of our favorites:
 * [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and ZSH setup all tuned for using [Solarized](https://github.com/altercation/solarized) on macOS.
 * [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing ZSH files, easy ZSH completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
+* [kornicameister's dotfiles](https://github.com/kornicameister/dotfiles) started as a collection of manually creafted bash scripts slowing moving toward proper dotfiles utilizing ZSH (with Prezto), Pyenv, Nodenv, Terminator, Git and VIM/Neovim configuration. Everything controlled via [dotbot](https://github.com/anishathalye/dotbot) and automated down to generating GPG key to sign commit, upgrading local environment via own binary and dependencies management via [dependabot](https://dependabot.com/).
 
 ## Go further with a framework
 
