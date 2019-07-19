@@ -35,7 +35,7 @@ Ideally, a bug report should include a pull request with failing specs.
 5. [Submit a pull request][pr] against the master branch of dotfiles/dotfiles.github.com.
 
 [fork]: http://help.github.com/fork-a-repo/
-[branch]: http://learn.github.com/p/branching.html
+[branch]: https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#_topic_branch
 [pr]: http://help.github.com/send-pull-requests/
 
 When adding new entries, please add them to their section in alphabetical order. Thanks!
