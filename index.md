@@ -169,6 +169,7 @@ customization safe and easy.
 * Michael J. Smalley wrote a [popular blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) with an associated [git repo](https://github.com/michaeljsmalley/dotfiles) that includes a dotfiles installer script.
 * Rosco Kalis wrote an article about [setting up dotfiles](https://kalis.me/dotfiles-automating-macos-system-configuration/), and a second one specifically about his [automated repository management](https://kalis.me/increasing-development-productivity-repository-management/).
 * Dmitry Geurkov wrote an article about his tool called [dotcentral](https://troydm.github.io/blog/2017/02/27/manage-your-dotfiles-like-a-boss/).
+* Mark Rabideau wrote an article on [Building a bspwm desktop](http://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/) walking through his setup, including links to the configuration files on github.
 
 ## Don't ignore your `.gitignore`
 
