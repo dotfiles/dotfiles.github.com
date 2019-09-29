@@ -34,6 +34,7 @@ out of the process. Here are a few of our favorites:
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
 * [Cristian PB dotfiles](https://github.com/cristianpb/dotfiles) i3, polybar, mbsync, mutt, ranger, nvim dotfiles installed using stow.
+* [Dante's dotfiles](https://github.com/danteissaias/dotfiles) A minimal set of dotfiles containing configurations for popular applications, including fish, kitty, git, neovim, tmux, skhd, yabai and ranger.
 * [Darryl Abbate's dotfiles](https://github.com/rootbeersoup/dotfiles) can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh) for absolutely effortless setup on a fresh macOS machine.
 * [Diki Ananta's dotfiles](https://github.com/dikiaap/dotfiles) is focused on Window Manager users, especially for [i3](https://github.com/i3/i3), and Web developers. It has various configs for standard of window manager.
 * [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
