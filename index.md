@@ -21,6 +21,7 @@ out of the process. Here are a few of our favorites:
 
 * [Abdullah's dotfiles](https://gitlab.com/Abdullah/cfg.git)
 * [Abhishek Keshri's Dotfiles](https://github.com/2kabhishek/Dotfiles) has configurations for zsh with custom [Powerlevel10k](https://github.com/romkatv/powerlevel10k) prompt, i3 with i3status, dmenu, vim, ranger, git, tmux, compiz etc. It also has a branch for [Termux](https://github.com/termux/termux-app) for Android users. Comes with a handy setup script.
+* [Ace Cassidy's dotfiles](https://github.com/Ace-Cassidy/dotfiles) has configurations for bash, vscode, gitconfig, and an xmodmap script to allow holding capslock to turn hjkl into arrow keys in any application.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for ZSH and macOS with a friendly bot to guide your way.
 * [Aditya Pillai's Jumpstart](https://github.com/adityarpillai/jumpstart) is a _user-tailored customizable_ bootstrap installation script for macOS (formerly Mac OS X). Jumpstart is a fully-fledged tool that quickly installs a development setup to your macOS computer and replaces the need for manually setting up dotfiles. Jumpstart implements the best practices and setups for all-around development environment.
 * [aeolyus's dotfiles](https://github.com/aeolyus/dotfiles) simple dotfiles managed with GNU stow
