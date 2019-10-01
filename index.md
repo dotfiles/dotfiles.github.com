@@ -163,6 +163,7 @@ customization safe and easy.
 
 ### Tutorials
 
+* [Abdullah](https://abdullah.today/about.html) wrote [how to secure your dotfiles](https://abdullah.today/2019/10/01/encrypted-dotfiles.html) with keybase.
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about getting started using a dotfiles repository.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
 * Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing ZSH, oh-my-zsh, and z.
