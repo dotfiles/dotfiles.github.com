@@ -20,11 +20,13 @@ you may want to check out a few bootstrap projects that take the heavy lifting
 out of the process. Here are a few of our favorites:
 
 * [Abdullah's dotfiles](https://gitlab.com/Abdullah/cfg.git)
-* [Abhishek Keshri's Dotfiles](https://github.com/2kabhishek/Dotfiles) has configurations for zsh with custom [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) prompt, vim, git, tmux, compiz etc. It also has a branch for [Termux](https://github.com/termux/termux-app). Comes with a handy setup script.
+* [Abhishek Keshri's Dotfiles](https://github.com/2kabhishek/Dotfiles) has configurations for zsh with custom [Powerlevel10k](https://github.com/romkatv/powerlevel10k) prompt, i3 with i3status, dmenu, vim, ranger, git, tmux, compiz etc. It also has a branch for [Termux](https://github.com/termux/termux-app) for Android users. Comes with a handy setup script.
+* [Ace Cassidy's dotfiles](https://github.com/Ace-Cassidy/dotfiles) has configurations for bash, vscode, gitconfig, and an xmodmap script to allow holding capslock to turn hjkl into arrow keys in any application.
 * [Adam Eivy's dotfiles](https://github.com/atomantic/dotfiles) are focused on Automation (no manual install/config) for ZSH and macOS with a friendly bot to guide your way.
 * [Aditya Pillai's Jumpstart](https://github.com/adityarpillai/jumpstart) is a _user-tailored customizable_ bootstrap installation script for macOS (formerly Mac OS X). Jumpstart is a fully-fledged tool that quickly installs a development setup to your macOS computer and replaces the need for manually setting up dotfiles. Jumpstart implements the best practices and setups for all-around development environment.
 * [aeolyus's dotfiles](https://github.com/aeolyus/dotfiles) simple dotfiles managed with GNU stow
 * [Anders Ballegaard's dotfiles](https://github.com/AndersBallegaard/dotfiles) Mostly custom aliases I find useful for network engineering, and Python development. Oh and it updates automatically
+* [Andrew Liu's dotfiles](https://github.com/MrPickles/dotfiles) combines configs for zsh, vim, and tmux with customizations such as [airline](https://github.com/vim-airline/vim-airline) for vim and the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) zsh theme. Includes custom font glyphs and optional [fzf](https://github.com/junegunn/fzf)/[ripgrep](https://github.com/BurntSushi/ripgrep) support in vim. A [one-liner](https://github.com/MrPickles/dotfiles#installation) installation script comes as part of the package.
 * [Andrew Schwartzmeyer's dotfiles](https://github.com/andschwa/dotfiles) use GNU Stow (like xero's) for symlink management, and `git-subtree` for repository integration.
 * [Artem Sapegin’s dotfiles](https://github.com/sapegin/dotfiles) with custom ZSH and Terminal/iTerm themes and useful aliases for web developers.
 * [Ashish Bhatia's dotfiles](https://github.com/ashishb/dotfiles) focus on Android development, reverse engineering and blockchain (crypto currencies) development on macOS.
@@ -32,6 +34,8 @@ out of the process. Here are a few of our favorites:
 * [bashdot](https://github.com/bashdot/bashdot) A minimalist dotfile management framework, written 100% in bash.
 * [Ben Alman's dotfiles](https://github.com/cowboy/dotfiles) support different configurations per OS, linking, copying and environment setup.
 * [Bradford Dabbs's dotfiles](https://github.com/bndabbs/dotfiles) uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it) and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized color scheme and aliases for [Bro NSM](https://www.bro.org).
+* [Cristian PB dotfiles](https://github.com/cristianpb/dotfiles) i3, polybar, mbsync, mutt, ranger, nvim dotfiles installed using stow.
+* [Dante's dotfiles](https://github.com/danteissaias/dotfiles) A minimal set of dotfiles containing configurations for popular applications, including fish, kitty, git, neovim, tmux, skhd, yabai and ranger.
 * [Darryl Abbate's dotfiles](https://github.com/rootbeersoup/dotfiles) can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh) for absolutely effortless setup on a fresh macOS machine.
 * [Diki Ananta's dotfiles](https://github.com/dikiaap/dotfiles) is focused on Window Manager users, especially for [i3](https://github.com/i3/i3), and Web developers. It has various configs for standard of window manager.
 * [dotphiles](https://github.com/dotphiles/dotphiles) are a community driven framework of dotfiles, for the usual terminal apps and shells, designed to work across multiple platforms and degrade for older versions of software or OS, allowing you to use the same settings on all your machines.
@@ -40,7 +44,7 @@ out of the process. Here are a few of our favorites:
 * [F-dotfiles](https://github.com/Kraymer/F-dotfiles) is an opinionated dotfiles organization scheme based on GNU Stow. Highest priorities are ease of maintenance and deployment on both Linux and macOS.
 * [Felix Volny's dotconfig](https://github.com/volny/dotconfig) is a one-script install to setup a complete JavaScript development environment on MacOS, including tmux, neovim, ZSH, and iterm2 configuration.
 * [Huy Vo's dotfiles](https://github.com/huyvohcmc/dotfiles), a lightweight yet powerful dotfiles for MacOS users. It uses GNU Stow to manage the symlinks, ZSH as the shell environment and Nvim + Tmux for the coding (along with other useful tools).
-* [Ian Langworth's dotfiles](https://github.com/statico/dotfiles) are designed to work on any platform and be kept in sync across different hosts. With plenty of useful shell aliases and command defaults, it features [a simple install script](https://github.com/statico/dotfiles/blob/master/install.sh) to install itself and stay up-to-date.
+* [Ian Langworth's dotfiles](https://github.com/statico/dotfiles) are designed to work on any platform and be kept in sync across different hosts. With plenty of useful shell aliases and command defaults, it features [a simple install script](https://github.com/statico/dotfiles/blob/master/install.zsh) to install itself and stay up-to-date.
 * [John Wyatt's Chef Dotfile Manager Tutorial](https://gitlab.com/jbwyatt4/chef_dotfile_manager_tutorial) - This is a complete bootstrap to get a Chef dotfile manager running on a Linux system with examples for packages, templates, and setting up the Atom text editor + Atom packages + Atom configuration.
 * [Jeff Coffler's dotfiles](https://github.com/jeffaco/dotfiles) has a bootstrap script that symlinks and doesn't require "." (hidden file) in the repo. The repo itself can live anywhere.
 * [jh3y's kody](https://github.com/jh3y/kody) is a dotfiles runner/manager written with node inspired by Zach Holman's popular dotfiles.
@@ -64,7 +68,8 @@ out of the process. Here are a few of our favorites:
 * [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
 * [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and ZSH setup all tuned for using [Solarized](https://github.com/altercation/solarized) on macOS.
-* [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing ZSH files, easy ZSH completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder.
+* [Zach Holman's dotfiles](https://github.com/holman/dotfiles) features topical organization, auto sourcing ZSH files, easy ZSH completion extensions, and a local bin folder for executables. The included `Rakefile` will symlink anything ending in `.symlink` to your `~` folder,
+* [Kamil Zabielski's dotfiles](https://github.com/limakzi/dotfiles) contains configuration files for various terminal applications based on OSX.
 
 ## Go further with a framework
 
@@ -134,6 +139,7 @@ customization safe and easy.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine. Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
 * [dotgit](https://github.com/kobus-v-schoor/dotgit) by Kobus van Schoor. A comprehensive and versatile dotfiles manager which helps to synchronize your dotfiles between multiple computers and devices.
+* [dotsecrets](https://pypi.org/project/dotsecrets/) by Olaf Conradi. Dotsecrets is a tool for managing dotfiles by topic in Git, including those with private information. Private information is filtered before committing to the repository. Dotsecrets is able to symlink your dotfiles into your home directory similar to Stow.
 * [Dotsync](https://github.com/dotphiles/dotsync) utility for syncing dotfiles between multiple machines from a Git repo or push using rsync.
 * [dotty](https://github.com/vibhavp/dotty) by Vibhav Pant. `dotty` uses a simple JSON-formatted file to symlink and/or copy your dotfiles. It can also execute shell commands and check for directories, and create them accordingly.
 * [Ellipsis](https://github.com/ellipsis/ellipsis) is a package manager for dotfiles.
@@ -159,6 +165,7 @@ customization safe and easy.
 
 ### Tutorials
 
+* [Abdullah](https://abdullah.today/about.html) wrote [how to secure your dotfiles](https://abdullah.today/2019/10/01/encrypted-dotfiles.html) with keybase.
 * Lars Kappert wrote a [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about getting started using a dotfiles repository.
 * Anish Athalye wrote a [guide on dotfiles management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/) highlighting organizational approaches, installation tools, and general tips and tricks.
 * Wes Bos has a series of [free videos](https://commandlinepoweruser.com/) introducing ZSH, oh-my-zsh, and z.
@@ -166,6 +173,7 @@ customization safe and easy.
 * Michael J. Smalley wrote a [popular blog post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/) with an associated [git repo](https://github.com/michaeljsmalley/dotfiles) that includes a dotfiles installer script.
 * Rosco Kalis wrote an article about [setting up dotfiles](https://kalis.me/dotfiles-automating-macos-system-configuration/), and a second one specifically about his [automated repository management](https://kalis.me/increasing-development-productivity-repository-management/).
 * Dmitry Geurkov wrote an article about his tool called [dotcentral](https://troydm.github.io/blog/2017/02/27/manage-your-dotfiles-like-a-boss/).
+* Mark Rabideau wrote an article on [Building a bspwm desktop](http://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/) walking through his setup, including links to the configuration files on github.
 
 ## Don't ignore your `.gitignore`
 
