@@ -63,7 +63,7 @@ out of the process. Here are a few of our favorites:
 * [Overbryd's dotfiles](https://github.com/Overbryd/dotfiles) features a 0-100 macOS bootstrap and topical setup maintained with a simple Makefile
 * [Paul Miller’s dotfiles](https://github.com/paulmillr/dotfiles) feature greatly customized ZSH with auto-completion and syntax highlighting, a bunch of useful Git extras and colourful themes for macOS Terminal and Sublime Text.
 * [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, ZSH and Tmux environments for nerds.
-* [ridhwaans's dotfiles](https://github.com/ridhwaans/dotfiles) has dotfiles and a ZSH environment setup built for macOS High Sierra and WSL (Windows 10 Creators Update with Ubuntu 17.10 (Artful Aardvark))
+* [ridhwaans's dotfiles](https://github.com/ridhwaans/dotfiles) for Mac and Windows with Linux has a focus on using virtual environments across different projects in development, with ZSH and iTerm2 defaults.
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
 * [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
 * [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
