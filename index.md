@@ -135,6 +135,7 @@ customization safe and easy.
 
 * [Bonclay](https://github.com/talal/bonclay) is a simple dotfiles manager. Well, technically, it is a backup/restore/sync tool magiggy.
 * [Config Curator](https://github.com/rxrc/curator) defines your dotfile installation in a simple but powerful config file. Sync files, directories, and symlinks across multiple environments with this ludicrous-speed Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
+* [dfm](https://github.com/justone/dfm) Dotfiles manager - A utility to manage your dotfiles, lightweight and simple.
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotdrop](https://github.com/deadc0de6/dotdrop) makes the management of dotfiles between different hosts easy. It allows to store your dotfiles on git and automagically deploy different versions on different setups.
 * [dotfiler](https://github.com/svetlyak40wt/dotfiler) is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles), made using principle of KISS.
