@@ -134,6 +134,7 @@ customization safe and easy.
 ### General-purpose dotfile utilities
 
 * [Bonclay](https://github.com/talal/bonclay) is a simple dotfiles manager. Well, technically, it is a backup/restore/sync tool magiggy.
+* [CGamesPlay/dfm](https://github.com/CGamesPlay/dfm) - dotfile manager that has no configuration, one-command importing, one-command syncing, multiple repository support, automatic cleanup, and can be used with git or any other RCS.
 * [Config Curator](https://github.com/rxrc/curator) defines your dotfile installation in a simple but powerful config file. Sync files, directories, and symlinks across multiple environments with this ludicrous-speed Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
 * [dfm](https://github.com/justone/dfm) Dotfiles manager - A utility to manage your dotfiles, lightweight and simple.
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
