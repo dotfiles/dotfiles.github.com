@@ -67,6 +67,7 @@ out of the process. Here are a few of our favorites:
 * [posquit0’s dotfiles](https://github.com/posquit0/dotfiles) contains awesome configurations for CLI commands and X environments, along with powerfully customized Vim, ZSH and Tmux environments for nerds.
 * [ridhwaans's dotfiles](https://github.com/ridhwaans/dotfiles) for Mac and Windows with Linux has a focus on using virtual environments across different projects in development, with ZSH and iTerm2 defaults.
 * [Rosco Kalis' dotfiles](https://github.com/rkalis/dotfiles) feature Fish shell configuration with custom completions, as well as comprehensive package management, repository management and Hammerspoon configuration.
+* [thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles) for developers are intended to be customized. They're a base set of configs, plugins, scripts, and aliases for vim, tmux, git, ruby, and zsh. Works great with [thoughtbot's rcm tool](https://github.com/thoughtbot/rcm) (mentioned below).
 * [Voku’s dotfiles](https://github.com/voku/dotfiles) dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows.
 * [xero's dotfiles](https://github.com/xero/dotfiles) are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free, portable, lightweight symlink farm manager.
 * [Yan Pritzker's dotfiles](https://github.com/skwp/dotfiles) bundles an opinionated set of Vim plugins and ZSH setup all tuned for using [Solarized](https://github.com/altercation/solarized) on macOS.
