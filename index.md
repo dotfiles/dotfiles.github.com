@@ -179,6 +179,7 @@ customization safe and easy.
 * Rosco Kalis wrote an article about [setting up dotfiles](https://kalis.me/dotfiles-automating-macos-system-configuration/), and a second one specifically about his [automated repository management](https://kalis.me/increasing-development-productivity-repository-management/).
 * Dmitry Geurkov wrote an article about his tool called [dotcentral](https://troydm.github.io/blog/2017/02/27/manage-your-dotfiles-like-a-boss/).
 * Mark Rabideau wrote an article on [Building a bspwm desktop](http://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/) walking through his setup, including links to the configuration files on github.
+* [Nicola Paolucci](https://www.durdn.com/) wrote a [tutorial](https://www.atlassian.com/git/tutorials/dotfiles) describing an elegant way to manage dotfiles using a Git bare repository.
 
 ## Don't ignore your `.gitignore`
 
