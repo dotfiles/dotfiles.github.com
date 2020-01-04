@@ -1,0 +1,231 @@
+- forks: 5
+  name: kody
+  notes: is a dotfiles runner/manager written with node inspired by Zach Holman's
+    popular dotfiles.
+  stars: 97
+  url: https://github.com/jh3y/kody
+- forks: 9
+  name: bashdot
+  notes: is a minimalist dotfile management framework, written 100% in bash.
+  stars: 56
+  url: https://github.com/bashdot/bashdot
+- forks: 92
+  name: chezmoi
+  notes: makes it easy to manage your dotfiles across multiple machines, securely.
+  stars: 2109
+  url: https://github.com/twpayne/chezmoi
+- forks: 3
+  name: Bonclay
+  notes: is a simple dotfiles manager. Well, technically, it is a backup/restore/sync
+    tool magiggy.
+  stars: 42
+  url: https://github.com/talal/bonclay
+- forks: 0
+  name: CGamesPlay/dfm
+  notes: is a dotfile manager that has no configuration, one-command importing, one-command
+    syncing, multiple repository support, automatic cleanup, and can be used with
+    git or any other RCS.
+  stars: 35
+  url: https://github.com/CGamesPlay/dfm
+- forks: 3
+  name: Config Curator
+  notes: defines your dotfile installation in a simple but powerful config file. Sync
+    files, directories, and symlinks across multiple environments with this ludicrous-speed
+    Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
+  stars: 28
+  url: https://github.com/rxrc/curator
+- forks: 15
+  name: dfm
+  notes: is a utility to manage your dotfiles, lightweight and simple.
+  stars: 101
+  url: https://github.com/justone/dfm
+- forks: 146
+  name: Dotbot
+  notes: is a lightweight standalone tool to bootstrap dotfiles, making it easy to
+    have a "one click" installation/upgrade process for your dotfiles.
+  stars: 2745
+  url: https://github.com/anishathalye/dotbot
+- forks: 46
+  name: dotdrop
+  notes: makes the management of dotfiles between different hosts easy. It allows
+    to store your dotfiles on git and automagically deploy different versions on different
+    setups.
+  stars: 559
+  url: https://github.com/deadc0de6/dotdrop
+- forks: 26
+  name: dotfiler
+  notes: is inspired by homesick and [Zach Holman's dotfiles](https://github.com/holman/dotfiles),
+    made using principle of KISS.
+  stars: 187
+  url: https://github.com/svetlyak40wt/dotfiler
+- forks: 9
+  name: dotfiles.sh
+  notes: by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public)
+    so you can keep your public and private configuration separate. It also supports
+    locally patching your dotfiles before symlinking to adapt to the local machine.
+    Dotfile repositories may be fetched via either Git or (where Git is not available)
+    wget.
+  stars: 61
+  url: https://github.com/wking/dotfiles-framework
+- forks: 8
+  name: dotgit
+  notes: by Kobus van Schoor. A comprehensive and versatile dotfiles manager which
+    helps to synchronize your dotfiles between multiple computers and devices.
+  stars: 94
+  url: https://github.com/kobus-v-schoor/dotgit
+- forks: null
+  name: dotsecrets
+  notes: by Olaf Conradi. Dotsecrets is a tool for managing dotfiles by topic in Git,
+    including those with private information. Private information is filtered before
+    committing to the repository. Dotsecrets is able to symlink your dotfiles into
+    your home directory similar to Stow.
+  stars: null
+  url: https://github.com/oohlaf/dotsecrets/stargazers
+- forks: 3
+  name: DotStow
+  notes: by Jam Risser. A simple cli to manage and sync dotfiles with git and stow.
+    It backups dotfiles with git and keeps track of simultaneous dotfile configurations
+    for multiple environments. It also supports shell autocompletion.
+  stars: 54
+  url: https://github.com/codejamninja/dotstow
+- forks: 52
+  name: Dotsync
+  notes: utility for syncing dotfiles between multiple machines from a Git repo or
+    push using rsync.
+  stars: 217
+  url: https://github.com/dotphiles/dotsync
+- forks: 13
+  name: dotty
+  notes: by Vibhav Pant. `dotty` uses a simple JSON-formatted file to symlink and/or
+    copy your dotfiles. It can also execute shell commands and check for directories,
+    and create them accordingly.
+  stars: 47
+  url: https://github.com/vibhavp/dotty
+- forks: 23
+  name: Ellipsis
+  notes: is a package manager for dotfiles.
+  stars: 301
+  url: https://github.com/ellipsis/ellipsis
+- forks: 8
+  name: exogenesis
+  notes: by Lucas Dohmen. `exogenesis` uses a simple YAML-formatted file to symlink
+    your dotfiles and install npms/bundlers.
+  stars: 20
+  url: https://github.com/moonglum/exogenesis
+- forks: 85
+  name: fresh
+  notes: is a tool to source dotfiles from others into your own. It supports shell
+    configuration (aliases, functions, etc.) as well as config files (e.g. `ackrc`
+    and `gitconfig`). Think of it as _Bundler for your dotfiles_.
+  stars: 945
+  url: https://github.com/freshshell/fresh
+- forks: 31
+  name: Ghar
+  notes: by Brandon Philip. Ghar is a standalone Python script for managing Git repos
+    symlinked into your home.
+  stars: 260
+  url: https://github.com/philips/ghar
+- exempt: true
+  name: GNU Stow
+  notes: is a symlink farm manager, useful for automatically (and safely) linking
+    your dotfiles folder into your home directory.
+  url: https://www.gnu.org/software/stow/
+- forks: 4
+  name: Homely
+  notes: helps you script your dotfile installation using Python. If you're getting
+    frustrated by the limitations of pure shell scripts, then this is the tool for
+    you. Homely also has a clever Automatic Cleanup feature and good tutorials.
+  stars: 40
+  url: https://github.com/phodge/homely
+- forks: 284
+  name: Home Manager
+  notes: by Robert Helgesson is a system built for managing [NixOS](https://nixos.org)
+    user environments using the [Nix](https://nixos.org/nix/) package manager and
+    the [Nixpkgs](https://nixos.org/nixpkgs/) libraries.
+  stars: 915
+  url: https://github.com/rycee/home-manager
+- forks: 14
+  name: Homemaker
+  notes: by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage
+    both common and machine-specific dotfile settings. Homemaker can be configured
+    in TOML, YAML or JSON.
+  stars: 189
+  url: https://github.com/FooSoft/homemaker
+- forks: 121
+  name: Homeshick
+  notes: by Anders Ingemann is like Homesick but written in bash. Great to combine
+    with [myrepos](https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
+  stars: 1541
+  url: https://github.com/andsens/homeshick
+- forks: 122
+  name: Homesick
+  notes: by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
+  stars: 2198
+  url: https://github.com/technicalpickles/homesick
+- name: myrepos
+  notes: is a tool to manage all your version control repositories at once.
+  url: https://myrepos.branchable.com/
+- forks: 14
+  name: Pearl
+  notes: is a brand new revolutionary package manager that allows to automatically
+    activate dotfiles whenever shells or editors start via a smart hook mechanism.
+    Dotfiles are treated as packages that coexist together seamlessly and can be fully
+    controlled and synced across different systems. There is a wide range of packages
+    already available in the [Official Pearl Hub](https://github.com/pearl-hub).
+  stars: 130
+  url: https://github.com/pearl-core/pearl
+- forks: 103
+  name: rcm
+  notes: is a set of well-documented shell scripts that help manage your dotfiles.
+    It is easily installable on macOS with the homebrew package manager, but works
+    on all Unix operating systems.
+  stars: 2261
+  url: https://github.com/thoughtbot/rcm
+- forks: 50
+  name: shallow-backup
+  notes: lets you easily create lightweight backups of installed packages, applications,
+    fonts and dotfiles, and automatically push them to a remote Git repository.
+  stars: 502
+  url: https://github.com/alichtman/shallow-backup
+- forks: 9
+  name: stowsh
+  notes: is a clone of GNU Stow written in bash with minimal dependencies.
+  stars: 63
+  url: https://github.com/williamsmj/stowsh
+- name: summon
+  notes: is a Bash tool that shares basically the same concept as Stow but with some
+    key differences that are more suitable to the deploy of dotfiles.
+  stars: 2
+  url: https://gitlab.com/semente/summon
+- forks: 106
+  name: vcsh
+  notes: by Richard "RichiH" Hartmann. `vcsh` manages all your dotfiles in Git without
+    the need for symlinks. Any number of Git repositories will co-exist in parallel
+    in your `$HOME` without interfering with each other. Advanced use cases with different
+    branches for different systems are supported by default. An extensive hook system
+    lets you customize your repositories. `vcsh` includes batch push, pull, and status
+    commands which operate on all your repositories at once.
+  stars: 1585
+  url: https://github.com/RichiH/vcsh
+- forks: 84
+  name: yadm
+  notes: by Tim Byrne. `yadm` is a dotfile management tool with 3 main features. Manages
+    files across systems using a single Git repository. Provides a way to use alternate
+    files on a specific OS or host. Supplies a method of encrypting confidential data
+    so it can safely be stored in your repository.
+  stars: 1436
+  url: https://github.com/TheLocehiliosan/yadm
+- forks: 9
+  name: Super User Spark
+  notes: is a declarative domain specific language that allows you to specify the
+    deployment of your dotfiles. It also includes a compiler and interpreter for the
+    language.
+  stars: 96
+  url: https://github.com/NorfairKing/super-user-spark
+- forks: 0
+  name: yadoma
+  notes: by Valentin Haenel. `yadoma` is a simple dotfile management tool that uses
+    YAML as configuration syntax and the pile-of-symlinks approach. It can manage
+    multiple hosts, supports variable symlink targets and is infinitely hackable.
+  stars: 4
+  url: https://github.com/esc/yadoma

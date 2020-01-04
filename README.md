@@ -24,6 +24,17 @@ and open a [pull request][pr] in the canonical repo
 at dotfiles/dotfiles.github.com. If your patch is accepted, a project
 maintainer will merge your changes and publish them to GitHub Pages.
 
+### Updating star counts
+
+Some pages of the site order content by star count. To update these counts, you
+can use `script/update-star-count.py` (the maintainers will run this script
+periodically to keep counts up-to-date). For example, run
+`script/update-star-count.py --token $GITHUB_TOKEN _data/utilities.yml`.
+
+Follow [these
+instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+to create a personal access token for GitHub.
+
 ### Copyright
 
 Copyright (c) Wynn Netherland and Adam Jahnke. See [LICENSE][license] for details.
