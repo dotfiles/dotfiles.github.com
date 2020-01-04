@@ -1,8 +1,9 @@
 language: ruby
-rvm:
-  - 2.2
+before_install:
+  - gem update --system # necessary, see https://bundler.io/blog/2019/05/14/solutions-for-cant-find-gem-bundler-with-executable-bundle.html
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot index.md --allow-dupe --allow-redirect
+  - bundle exec jekyll build
+  - find _site -name '*.html' | xargs awesome_bot --allow-dupe --allow-redirect
   - awesome_bot README.md --allow-dupe --allow-redirect --white-list http://localhost:8484
