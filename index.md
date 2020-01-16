@@ -108,9 +108,10 @@ customization safe and easy.
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a community-driven framework for managing your ZSH configuration. It bundles 40+ plugins and 80+ themes.
 * [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for ZSH. It's a lightweight alternative to oh-my-zsh with sane defaults, aliases, functions, auto completion, prompt themes and dozens of well documented modules.
 * [slimzsh](https://github.com/changs/slimzsh) is a small starter framework for ZSH that features the pure prompt, syntax highlighting and tab completion.
-* [toasty-zsh](https://github.com/5paceToast/toasty-zsh) is a simplistic ZSH plugin and configuration system that aims to provide a "sane defaults" set for any ZSH config and is optimized for system-wide installation
+* [toasty-zsh](https://github.com/5paceToast/toasty-zsh) is a simplistic ZSH plugin and configuration system that aims to provide a "sane defaults" set for any ZSH config and is optimized for system-wide installation.
 * [zgen](https://github.com/tarjoilija/zgen) is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. Zgen will also automatically handle cloning repositories for plugins you're using without you manually maintaining submodules or clones, and can use oh-my-zsh formatted plugins and themes.
 * [zplug](https://github.com/zplug/zplug) is a next-generation plugin manager for ZSH. There is more to a ZSH plugin manager than increasing its speed. Also, there is nothing that zplug cannnot do.
+* [zplugin](https://github.com/zdharma/zplugin) is an elastic and fast ZSH plugin manager that will allow you to install everything from GitHub and other sites. Zplugin has Turbo mode which yields 50-80% faster ZSH startup!
 
 ##### ZSH Resources
 
