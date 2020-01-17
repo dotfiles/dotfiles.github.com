@@ -1,4 +1,5 @@
 markdown: kramdown
+permalink: pretty
 exclude:
   - CONTRIBUTING.md
   - README.md
