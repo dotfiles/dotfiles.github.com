@@ -92,7 +92,7 @@
   name: Bradford Dabbs
   notes: uses a simple shell script to setup [bash-it](https://github.com/Bash-it/bash-it)
     and [vim-plug](https://github.com/junegunn/vim-plug) along with the solarized
-    color scheme and aliases for [Bro NSM](https://www.bro.org).
+    color scheme and aliases for [Zeek NSM](https://www.zeek.org/).
   stars: 15
   url: https://github.com/bndabbs/dotfiles
 - forks: 1
