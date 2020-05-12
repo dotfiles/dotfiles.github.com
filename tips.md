@@ -19,3 +19,7 @@ If you get fed up with submodules, many people prefer
 [git-subtree](https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt),
 which lets you merge subtrees (other repositories) into one Git repository, and
 later split and push changes back out.
+
+## Different branches for different boxes
+
+If you use multiple machines that are slightly different, you can have a branch for each one and pull changes between them. For example, you may want to use your text editor configuration on both mac and linux hosts, but need different shells settings on each.
