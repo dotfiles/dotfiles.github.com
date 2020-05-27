@@ -109,8 +109,9 @@
   notes: is a lightweight plugin manager for ZSH inspired by Antigen. The goal is
     to have a minimal overhead when starting up the shell because nobody likes waiting.
     Zgen will also automatically handle cloning repositories for plugins you're using
-    without you manually maintaining submodules or clones, and can use oh-my-zsh formatted
-    plugins and themes.
+    without you manually maintaining submodules or clones, and can use
+    [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [Prezto](https://github.com/sorin-ionescu/prezto)
+    compliant plugins and themes.
   stars: 1162
   subcategory: ZSH
   url: https://github.com/tarjoilija/zgen
