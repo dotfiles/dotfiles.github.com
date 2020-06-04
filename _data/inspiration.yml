@@ -321,3 +321,10 @@
     development environment.
   stars: 34
   url: https://github.com/adityarpillai/jumpstart
+- forks: 1
+  name: Jogendra
+  notes: contains freshly brewed configuration files for various CLI applications based on macOS.
+    With plenty of useful shell/Git aliases, shell scripts, AppleScripts and command defaults,
+    it features beautifully customised ZSH and iTerm2 environments.
+  stars: 4
+  url: https://github.com/jogendra/dotfiles
