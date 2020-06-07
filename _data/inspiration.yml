@@ -328,3 +328,9 @@
     it features beautifully customised ZSH and iTerm2 environments.
   stars: 4
   url: https://github.com/jogendra/dotfiles
+- forks: 1
+  name: Roger Oba
+  notes: bundles dotfiles as well as a handful of scripts to help set up macOS from 
+    scratch. It also includes a [lean version of Mathias' macOS defaults script](https://github.com/rogerluan/dotfiles/blob/master/set_up_user_defaults.sh).
+  stars: 3
+  url: https://github.com/rogerluan/dotfiles
