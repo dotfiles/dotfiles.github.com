@@ -334,3 +334,10 @@
     scratch. It also includes a [lean version of Mathias' macOS defaults script](https://github.com/rogerluan/dotfiles/blob/master/set_up_user_defaults.sh).
   stars: 3
   url: https://github.com/rogerluan/dotfiles
+- forks: 1
+  name: Mateus Revoredo
+  notes: A thoroughly documented repository that features an automatic machine bootstraper written
+    in Ansible that installs and configures effortlessly multiple command line and grapical interface
+    applications on macOS & Linux as well as a lightweight ZSH config using a custom "no-framework" approach.
+  stars: 2
+  url: http://github.com/mateusrevoredo/dotfiles
