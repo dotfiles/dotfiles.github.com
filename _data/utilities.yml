@@ -2,7 +2,7 @@
   name: kody
   notes: is a dotfiles runner/manager written with node inspired by Zach Holman's
     popular dotfiles.
-  stars: 97
+  stars: 101
   url: https://github.com/jh3y/kody
 - forks: 9
   name: bashdot
