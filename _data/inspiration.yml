@@ -71,6 +71,12 @@
     repository integration.
   stars: 71
   url: https://github.com/andschwa/dotfiles
+- forks: 0
+  name: Angelo Dini
+  notes: provide a modular setup to automatically install and configure git, homebrew, node, python, vim, vscode and zsh amongst others.
+    Read more on [his blog](https://angelo.dini.dev/blog/dotfiles/).
+  stars: 0
+  url: https://github.com/FinalAngel/dotfiles
 - forks: 42
   name: Artem Sapegin
   notes: with custom ZSH and Terminal/iTerm themes and useful aliases for web developers.
