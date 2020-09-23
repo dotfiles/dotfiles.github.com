@@ -354,3 +354,8 @@
     Linux system
   stars: 0
   url: https://github.com/kwesthaus/config-files
+- forks: 0
+  name: Will Maier
+  notes: Fully reproducible and automatically maintained docker devcontainer (supporting Go, Node/TS, Deno, Python)
+  stars: 0
+  url: https://github.com/whilp/world
