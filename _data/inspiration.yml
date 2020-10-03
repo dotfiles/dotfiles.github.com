@@ -4,8 +4,7 @@
 - forks: 7
   name: Abhishek Keshri
   notes: has configurations for zsh with custom [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-    prompt, i3 with i3status, dmenu, vim, ranger, git, tmux, compiz etc. It also has
-    a branch for [Termux](https://github.com/termux/termux-app) for Android users.
+    prompt, i3 with i3status, dmenu, vim, ranger, git, tmux, compiz etc. I also have a repo for [Termux](https://github.com/2kabhishek/Oh-My-Termux) for Android users.
     Comes with a handy setup script.
   stars: 39
   url: https://github.com/2kabhishek/Dotfiles
