@@ -1,7 +1,9 @@
-markdown: redcarpet
+markdown: kramdown
+permalink: pretty
 exclude:
   - CONTRIBUTING.md
   - README.md
   - Gemfile
   - Gemfile.lock
   - script
+  - vendor # necessary, see https://github.com/jekyll/jekyll/issues/2938

@@ -38,4 +38,17 @@ Ideally, a bug report should include a pull request with failing specs.
 [branch]: https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#_topic_branch
 [pr]: http://help.github.com/send-pull-requests/
 
-When adding new entries, please add them to their section in alphabetical order. Thanks!
+When adding new entries (in `_data/`), please include the current star count.
+The counts are periodically updated using `script/update-star-count.py`.
+
+### Notability criteria
+
+To avoid overwhelming readers, we have adopted notability criteria for some of
+the lists. These criteria may change over time to maintain a reasonable size of
+resources.
+
+- Tutorials: no criteria, sorted alphabetically by author name
+- General-purpose utilities: > 100 stars, sorted by stars
+- Tool-specific frameworks: > 100 stars, sorted by stars
+- Bootstrap: > 100 stars OR > 100 forks, sorted by stars
+- Inspiration: no criteria, sorted by stars

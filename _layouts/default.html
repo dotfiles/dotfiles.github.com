@@ -12,18 +12,13 @@
     <!--[if lt IE 9]>
       <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
     <![endif]-->
-    <script type='text/javascript'>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53167467-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-11252985-5']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
+      gtag('config', 'UA-11252985-5');
     </script>
     <script type='text/javascript'>
       var _gauges = _gauges || [];
@@ -46,28 +41,26 @@
         <p>
           <em>Your unofficial guide to dotfiles on GitHub.</em>
         </p>
+        <a href="/" class="{% if page.url == "/" %}active{% endif %}">Home</a><br>
+        <a href="/tutorials/" class="{% if page.url == "/tutorials/" %}active{% endif %}">Tutorials</a><br>
+        <a href="/utilities/" class="{% if page.url == "/utilities/" %}active{% endif %}">General-purpose utilities</a><br>
+        <a href="/frameworks/" class="{% if page.url == "/frameworks/" %}active{% endif %}">Tool-specific frameworks</a><br>
+        <a href="/bootstrap/" class="{% if page.url == "/bootstrap/" %}active{% endif %}">Bootstrap repositories</a><br>
+        <a href="/inspiration/" class="{% if page.url == "/inspiration/" %}active{% endif %}">Inspiration</a><br>
+        <a href="/tips/" class="{% if page.url == "/tips/" %}active{% endif %}">Tips and tricks</a><br>
+        <a href="/faq/" class="{% if page.url == "/faq/" %}active{% endif %}">FAQ</a>
       </header>
       <section>
         {{ content }}
       </section>
       <footer>
-        <p>
-          <a class='twitter-follow-button' data-show-count='false' href='https://twitter.com/octodots'>Follow @octodots</a>
-        </p>
-        <p>
-          <a class='twitter-share-button' data-via='octodots' href='https://twitter.com/share'>Tweet</a>
-          <g:plusone size='medium'></g:plusone>
-        </p>
         <ul>
-        <li>Tracked by <a href="http://get.gaug.es">Gauges</a>.</li>
-        <li>Hosted by <a href="https://pages.github.com">Pages</a>.</li>
         <li>Theme by <a href="https://github.com/orderedlist">orderedlist</a>.</li>
         <li><a href="https://github.com/jglovier/dotfiles-logo">Logo</a> by <a href="https://github.com/jglovier">Joel Glovier</a>.</li>
         </ul>
       </footer>
     </div>
     <script src='/javascripts/scale.fix.js'></script>
-    <script src='//platform.twitter.com/widgets.js'></script>
     <script type='text/javascript'>
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
