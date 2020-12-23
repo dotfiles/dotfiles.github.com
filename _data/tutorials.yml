@@ -61,3 +61,10 @@
   description: >
     [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles) contains
     articles, tools and other resources to get you up to speed with dotfiles.
+- author: eieioxyz
+  description: >
+    [Dotfiles from Start to Finish-ish](https://tinyurl.com/dfstfish)
+    is a paid course that walks you through the [creation of a dotfiles
+    repository](https://github.com/eieioxyz/dotfiles_macos) while setting
+    up a new Mac for modern development. It teaches you how to use Homebrew,
+    Dotbot, Git, and many other tools along the way.
