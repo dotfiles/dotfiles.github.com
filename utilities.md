@@ -10,7 +10,7 @@ dotfiles.
 
 <ul>
 {% assign utilities = site.data.utilities | sort: 'stars' | reverse %}
-{% comment %}except repos first, sorted alphabetically, then others {% endcomment %}
+{% comment %}except repos first, sorted by stars{% endcomment %}
 {% for repo in utilities %}
 {% if repo.exempt %}
     <li><a href="{{ repo.url }}">{{ repo.name }}</a> {{ repo.notes | markdownify | remove: '<p>' | remove: '</p>' }}</li>
