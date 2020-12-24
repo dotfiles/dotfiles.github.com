@@ -346,7 +346,7 @@
     line and grapical interface applications on macOS & Linux as well as a lightweight
     ZSH config using a custom "no-framework" approach.
   stars: 2
-  url: http://github.com/mateusrevoredo/dotfiles
+  url: https://github.com/mateusrevoredo/dotfiles
 - forks: 0
   name: Kyle Westhaus
   notes: include .files and other system-wide configuration files for a healthy

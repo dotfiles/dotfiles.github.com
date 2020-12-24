@@ -1,4 +1,4 @@
-## dotfiles.github.io
+## dotfiles.github.io [![Build Status](https://github.com/dotfiles/dotfiles.github.com/workflows/CI/badge.svg)](https://github.com/dotfiles/dotfiles.github.com/actions?query=workflow%3ACI)
 
 Source for [dotfiles.github.io], your _unofficial_ guide to doing dotfiles on
 GitHub.
