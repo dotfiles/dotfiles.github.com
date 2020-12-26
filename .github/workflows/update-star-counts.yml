@@ -1,0 +1,35 @@
+name: Update Star Counts
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 5'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        pip3 install PyGithub PyYAML
+    - name: Update star counts
+      run: |
+        script/update-star-count.py --token $GITHUB_TOKEN _data/bootstrap.yml
+        script/update-star-count.py --token $GITHUB_TOKEN _data/frameworks.yml
+        script/update-star-count.py --token $GITHUB_TOKEN _data/inspiration.yml
+        script/update-star-count.py --token $GITHUB_TOKEN _data/utilities.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Update star counts" _data
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
