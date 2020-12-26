@@ -26,10 +26,8 @@ maintainer will merge your changes and publish them to GitHub Pages.
 
 ### Updating star counts
 
-Some pages of the site order content by star count. To update these counts, you
-can use `script/update-star-count.py` (the maintainers will run this script
-periodically to keep counts up-to-date). For example, run
-`script/update-star-count.py --token $GITHUB_TOKEN _data/utilities.yml`.
+Some pages of the site order content by star count; these are updated
+automatically by the `update-star-counts.yml` GitHub Action.
 
 Follow [these
 instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
