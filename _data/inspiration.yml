@@ -105,12 +105,6 @@
   notes: i3, polybar, mbsync, mutt, ranger, nvim dotfiles installed using stow.
   stars: 13
   url: https://github.com/cristianpb/dotfiles
-- forks: 0
-  name: Dante
-  notes: A minimal set of dotfiles containing configurations for popular applications,
-    including fish, kitty, git, neovim, tmux, skhd, yabai and ranger.
-  stars: 0
-  url: https://github.com/danteissaias/dotfiles
 - forks: 6
   name: Darryl Abbate
   notes: can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh)
@@ -283,10 +277,6 @@
     package management, repository management and Hammerspoon configuration.
   stars: 138
   url: https://github.com/rkalis/dotfiles
-- name: semente
-  notes: minimalist configurations. Features Emacs, bspwm, tmux, zsh and GnuPG. Managed
-    by [summon](https://gitlab.com/semente/summon).
-  url: https://gitlab.com/semente/dotfiles
 - forks: 45
   name: Voku
   notes: dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows)
