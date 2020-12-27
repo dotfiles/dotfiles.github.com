@@ -11,7 +11,7 @@
 - author: Anish Athalye
   description: >
     Anish Athalye wrote a [guide on dotfiles
-    management](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
+    management](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
     highlighting organizational approaches, installation tools, and general
     tips and tricks.
 - author: Wes Bos
@@ -42,7 +42,7 @@
 - author: Mark Rabideau
   description: >
     Mark Rabideau wrote an article on [Building a bspwm
-    desktop](http://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/)
+    desktop](https://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/)
     walking through his setup, including links to the configuration files on
     github.
 - author: Nicola Paolucci
