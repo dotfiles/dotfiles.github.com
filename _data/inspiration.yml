@@ -192,9 +192,8 @@
   stars: 182
   url: https://github.com/kutsan/dotfiles
 - forks: 4
-  name: MatheusRV
-  notes: highly focused on productivity for WSL environment, installs major web and
-    .NET development dependencies
+  name: matBRGZ
+  notes: A configurable extensible and future-proof dotfile for my work environment |  Lastest Ubuntu & Windows & WSL2
   stars: 12
   url: https://github.com/matheusrv/dotfiles
 - forks: 8372
