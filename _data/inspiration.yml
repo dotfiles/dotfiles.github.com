@@ -354,5 +354,5 @@
   name: owl4ce
   notes: Aesthetic OpenboxWM Environment. The complete setup, including configuration of
     several apps and bash scripting allows things to change with just one click and from the variables.
-  stars: 863
+  stars: 865
   url: https://github.com/owl4ce/dotfiles
