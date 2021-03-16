@@ -350,3 +350,9 @@
     fonts, git-extras, atom, pip, npm, cargo, go, karabiner, carpalx full optimisation.
   stars: 7
   url: https://github.com/0-vortex/dotfiles
+- forks: 93
+  name: owl4ce
+  notes: Aesthetic OpenboxWM Environment. The complete setup, including configuration of
+    several apps and bash scripting allows things to change with just one click and from the variables.
+  stars: 863
+  url: https://github.com/owl4ce/dotfiles
