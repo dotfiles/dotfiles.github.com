@@ -359,6 +359,6 @@
   url: https://github.com/owl4ce/dotfiles
 - forks: 0
   name: Thuan Pham
-  notes: Config file (nvim,zsh,tmux,kitty,...). Target: be as lazy as possible.
+  notes: Config file (nvim,zsh,tmux,kitty,...). [Target] be as lazy as possible.
   stars: 2
   url: https://github.com/thuanpham2311/dotfiles
