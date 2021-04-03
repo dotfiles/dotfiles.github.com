@@ -11,7 +11,10 @@
   url: https://github.com/bashdot/bashdot
 - forks: 190
   name: chezmoi
-  notes: makes it easy to manage your dotfiles across multiple machines, securely.
+  notes: makes it easy to manage your dotfiles across multiple machines,
+    securely. chezmoi is easy to install, quick to start with, and is very
+    powerful. Read how [chezmoi compares to other dotfile
+    managers](https://github.com/twpayne/chezmoi/blob/master/docs/COMPARISON.md).
   stars: 3557
   url: https://github.com/twpayne/chezmoi
 - forks: 3
