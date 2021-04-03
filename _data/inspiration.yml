@@ -357,3 +357,8 @@
     and from the variables.
   stars: 894
   url: https://github.com/owl4ce/dotfiles
+- forks: 0
+  name: Thuan Pham
+  notes: Config file (nvim,zsh,tmux,kitty,...). Target: be as lazy as possible.
+  stars: 2
+  url: https://github.com/thuanpham2311/dotfiles
