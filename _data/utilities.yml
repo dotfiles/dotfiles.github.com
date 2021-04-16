@@ -11,7 +11,10 @@
   url: https://github.com/bashdot/bashdot
 - forks: 190
   name: chezmoi
-  notes: makes it easy to manage your dotfiles across multiple machines, securely.
+  notes: makes it easy to manage your dotfiles across multiple machines,
+    securely. chezmoi is easy to install, quick to start with, and is very
+    powerful. Read how [chezmoi compares to other dotfile
+    managers](https://github.com/twpayne/chezmoi/blob/master/docs/COMPARISON.md).
   stars: 3557
   url: https://github.com/twpayne/chezmoi
 - forks: 3
@@ -154,7 +157,7 @@
 - forks: 132
   name: Homeshick
   notes: by Anders Ingemann is like Homesick but written in bash. Great to combine
-    with [myrepos](https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
+    with [myrepos](https://web.archive.org/web/20200904205236/https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
   stars: 1721
   url: https://github.com/andsens/homeshick
 - forks: 126
