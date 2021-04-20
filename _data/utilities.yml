@@ -212,7 +212,7 @@
 - forks: 115
   name: yadm
   notes: is a dotfile management tool which supports system-specific alternate files/templating,
-    enryption of private data, custom bootstrap actions, and integration with other
+    encryption of private data, custom bootstrap actions, and integration with other
     git-aware tools like vim-fugitive, tig, git-crypt, etc.
   stars: 2331
   url: https://github.com/TheLocehiliosan/yadm
