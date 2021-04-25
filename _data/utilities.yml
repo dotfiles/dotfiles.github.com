@@ -231,3 +231,8 @@
     multiple hosts, supports variable symlink targets and is infinitely hackable.
   stars: 4
   url: https://github.com/esc/yadoma
+- forks: 6
+  name: dotter
+  notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.
+  stars: 165
+  url: https://github.com/SuperCuber/dotter
