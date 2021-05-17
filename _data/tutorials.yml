@@ -1,3 +1,7 @@
+- author: Drew DeVault
+  description: >
+    [Drew DeVault](https://drewdevault.com/) wrote about 
+    [managing his dotfiles as a git repository](https://drewdevault.com/2019/12/30/dotfiles.html) in his home directory with a .gitignore of `*`.
 - author: Abdullah
   description: >
     [Abdullah](https://abdullah.today/about/) wrote [how to secure your
