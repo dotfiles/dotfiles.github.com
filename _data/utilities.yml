@@ -7,14 +7,14 @@
 - forks: 9
   name: bashdot
   notes: is a minimalist dotfile management framework, written 100% in bash.
-  stars: 72
+  stars: 74
   url: https://github.com/bashdot/bashdot
-- forks: 200
+- forks: 204
   name: chezmoi
   notes: makes it easy to manage your dotfiles across multiple machines, securely.
     chezmoi is easy to install, quick to start with, and is very powerful. Read how
     [chezmoi compares to other dotfile managers](https://github.com/twpayne/chezmoi/blob/master/docs/COMPARISON.md).
-  stars: 3814
+  stars: 3851
   url: https://github.com/twpayne/chezmoi
 - forks: 3
   name: Bonclay
@@ -27,7 +27,7 @@
   notes: is a dotfile manager that has no configuration, one-command importing, one-command
     syncing, multiple repository support, automatic cleanup, and can be used with
     git or any other RCS.
-  stars: 45
+  stars: 44
   url: https://github.com/CGamesPlay/dfm
 - forks: 3
   name: Config Curator
@@ -41,18 +41,18 @@
   notes: is a utility to manage your dotfiles, lightweight and simple.
   stars: 105
   url: https://github.com/justone/dfm
-- forks: 198
+- forks: 201
   name: Dotbot
   notes: is a lightweight standalone tool to bootstrap dotfiles, making it easy to
     have a "one click" installation/upgrade process for your dotfiles.
-  stars: 4221
+  stars: 4245
   url: https://github.com/anishathalye/dotbot
-- forks: 61
+- forks: 60
   name: dotdrop
   notes: makes the management of dotfiles between different hosts easy. It allows
     to store your dotfiles on git and automagically deploy different versions on different
     setups.
-  stars: 866
+  stars: 870
   url: https://github.com/deadc0de6/dotdrop
 - forks: 31
   name: dotfiler
@@ -73,7 +73,7 @@
   name: dotgit
   notes: by Kobus van Schoor. A comprehensive and versatile dotfiles manager which
     helps to synchronize your dotfiles between multiple computers and devices.
-  stars: 135
+  stars: 136
   url: https://github.com/kobus-v-schoor/dotgit
 - forks: null
   name: dotsecrets
@@ -88,7 +88,7 @@
   notes: by Jam Risser. A simple cli to manage and sync dotfiles with git and stow.
     It backups dotfiles with git and keeps track of simultaneous dotfile configurations
     for multiple environments. It also supports shell autocompletion.
-  stars: 78
+  stars: 80
   url: https://github.com/codejamninja/dotstow
 - forks: 62
   name: Dotsync
@@ -106,7 +106,7 @@
 - forks: 28
   name: Ellipsis
   notes: is a package manager for dotfiles.
-  stars: 323
+  stars: 324
   url: https://github.com/ellipsis/ellipsis
 - forks: 8
   name: exogenesis
@@ -139,12 +139,12 @@
     you. Homely also has a clever Automatic Cleanup feature and good tutorials.
   stars: 43
   url: https://github.com/phodge/homely
-- forks: 628
+- forks: 634
   name: Home Manager
   notes: by Robert Helgesson is a system built for managing [NixOS](https://nixos.org)
     user environments using the [Nix](https://nixos.org/nix/) package manager and
     the [Nixpkgs](https://nixos.org/nixpkgs/) libraries.
-  stars: 1972
+  stars: 1989
   url: https://github.com/rycee/home-manager
 - forks: 19
   name: Homemaker
@@ -157,12 +157,12 @@
   name: Homeshick
   notes: by Anders Ingemann is like Homesick but written in bash. Great to combine
     with [myrepos](https://web.archive.org/web/20200904205236/https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
-  stars: 1752
+  stars: 1755
   url: https://github.com/andsens/homeshick
 - forks: 126
   name: Homesick
   notes: by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
-  stars: 2313
+  stars: 2317
   url: https://github.com/technicalpickles/homesick
 - name: myrepos
   notes: is a tool to manage all your version control repositories at once.
@@ -181,9 +181,9 @@
   notes: is a set of well-documented shell scripts that help manage your dotfiles.
     It is easily installable on macOS with the homebrew package manager, but works
     on all Unix operating systems.
-  stars: 2574
+  stars: 2584
   url: https://github.com/thoughtbot/rcm
-- forks: 56
+- forks: 59
   name: shallow-backup
   notes: lets you easily create lightweight backups of installed packages, applications,
     fonts and dotfiles, and automatically push them to a remote Git repository.
@@ -207,14 +207,14 @@
     branches for different systems are supported by default. An extensive hook system
     lets you customize your repositories. `vcsh` includes batch push, pull, and status
     commands which operate on all your repositories at once.
-  stars: 1731
+  stars: 1734
   url: https://github.com/RichiH/vcsh
 - forks: 117
   name: yadm
   notes: is a dotfile management tool which supports system-specific alternate files/templating,
     encryption of private data, custom bootstrap actions, and integration with other
     git-aware tools like vim-fugitive, tig, git-crypt, etc.
-  stars: 2467
+  stars: 2502
   url: https://github.com/TheLocehiliosan/yadm
   website: https://yadm.io/
 - forks: 9
@@ -234,5 +234,5 @@
 - forks: 9
   name: dotter
   notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.
-  stars: 172
+  stars: 178
   url: https://github.com/SuperCuber/dotter
