@@ -236,3 +236,8 @@
   notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.
   stars: 178
   url: https://github.com/SuperCuber/dotter
+- forks: 6
+  name: sheldon
+  notes: A fast, configurable, shell plugin manager
+  stars: 165
+  url: https://github.com/rossmacarthur/sheldon
