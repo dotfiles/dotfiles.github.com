@@ -218,7 +218,7 @@
   url: https://github.com/mihaliak/dotfiles
 - forks: 3
   name: Mohit Singh
-  notes: has a lightweight setup for JavaScript development environment on macOS.
+  notes: has a lightweight setup with modular install scripts for ubuntu servers and desktops.
   stars: 7
   url: https://github.com/mohitsinghs/dotfiles
 - forks: 9
