@@ -231,7 +231,8 @@
   stars: 22345
   subcategory: Vim
   url: https://github.com/VundleVim/Vundle.vim
-- forks: 6
+- category: Shell
+  forks: 6
   name: sheldon
   notes: A fast, configurable, shell plugin manager
   stars: 165
