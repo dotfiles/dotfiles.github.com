@@ -362,3 +362,10 @@
   notes: Config file (nvim,zsh,tmux,kitty,...). [Target] be as lazy as possible.
   stars: 6
   url: https://github.com/thuanpham2311/dotfiles
+- forks: 8
+  name: BachoSeven
+  notes: A minimal & suckless dwm setup with lots of batteries included: from a
+    functional, mouse-friendly status bar using POSIX-compliant scripts to a powerful
+    zsh configuration with vim-like bindings and custom plugins.
+  stars: 34
+  url: https://github.com/BachoSeven/dotfiles
