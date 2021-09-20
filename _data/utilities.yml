@@ -236,3 +236,8 @@
   notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.
   stars: 261
   url: https://github.com/SuperCuber/dotter
+- forks: 68
+  name: dotfiles
+  notes: Dotfile management made easy. Written in Python (available on PyPI) by Jon Bernard.
+  stars: 532
+  url: https://github.com/jbernard/dotfiles
