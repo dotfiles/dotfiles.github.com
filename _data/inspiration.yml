@@ -362,3 +362,8 @@
   notes: Config file (nvim,zsh,tmux,kitty,...). [Target] be as lazy as possible.
   stars: 7
   url: https://github.com/thuanpham2311/dotfiles
+- forks: 0
+  name: exshak
+  notes: Custom configs for macOS & Linux ~ brew, osx, tmux, vim, zsh, bash.
+  stars: 3
+  url: https://github.com/exshak/dotfiles
