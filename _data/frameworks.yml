@@ -166,6 +166,13 @@
   subcategory: Emacs
   url: https://github.com/bbatsov/prelude
 - category: Editors
+  forks: 2210
+  name: Doom Emacs
+  notes: is an Emacs framework for the stubborn martian hacker.
+  stars: 12033
+  subcategory: Emacs
+  url: https://github.com/hlissner/doom-emacs
+- category: Editors
   forks: 4924
   name: Spacemacs
   notes: is a Emacs 24 distribution that builds on Evil-mode with ports of popular
