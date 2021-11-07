@@ -141,15 +141,6 @@
   stars: 452
   subcategory: ZSH
   url: https://github.com/unixorn/zsh-quickstart-kit
-- category: Shell
-  forks: 128
-  name: zplugin
-  notes: is an elastic and fast ZSH plugin manager that will allow you to install
-    everything from GitHub and other sites. Zplugin has Turbo mode which yields 50-80%
-    faster ZSH startup!
-  stars: 2700
-  subcategory: ZSH
-  url: https://github.com/zdharma/zplugin
 - category: Editors
   forks: 145
   name: Cask
