@@ -4,6 +4,7 @@
 
 import yaml
 from github import Github
+from github.GithubException import UnknownObjectException
 import argparse
 
 def main():
@@ -20,7 +21,10 @@ def main():
     for i, elem in enumerate(data):
         if elem['url'].startswith('https://github.com/'):
             repo_name = elem['url'][len('https://github.com/'):]
-            repo = g.get_repo(repo_name)
+            try:
+                repo = g.get_repo(repo_name)
+            except UnknownObjectException:
+                continue
             stars = repo.watchers
             forks = repo.forks
             elem['stars'] = stars
