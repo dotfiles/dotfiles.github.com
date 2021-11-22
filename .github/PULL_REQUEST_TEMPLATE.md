@@ -4,8 +4,6 @@
 
 # Things to look out for
 
-Make sure  your `notes` field in any additions/updates you make to the YAML files in the `_data` directory does not contain any `:` characters or the file will fail to parse and fail the automated PR tests.
-
 Make sure that if your `notes` field in any additions/updates you make to the YAML files in the `_data` directory contains any `:` characters that the entire field is quoted as shown below:
 
 Valid:
