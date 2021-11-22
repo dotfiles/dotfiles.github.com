@@ -104,6 +104,24 @@
   subcategory: ZSH
   url: https://github.com/5paceToast/toasty-zsh
 - category: Shell
+  forks: 6
+  name: zgenom
+  notes: is a lightweight plugin manager for ZSH that is a superset of zgen.
+    It provides simple commands for managing plugins. It clones and installs
+    your plugins and generates a static init script that will source them for
+    you every time you run the shell. We do this to save some startup time by
+    not having to execute time consuming logic (plugin checking, updates, etc)
+    every time a new shell session is started. While this means that you
+    have to manually check for updates (zgenom update) and reset the init
+    script (zgenom reset) whenever you add or remove plugins, it lets us have
+    a minimal overhead when starting up the shell because nobody likes waiting.
+    Zgenom can use [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+    and [Prezto](https://github.com/sorin-ionescu/prezto) compliant plugins
+    and themes.
+  stars: 131
+  subcategory: ZSH
+  url: https://github.com/jandamm/zgenom
+- category: Shell
   forks: 102
   name: zgen
   notes: is a lightweight plugin manager for ZSH inspired by Antigen. The goal is
@@ -111,6 +129,8 @@
     Zgen will also automatically handle cloning repositories for plugins you're using
     without you manually maintaining submodules or clones, and can use [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     and [Prezto](https://github.com/sorin-ionescu/prezto) compliant plugins and themes.
+    zgen is no longer being maintained, we recommend switching to use
+    the [zgenom](https://github.com/jandamm/zgenom) fork.
   stars: 1343
   subcategory: ZSH
   url: https://github.com/tarjoilija/zgen
@@ -134,7 +154,7 @@
 - category: Shell
   forks: 70
   name: zsh-quickstart-kit
-  notes: A quickstart for zgen. It includes zgen setup, a starter list of plugins,
+  notes: A quickstart for zgen. It includes zgenom setup, a starter list of plugins,
     the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
     collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh)
     theme.
