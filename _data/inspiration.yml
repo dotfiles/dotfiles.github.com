@@ -367,3 +367,10 @@
   notes: Custom configs for macOS & Linux ~ brew, osx, tmux, vim, zsh, bash.
   stars: 5
   url: https://github.com/exshak/dotfiles
+- forks: 13
+  name: BachoSeven
+  notes: Minimal dwm setup with batteries included - from a functional and
+    mouse-friendly status bar using POSIX-compliant scripts to a powerful
+    zsh configuration with vim-like bindings and custom plugins.
+  stars: 45
+  url: https://github.com/BachoSeven/dotfiles
