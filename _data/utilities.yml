@@ -75,14 +75,14 @@
     helps to synchronize your dotfiles between multiple computers and devices.
   stars: 146
   url: https://github.com/kobus-v-schoor/dotgit
-- forks: null
+- forks: 1
   name: dotsecrets
   notes: by Olaf Conradi. Dotsecrets is a tool for managing dotfiles by topic in Git,
     including those with private information. Private information is filtered before
     committing to the repository. Dotsecrets is able to symlink your dotfiles into
     your home directory similar to Stow.
-  stars: null
-  url: https://github.com/oohlaf/dotsecrets/stargazers
+  stars: 30
+  url: https://github.com/oohlaf/dotsecrets
 - forks: 7
   name: DotStow
   notes: by Jam Risser. A simple cli to manage and sync dotfiles with git and stow.
