@@ -374,3 +374,28 @@
     vim-like bindings and custom plugins.
   stars: 50
   url: https://github.com/BachoSeven/dotfiles
+- forks: 4
+  name: g6ai
+  notes: My dotfiles for Bash/Zsh, Vim/Neovim, Doom Emacs, tmux, Git, terminal emulators, JupyterLab, aria2 and mpv
+  stars: 94
+  url: https://github.com/g6ai/dotfiles
+- forks: 9
+  name: twpayne
+  notes: Dotfiles, managed with https://github.com/twpayne/chezmoi.
+  stars: 86
+  url: https://github.com/twpayne/dotfiles
+- forks: 6
+  name: ayoisaiah
+  notes: Ongoing configuration files and scripts for Ubuntu, Fish shell, Git, WSL and Neovim.
+  stars: 70
+  url: https://github.com/ayoisaiah/dotfiles
+- forks: 11
+  name: renemarc
+  notes: ~/. Cross-platform, cross-shell configuration files. ⚙️💻
+  stars: 66
+  url: https://github.com/renemarc/dotfiles
+- forks: 1
+  name: benmezger
+  notes: My collection of dotfiles
+  stars: 54
+  url: https://github.com/benmezger/dotfiles
