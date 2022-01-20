@@ -13,7 +13,7 @@
   name: chezmoi
   notes: makes it easy to manage your dotfiles across multiple machines, securely.
     chezmoi is easy to install, quick to start with, and is very powerful. Read how
-    [chezmoi compares to other dotfile managers](https://github.com/twpayne/chezmoi/blob/master/docs/COMPARISON.md).
+    [chezmoi compares to other dotfile managers](https://www.chezmoi.io/comparison-table/).
   stars: 5824
   url: https://github.com/twpayne/chezmoi
 - forks: 3
