@@ -9,9 +9,8 @@
     GnuPG.
 - author: Lars Kappert
   description: >
-    Lars Kappert wrote a
-    [tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
-    about getting started using a dotfiles repository.
+    Lars Kappert wrote about
+    [getting started using a dotfiles repository](https://www.webpro.nl/articles/getting-started-with-dotfiles).
 - author: Anish Athalye
   description: >
     Anish Athalye wrote a [guide on dotfiles
