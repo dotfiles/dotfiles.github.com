@@ -242,3 +242,8 @@
     Bernard.
   stars: 539
   url: https://github.com/jbernard/dotfiles
+- forks: 25
+  name: comtrya
+  notes: configuration Management for Localhost / dotfiles.
+  stars: 155
+  url: https://www.comtrya.dev/
