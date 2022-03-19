@@ -401,3 +401,25 @@
   notes: My collection of dotfiles
   stars: 62
   url: https://github.com/benmezger/dotfiles
+- forks: 13
+  name: felipecrs
+  notes: Bootstrap your Ubuntu in a few minutes!
+  stars: 62
+  url: https://github.com/felipecrs/dotfiles
+- forks: 6
+  name: szorfein
+  notes: Use chezmoi to install my dotfiles easily on Gentoo, Arch, Void and Debian.
+  stars: 59
+  url: https://github.com/szorfein/dots
+- forks: 18
+  name: narze
+  notes: "macOS / Codespaces dotfiles with 1-line setup script. Tested on Apple
+    Silicon Macs. Supports both zsh and fish. Now managed with
+    https://github.com/twpayne/chezmoi"
+  stars: 55
+  url: https://github.com/narze/dotfiles
+- forks: 10
+  name: rafamadriz
+  notes: There's lots of configurations out there, but this one is mine.
+  stars: 50
+  url: https://github.com/rafamadriz/dotfiles
