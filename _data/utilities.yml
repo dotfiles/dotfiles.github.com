@@ -11,11 +11,15 @@
   url: https://github.com/bashdot/bashdot
 - forks: 329
   name: chezmoi
-  notes: makes it easy to manage your dotfiles across multiple machines, securely.
-    chezmoi is easy to install, quick to start with, and is very powerful. Read how
-    [chezmoi compares to other dotfile managers](https://www.chezmoi.io/comparison-table/).
+  notes: makes it easy to manage your dotfiles across multiple machines,
+    securely. chezmoi is [easy to install](https://chezmoi.io/install/), [quick
+    to start with](https://chezmoi.io/quick-start/), and is [very
+    powerful](https://www.chezmoi.io/user-guide/setup/). You can install
+    chezmoi and your dotfiles with a single command, without needing Python
+    installed, or even git. Read how [chezmoi compares to other dotfile
+    managers](https://www.chezmoi.io/comparison-table/).
   stars: 6282
-  url: https://github.com/twpayne/chezmoi
+  url: https://chezmoi.io
 - forks: 3
   name: Bonclay
   notes: is a simple dotfiles manager. Well, technically, it is a backup/restore/sync
