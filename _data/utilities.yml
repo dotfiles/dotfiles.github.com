@@ -17,7 +17,8 @@
     chezmoi and your dotfiles with a single command, without needing Python installed,
     or even git. Read how [chezmoi compares to other dotfile managers](https://www.chezmoi.io/comparison-table/).
   stars: 6282
-  url: https://chezmoi.io
+  url: https://github.com/twpayne/chezmoi
+  website: https://chezmoi.io
 - forks: 3
   name: Bonclay
   notes: is a simple dotfiles manager. Well, technically, it is a backup/restore/sync
@@ -248,4 +249,5 @@
   name: comtrya
   notes: configuration Management for Localhost / dotfiles.
   stars: 155
-  url: https://www.comtrya.dev/
+  url: https://github.com/comtrya/comtrya
+  website: https://www.comtrya.dev/
