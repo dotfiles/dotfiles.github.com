@@ -9,6 +9,8 @@ title: Tips and tricks
 
 GitHub has a great [collection of `.gitignore` templates](https://github.com/github/gitignore) for a wide range of languages and editors. We recommend Simon Whitaker's [gitignore-boilerplates](https://github.com/simonwhitaker/gibo) to help you manage them.
 
+You might also consider using [gitignore.io](https://gitignore.io) to generate `.gitignore` files simply and easily. A command line tool (`gig`) is available from the [same site](https://docs.gitignore.io/install/command-line).
+
 ## Embrace submodules / subtrees
 
 Consider using [Git submodules](https://help.github.com/submodules/) as you
