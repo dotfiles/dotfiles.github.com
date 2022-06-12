@@ -141,20 +141,20 @@
   subcategory: ZSH
   url: https://github.com/zplug/zplug
 - category: Shell
-  forks: 476
+  forks: 477
   name: awesome-zsh-plugins
   notes: is a list of ZSH plugins, themes and completions compatible with Zsh frameworks
     like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-    and [zgen](https://github.com/tarjoilija/zgen).
+    and [zgenom](https://github.com/jandamm/zgenom).
   stars: 10985
   subcategory: ZSH
   url: https://github.com/unixorn/awesome-zsh-plugins
 - category: Shell
   forks: 77
   name: zsh-quickstart-kit
-  notes: A quickstart for zgen. It includes zgenom setup, a starter list of plugins,
-    the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-    collection, and the [bullet-train](https://github.com/caiogondim/bullet-train.zsh)
+  notes: A quickstart for ZSH and zgenom. It includes a [zgenom](https://github.com/jandamm/zgenom)
+    setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
+    collection, and the [powerlevel10k](https://github.com/romkatv/powerlevel10k)
     theme.
   stars: 545
   subcategory: ZSH
