@@ -251,3 +251,8 @@
   stars: 203
   url: https://github.com/comtrya/comtrya
   website: https://www.comtrya.dev/
+- forks: 5
+  name: dotfiles
+  notes: Dotfiles symbolic links management CLI written in Go, with Windows/Linux/Mac support.
+  stars: 156
+  url: https://github.com/rhysd/dotfiles
