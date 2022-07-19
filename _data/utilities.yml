@@ -52,9 +52,7 @@
   url: https://github.com/anishathalye/dotbot
 - forks: 73
   name: dotdrop
-  notes: makes the management of dotfiles between different hosts easy. It allows
-    to store your dotfiles on git and automagically deploy different versions on different
-    setups.
+  notes: Save your dotfiles once, deploy them everywhere.
   stars: 1344
   url: https://github.com/deadc0de6/dotdrop
 - forks: 31
