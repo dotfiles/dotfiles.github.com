@@ -13,7 +13,7 @@ You might also consider using [gitignore.io](https://gitignore.io) to generate `
 
 ## Embrace submodules / subtrees
 
-Consider using [Git submodules](https://help.github.com/submodules/) as you
+Consider using [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) as you
 start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules make
 managing dotfile dependencies so much easier.
 
