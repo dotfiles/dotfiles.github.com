@@ -422,3 +422,8 @@
   notes: There's lots of configurations out there, but this one is mine.
   stars: 57
   url: https://github.com/rafamadriz/dotfiles
+- forks: 6
+  stars: 68
+  url: https://github.com/liskin/dotfiles
+  name: liskin
+  notes: "is a setup based on Makefiles and git submodules. Highlights: documented xmonad setup, concurrent systemd-based X11 sessions, tons of useful tiny shell scripts and vim plugins."
