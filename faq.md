@@ -19,7 +19,7 @@ Great! We're always looking for new projects to follow. Please submit a PR or an
 ## Oh no! I've committed passwords/API keys/other sensitive data!
 
 We've got you covered! Take a look at the [sensitive data removal
-guide](https://help.github.com/articles/remove-sensitive-data/).
+guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
 ## Your FAQ is weak. It *so* did not answer my question.
 
