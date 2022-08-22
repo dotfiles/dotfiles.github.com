@@ -429,3 +429,8 @@
     scripts and vim plugins.'
   stars: 71
   url: https://github.com/liskin/dotfiles
+- forks: 3
+  name: frdmn
+  notes: Well-maintained dotfile setup for macOS workstations based on Ansible.
+  stars: 14
+  url: https://github.com/frdmn/dotfiles
