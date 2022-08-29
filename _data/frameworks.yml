@@ -5,6 +5,12 @@
   stars: 4191
   url: https://github.com/nojhan/liquidprompt
 - category: Shell
+  forks: 1184
+  name: Starship Prompt
+  notes: is a context-aware and highly customizable prompt for any shell. Has out-of-the-box support for Bash, Fish, PowerShell, Zsh, and more.
+  stars: 28222
+  url: https://github.com/starship/starship
+- category: Shell
   forks: 1
   name: shprofile
   notes: manages a set of shell profiles which can be enabled at any time. Script
