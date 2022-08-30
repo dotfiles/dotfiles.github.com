@@ -434,3 +434,8 @@
   notes: Well-maintained dotfile setup for macOS workstations based on Ansible.
   stars: 16
   url: https://github.com/frdmn/dotfiles
+- forks: 197
+  name: webpro
+  notes: Dotfiles for macOS. Makefile and Homebrew-based installation, up-to-date and well-organized, weekly tested.
+  stars: 872
+  url: https://github.com/webpro/dotfiles
