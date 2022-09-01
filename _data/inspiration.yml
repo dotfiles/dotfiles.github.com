@@ -439,3 +439,8 @@
   notes: Dotfiles for macOS. Makefile and Homebrew-based installation, up-to-date and well-organized, weekly tested.
   stars: 872
   url: https://github.com/webpro/dotfiles
+- forks: 2
+  name: Neos21
+  notes: Dotfiles for Windows GitBash, WSL, Ubuntu, MacOS.
+  stars: 6
+  url: https://github.com/Neos21/dotfiles
