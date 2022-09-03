@@ -1,8 +1,10 @@
+# Description
+
 # Copyright Assignment
 
 - [ ] This document is covered by the [MIT License](https://github.com/dotfiles/dotfiles.github.com/blob/master/LICENSE.md), and I agree to contribute this PR under the terms of the license.
 
-# Things to look out for
+# Things to look out for in your PR
 
 Make sure that if your `notes` field in any additions/updates you make to the YAML files in the `_data` directory contains any `:` characters that the entire field is quoted as shown below:
 
