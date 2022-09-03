@@ -24,8 +24,9 @@ customizing specific programs like your shell.
 
 Prefer to start from a popular base configuration? Check out dotfiles
 [bootstrap repositories](/bootstrap/). Or just looking for inspiration, to see
-how others are doing things? Check out [other GitHub users'
-dotfiles](/inspiration/).
+how others are doing things? Check out other GitHub users'
+[dotfiles](/inspiration/) or Reddit's [r/dotfiles](https://reddit.com/r/dotfiles)
+subreddit.
 
 ## Contribute
 

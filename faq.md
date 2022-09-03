@@ -23,5 +23,4 @@ guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-s
 
 ## Your FAQ is weak. It *so* did not answer my question.
 
-That's not a question. But feel free to [ask us anything on
-Twitter](https://twitter.com/octodots), or to create an issue on this repository. Maybe we can expand this list.
+That's not a question. But feel free to create an issue on this repository. Maybe we can expand this list.
