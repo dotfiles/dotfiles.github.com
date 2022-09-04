@@ -445,3 +445,9 @@
   notes: Dotfiles for Windows GitBash, WSL, Ubuntu, MacOS.
   stars: 6
   url: https://github.com/Neos21/dotfiles
+- forks: 0
+  name: karras
+  notes: Keeps the home directory as clean as possible by storing all dotfiles
+    in `~/.local`.
+  stars: 1
+  url: https://github.com/karras/dotfiles
