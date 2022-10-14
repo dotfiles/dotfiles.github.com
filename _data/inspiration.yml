@@ -451,3 +451,8 @@
     `~/.local`.
   stars: 1
   url: https://github.com/karras/dotfiles
+- forks: 13
+  name: cvuorinen
+  notes: dotfiles managed with dotbot, includes zsh with powerlevel9k theme & tmux etc.
+  stars: 29
+  url: https://github.com/cvuorinen/dotfiles
