@@ -457,3 +457,9 @@
     etc.
   stars: 29
   url: https://github.com/cvuorinen/dotfiles
+- forks: 32
+  name: yutkat
+  notes: My dotfiles containing settings for Neovim, zsh, wezterm and sway working on Arch/Ubuntu/Fedora Linux.
+    Using CI to test and measure startup speed.
+  stars: 363
+  url: https://github.com/yutkat/dotfiles
