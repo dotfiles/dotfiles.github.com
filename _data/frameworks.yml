@@ -2,14 +2,14 @@
   forks: 437
   name: Liquid Prompt
   notes: is a full-featured and carefully designed adaptive prompt for Bash and ZSH.
-  stars: 4247
+  stars: 4250
   url: https://github.com/nojhan/liquidprompt
 - category: Shell
-  forks: 1361
+  forks: 1365
   name: Starship Prompt
   notes: is a context-aware and highly customizable prompt for any shell. Has out-of-the-box
     support for Bash, Fish, PowerShell, Zsh, and more.
-  stars: 32021
+  stars: 32152
   url: https://github.com/starship/starship
 - category: Shell
   forks: 1
@@ -20,31 +20,31 @@
   stars: 19
   url: https://github.com/abourdon/shprofile
 - category: Shell
-  forks: 2288
+  forks: 2285
   name: bash-it
   notes: is a "shameless ripoff of oh-my-zsh," but for bash.
-  stars: 13357
+  stars: 13368
   subcategory: Bash
   url: https://github.com/Bash-it/bash-it
 - category: Shell
   forks: 261
   name: Fisher
   notes: is a package manager for the [fish shell](https://fishshell.com).
-  stars: 6339
+  stars: 6359
   subcategory: Fish
   url: https://github.com/jorgebucaran/fisher
 - category: Shell
-  forks: 814
+  forks: 818
   name: Oh My Fish
   notes: is a fish-shell framework inspired by oh-my-zsh.
-  stars: 9105
+  stars: 9125
   subcategory: Fish
   url: https://github.com/oh-my-fish/oh-my-fish
 - category: Shell
   forks: 59
   name: Antibody
   notes: is a shell plugin manager made from the ground up thinking about performance.
-  stars: 1688
+  stars: 1689
   subcategory: ZSH
   url: https://github.com/getantibody/antibody
 - category: Shell
@@ -54,7 +54,7 @@
     and only on manual invocation, minimizing the ZSH startup time. Antigen-hs is
     much more minimalistic and emphasizes convention over configuration more strongly
     than antigen.
-  stars: 205
+  stars: 204
   subcategory: ZSH
   url: https://github.com/Tarrasch/antigen-hs
 - category: Shell
@@ -64,11 +64,11 @@
     will automatically clone repositories containing the plugins you're using without
     you having to manually create submodules or clones, and supports using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     plugins and themes as well as ones published as separate repositories.
-  stars: 7436
+  stars: 7449
   subcategory: ZSH
   url: https://github.com/zsh-users/antigen
 - category: Shell
-  forks: 38
+  forks: 37
   name: dotzsh
   notes: strives to be platform and version independent, some functionality may be
     lost when running under older versions of ZSH, but it should degrade cleanly and
@@ -78,11 +78,11 @@
   subcategory: ZSH
   url: https://github.com/dotphiles/dotzsh
 - category: Shell
-  forks: 24897
+  forks: 24908
   name: oh-my-zsh
   notes: is a community-driven framework for managing your ZSH configuration. It bundles
     40+ plugins and 80+ themes.
-  stars: 154444
+  stars: 154663
   subcategory: ZSH
   url: https://github.com/robbyrussell/oh-my-zsh
 - category: Shell
@@ -91,7 +91,7 @@
   notes: is a configuration framework for ZSH. It's a lightweight alternative to oh-my-zsh
     with sane defaults, aliases, functions, auto completion, prompt themes and dozens
     of well documented modules.
-  stars: 13199
+  stars: 13214
   subcategory: ZSH
   url: https://github.com/sorin-ionescu/prezto
 - category: Shell
@@ -123,7 +123,7 @@
     it lets us have a minimal overhead when starting up the shell because nobody likes
     waiting. Zgenom can use [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     and [Prezto](https://github.com/sorin-ionescu/prezto) compliant plugins and themes.
-  stars: 247
+  stars: 249
   subcategory: ZSH
   url: https://github.com/jandamm/zgenom
 - category: Shell
@@ -136,7 +136,7 @@
     and [Prezto](https://github.com/sorin-ionescu/prezto) compliant plugins and themes.
     zgen is no longer being maintained, we recommend switching to use the [zgenom](https://github.com/jandamm/zgenom)
     fork.
-  stars: 1424
+  stars: 1425
   subcategory: ZSH
   url: https://github.com/tarjoilija/zgen
 - category: Shell
@@ -144,7 +144,7 @@
   name: zplug
   notes: is a next-generation plugin manager for ZSH. There is more to a ZSH plugin
     manager than increasing its speed. Also, there is nothing that zplug cannnot do.
-  stars: 5306
+  stars: 5309
   subcategory: ZSH
   url: https://github.com/zplug/zplug
 - category: Shell
@@ -153,7 +153,7 @@
   notes: is a list of ZSH plugins, themes and completions compatible with Zsh frameworks
     like [antigen](https://github.com/zsh-users/antigen), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     and [zgenom](https://github.com/jandamm/zgenom).
-  stars: 12225
+  stars: 12269
   subcategory: ZSH
   url: https://github.com/unixorn/awesome-zsh-plugins
 - category: Shell
@@ -163,14 +163,14 @@
     setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
     collection, and the [powerlevel10k](https://github.com/romkatv/powerlevel10k)
     theme.
-  stars: 613
+  stars: 614
   subcategory: ZSH
   url: https://github.com/unixorn/zsh-quickstart-kit
 - category: Editors
-  forks: 149
+  forks: 150
   name: Cask
   notes: is a package manager for Emacs.
-  stars: 1219
+  stars: 1220
   subcategory: Emacs
   url: https://github.com/cask/cask
 - category: Editors
@@ -178,29 +178,29 @@
   name: Prelude
   notes: is an enhanced Emacs 24 distribution that should make your experience with
     Emacs both more pleasant and more powerful.
-  stars: 4921
+  stars: 4925
   subcategory: Emacs
   url: https://github.com/bbatsov/prelude
 - category: Editors
-  forks: 2887
+  forks: 2893
   name: Doom Emacs
   notes: is an Emacs framework for the stubborn martian hacker.
-  stars: 15829
+  stars: 15878
   subcategory: Emacs
   url: https://github.com/hlissner/doom-emacs
 - category: Editors
-  forks: 4948
+  forks: 4951
   name: Spacemacs
   notes: is a Emacs 24 distribution that builds on Evil-mode with ports of popular
     Vim plugins to closer emulate a Vim environment.
-  stars: 22760
+  stars: 22766
   subcategory: Emacs
   url: https://github.com/syl20bnr/spacemacs
 - category: Editors
   forks: 255
   name: use-package
   notes: is a declaration macro for simplifying your `.emacs`
-  stars: 4103
+  stars: 4105
   subcategory: Emacs
   url: https://github.com/jwiegley/use-package
 - category: Editors
@@ -211,10 +211,10 @@
   subcategory: Vim
   url: https://github.com/dotphiles/dotvim
 - category: Editors
-  forks: 834
+  forks: 835
   name: Janus
   notes: is a distribution of plugins and mappings for Vim, Gvim and MacVim.
-  stars: 7896
+  stars: 7894
   subcategory: Vim
   url: https://github.com/carlhuda/janus
 - category: Editors
@@ -228,35 +228,35 @@
   forks: 1220
   name: Pathogen
   notes: is a plugin manager for Vim.
-  stars: 11977
+  stars: 11984
   subcategory: Vim
   url: https://github.com/tpope/vim-pathogen
 - category: Editors
-  forks: 3739
+  forks: 3738
   name: spf13-vim
   notes: is Steve Francia's Vim distribution of vim plugins and resources for Vim,
     Gvim and MacVim.
-  stars: 15446
+  stars: 15449
   subcategory: Vim
   url: https://github.com/spf13/spf13-vim
 - category: Editors
-  forks: 1874
+  forks: 1879
   name: vim-plug
   notes: is a simple plugin manager that supports parallel installations / upgrades.
-  stars: 30287
+  stars: 30342
   subcategory: Vim
   url: https://github.com/junegunn/vim-plug
 - category: Editors
-  forks: 2568
+  forks: 2569
   name: Vundle
   notes: is short for _Vim Bundle_ and is a plugin manager for Vim. It works with
     Pathogen compatible vim plugins.
-  stars: 23397
+  stars: 23399
   subcategory: Vim
   url: https://github.com/VundleVim/Vundle.vim
 - category: Shell
   forks: 11
   name: sheldon
   notes: A fast, configurable, shell plugin manager
-  stars: 564
+  stars: 571
   url: https://github.com/rossmacarthur/sheldon
