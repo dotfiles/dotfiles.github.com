@@ -11,12 +11,6 @@
   description: >
     Lars Kappert wrote about
     [getting started using a dotfiles repository](https://www.webpro.nl/articles/getting-started-with-dotfiles).
-- author: Anish Athalye
-  description: >
-    Anish Athalye wrote a [guide on dotfiles
-    management](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
-    highlighting organizational approaches, installation tools, and general
-    tips and tricks.
 - author: Wes Bos
   description: >
     Wes Bos has a series of [free videos](https://commandlinepoweruser.com/)
