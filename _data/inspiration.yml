@@ -451,3 +451,15 @@
     `~/.local`.
   stars: 3
   url: https://github.com/karras/dotfiles
+- forks: 13
+  name: cvuorinen
+  notes: dotfiles managed with dotbot, includes zsh with powerlevel9k theme & tmux
+    etc.
+  stars: 29
+  url: https://github.com/cvuorinen/dotfiles
+- forks: 33
+  name: yutkat
+  notes: My dotfiles containing settings for Neovim, zsh, wezterm and sway working
+    on Arch/Ubuntu/Fedora Linux. Using CI to test and measure startup speed.
+  stars: 365
+  url: https://github.com/yutkat/dotfiles

@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.x
+          ruby-version: 2.7.4
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
@@ -22,10 +22,12 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
       - run: bundle exec jekyll build
-      - uses: anishathalye/proof-html@v1
+      - uses: anishathalye/proof-html@v2
         with:
           directory: ./_site
           enforce_https: false
           check_favicon: false
           tokens: |
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
+          ignore_url: |
+            https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
