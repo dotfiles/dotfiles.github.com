@@ -463,3 +463,9 @@
     on Arch/Ubuntu/Fedora Linux. Using CI to test and measure startup speed.
   stars: 373
   url: https://github.com/yutkat/dotfiles
+- forks: 0
+  name: codingjerk
+  notes: Managed with git and environment variables (XDG_*) only,
+    contains settings for neovim, zsh, i3, bspwm, tmux, htop, git, and more.
+  stars: 1
+  url: https://github.com/codingjerk/dotfiles
