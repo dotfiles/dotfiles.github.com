@@ -255,3 +255,8 @@
     support.
   stars: 181
   url: https://github.com/rhysd/dotfiles
+- forks: 0
+  name: symly
+  notes: Utility for centralizing sparse file trees with symbolic links
+  stars: 7
+  url: https://github.com/loicrouchon/symly
