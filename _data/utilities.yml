@@ -257,6 +257,14 @@
   url: https://github.com/rhysd/dotfiles
 - forks: 0
   name: symly
-  notes: Utility for centralizing sparse file trees with symbolic links
+  notes: is a utility for centralizing sparse file trees with symbolic links.
+    It replicates and maintains a file tree structure of one or more repository
+    layers into a directory) by creating symbolic links. For the dotfile
+    management use case, the directory would be the user's home. Repositories
+    are combined in an overriding fashion similar to what is done by OverlayFS.
+    There is no database; the filesystem is the state! Finally, symly only
+    focuses on managing the symbolic links but does not focus on backup and
+    synchronization. You can therefore rely on your preferred tool for the job
+    (rsync, git, Dropbox, Tresorit, ...)
   stars: 7
   url: https://github.com/loicrouchon/symly
