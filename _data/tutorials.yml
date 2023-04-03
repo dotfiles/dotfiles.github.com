@@ -1,12 +1,7 @@
 - author: Drew DeVault
   description: >
-    [Drew DeVault](https://drewdevault.com/) wrote about 
+    [Drew DeVault](https://drewdevault.com/) wrote about
     [managing his dotfiles as a git repository](https://drewdevault.com/2019/12/30/dotfiles.html) in his home directory with a .gitignore of `*`.
-- author: Abdullah
-  description: >
-    [Abdullah](https://abdullah.today/about/) wrote [how to secure your
-    dotfiles](https://abdullah.today/encrypted-dotfiles) with
-    GnuPG.
 - author: Lars Kappert
   description: >
     Lars Kappert wrote about
@@ -32,7 +27,7 @@
     dotfiles](https://kalis.me/dotfiles-automating-macos-system-configuration/),
     and a second one specifically about his [automated repository
     management](https://kalis.me/increasing-development-productivity-repository-management/).
-- author: Dmitry Geurkov 
+- author: Dmitry Geurkov
   description: >
     Dmitry Geurkov wrote an article about his tool called
     [dotcentral](https://troydm.github.io/blog/2017/02/27/manage-your-dotfiles-like-a-boss/).
