@@ -1,4 +1,5 @@
 ## Contributing
+
 In the spirit of [free software][free-sw], **everyone** is encouraged to help
 improve this project.
 
@@ -28,6 +29,7 @@ Ideally, a bug report should include a pull request with failing specs.
 [gist]: https://gist.github.com/
 
 ## Submitting a Pull Request
+
 1. [Fork the repository.][fork]
 2. [Create a topic branch][branch].
 3. Preview your changes locally using `script/server`.
