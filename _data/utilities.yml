@@ -267,3 +267,8 @@
     the job (rsync, git, Dropbox, Tresorit, ...)
   stars: 7
   url: https://github.com/loicrouchon/symly
+- forks: 920
+  name: Mackup
+  notes: is an application settings and configuration manager. It automatically finds the location of settings files for a set of known applications and syncs them with Dropbox, Git, or any other supported method.
+  stars: 13708
+  url: https://github.com/lra/mackup
