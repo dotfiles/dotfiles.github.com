@@ -9,11 +9,11 @@ See the [CONTRIBUTING][contributing] guide for creating great pull requests.
 
 Install project dependencies:
 
-    script/bootstrap
+    ./script/bootstrap
 
 Boot local web server to preview changes:
 
-    script/server
+    ./script/server
 
 You can now browse to [http://localhost:8484][local] to preview changes.
 
