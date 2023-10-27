@@ -1,18 +1,20 @@
-- forks: 1882
+- forks: 1881
   name: thoughtbot/dotfiles
   notes: A base set of configs, plugins, scripts, and aliases for vim, tmux, git,
     ruby, and zsh.
-  stars: 7761
+  stars: 7765
   url: https://github.com/thoughtbot/dotfiles
 - forks: 379
   name: dotphiles
   notes: A community driven framework of dotfiles, for the usual terminal apps and
     shells, designed to work across multiple platforms and degrade for older versions
     of software or OS, allowing you to use the same settings on all your machines.
-  stars: 769
+  stars: 772
   url: https://github.com/dotphiles/dotphiles
-- forks: 379
+- forks: 19
   name: Dorothy
-  notes: Bring your dotfile commands and configuration to any shell. Sensible defaults and hundreds of commands preloaded. Supports Bash, Zsh, Fish, Nu, Xonsh, Elvish, Dash, KornShell, macOS, Linux, Windows.
+  notes: Bring your dotfile commands and configuration to any shell. Sensible defaults
+    and hundreds of commands preloaded. Supports Bash, Zsh, Fish, Nu, Xonsh, Elvish,
+    Dash, KornShell, macOS, Linux, Windows.
   stars: 170
   url: https://github.com/bevry/dorothy
