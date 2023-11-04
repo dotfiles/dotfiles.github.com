@@ -260,3 +260,32 @@
   notes: A fast, configurable, shell plugin manager
   stars: 760
   url: https://github.com/rossmacarthur/sheldon
+- category: Editors
+  forks: 193
+  name: lazy.nvim
+  notes: is a modern plugin manager for Neovim.
+  stars: 7979
+  subcategory: Neovim
+  url: https://github.com/folke/lazy.nvim
+- category: Editors
+  forks: 262
+  name: packer.nvim
+  notes: is a plugin manager. It supports Luarocks dependencies and uses native packages.
+  stars: 7169
+  subcategory: Neovim
+  url: https://github.com/wbthomason/packer.nvim
+- category: Editors
+  forks: 1654
+  name: NvChad
+  notes: is a Neovim distribution focused on speed and good defaults, with a beautiful UI.
+  stars: 19967
+  subcategory: Neovim
+  url: https://github.com/NvChad/NvChad
+- category: Editors
+  forks: 1502
+  name: LunarVim
+  notes: is another Neovim distribution, geared towards building a community-driven IDE layer.
+  stars: 16271
+  subcategory: Neovim
+  url: https://github.com/LunarVim/LunarVim
+- category: Editors
