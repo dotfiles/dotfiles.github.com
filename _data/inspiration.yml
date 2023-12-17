@@ -2,13 +2,13 @@
   stars: 7
   url: https://gitlab.com/Abdullah/cfg.git
 - forks: 19
-  name: Abhishek Keshri
-  notes: has configurations for zsh with custom [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-    prompt, i3 with i3status, dmenu, vim, ranger, git, tmux, compiz etc. I also have
-    a repo for [Termux](https://github.com/2kabhishek/Oh-My-Termux) for Android users.
-    Comes with a handy setup script.
-  stars: 181
-  url: https://github.com/2kabhishek/Dotfiles
+  name: 2KAbhishek
+  notes: Passionately crafted, extensible dotfiles with extensions for multuple platforms
+    ([Windows](https://github.com/2kabhishek/win2k), [MacOS](https://github.com/2kabhishek/mac2k),
+    [Android](https://github.com/2kabhishek/termux2k)), editors ([neovim](https://github.com/2kabhishek/nvim2k)),
+    window managers ([sway](https://github.com/2kabhishek/sway2k), [awesome](https://2kabhishek.github.io/awesome2k)) and more.
+  stars: 186
+  url: https://github.com/2kabhishek/dots2k
 - forks: 3
   name: Ace Cassidy
   notes: has configurations for bash, vscode, gitconfig, and an xmodmap script to
