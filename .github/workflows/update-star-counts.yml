@@ -7,7 +7,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Install Python
       uses: actions/setup-python@v2
       with:
@@ -15,11 +15,23 @@ jobs:
     - name: Install dependencies
       run: |
         pip3 install PyGithub PyYAML
-    - name: Update star counts
+    - name: Update star counts (bootstrap.yml)
       run: |
         script/update-star-count.py --token $GITHUB_TOKEN _data/bootstrap.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Update star counts (frameworks.yml)
+      run: |
         script/update-star-count.py --token $GITHUB_TOKEN _data/frameworks.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Update star counts (inspiration.yml)
+      run: |
         script/update-star-count.py --token $GITHUB_TOKEN _data/inspiration.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Update star counts (utilities.yml)
+      run: |
         script/update-star-count.py --token $GITHUB_TOKEN _data/utilities.yml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
