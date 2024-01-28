@@ -38,7 +38,7 @@
     files, directories, and symlinks across multiple environments with this ludicrous-speed
     Node.js successor to the original [Ruby version](https://github.com/razor-x/config_curator).
   stars: 31
-  url: https://github.com/rxrc/curator
+  url: https://github.com/razor-x/config-curator
 - forks: 18
   name: dfm
   notes: is a utility to manage your dotfiles, lightweight and simple.
@@ -90,7 +90,7 @@
     It backups dotfiles with git and keeps track of simultaneous dotfile configurations
     for multiple environments. It also supports shell autocompletion.
   stars: 97
-  url: https://github.com/codejamninja/dotstow
+  url: https://github.com/clayrisser/dotstow
 - forks: 65
   name: Dotsync
   notes: utility for syncing dotfiles between multiple machines from a Git repo or
@@ -146,7 +146,7 @@
     user environments using the [Nix](https://nixos.org/nix/) package manager and
     the [Nixpkgs](https://nixos.org/nixpkgs/) libraries.
   stars: 4920
-  url: https://github.com/rycee/home-manager
+  url: https://github.com/nix-community/home-manager
 - forks: 26
   name: Homemaker
   notes: by Alex Yatskov. Homemaker is a standalone tool written in Golang to manage
@@ -194,7 +194,7 @@
   name: stowsh
   notes: is a clone of GNU Stow written in bash with minimal dependencies.
   stars: 90
-  url: https://github.com/williamsmj/stowsh
+  url: https://github.com/mikepqr/stowsh
 - name: summon
   notes: is a Bash tool that shares basically the same concept as Stow but with some
     key differences that are more suitable to the deploy of dotfiles.
@@ -231,7 +231,7 @@
     YAML as configuration syntax and the pile-of-symlinks approach. It can manage
     multiple hosts, supports variable symlink targets and is infinitely hackable.
   stars: 4
-  url: https://github.com/esc/yadoma
+  url: https://github.com/igordertigor/yadoma
 - forks: 36
   name: dotter
   notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.

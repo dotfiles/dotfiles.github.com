@@ -3,7 +3,7 @@
   name: Liquid Prompt
   notes: is a full-featured and carefully designed adaptive prompt for Bash and ZSH.
   stars: 4328
-  url: https://github.com/nojhan/liquidprompt
+  url: https://github.com/liquidprompt/liquidprompt
 - category: Shell
   forks: 1593
   name: Starship Prompt
@@ -84,7 +84,7 @@
     40+ plugins and 80+ themes.
   stars: 163753
   subcategory: ZSH
-  url: https://github.com/robbyrussell/oh-my-zsh
+  url: https://github.com/ohmyzsh/ohmyzsh
 - category: Shell
   forks: 4499
   name: Prezto
@@ -109,7 +109,7 @@
     a "sane defaults" set for any ZSH config and is optimized for system-wide installation
   stars: 11
   subcategory: ZSH
-  url: https://github.com/5paceToast/toasty-zsh
+  url: https://github.com/CosmicToast/toasty-zsh
 - category: Shell
   forks: 11
   name: zgenom
@@ -187,7 +187,7 @@
   notes: is an Emacs framework for the stubborn martian hacker.
   stars: 17674
   subcategory: Emacs
-  url: https://github.com/hlissner/doom-emacs
+  url: https://github.com/doomemacs/doomemacs
 - category: Editors
   forks: 4957
   name: Spacemacs
