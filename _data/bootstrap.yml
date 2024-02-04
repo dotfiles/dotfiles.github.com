@@ -18,3 +18,8 @@
     Dash, KornShell, macOS, Linux, Windows.
   stars: 207
   url: https://github.com/bevry/dorothy
+- forks: 685
+  name: mathiasbynens/dotfiles
+  notes: Mathias's dotfiles; sensible hacker defaults for macOS.
+  stars: 29596
+  url: https://github.com/mathiasbynens/dotfiles
