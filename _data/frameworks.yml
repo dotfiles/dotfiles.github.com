@@ -7,7 +7,8 @@
 - category: Shell
   forks: 1698
   name: Starship Prompt
-  notes: is a context-aware and highly customizable prompt for any shell. Has out-of-the-box
+  notes:
+    is a context-aware and highly customizable prompt for any shell. Has out-of-the-box
     support for Bash, Fish, PowerShell, Zsh, and more.
   stars: 39001
   url: https://github.com/starship/starship
@@ -157,9 +158,20 @@
   subcategory: ZSH
   url: https://github.com/unixorn/awesome-zsh-plugins
 - category: Shell
+  forks: 18
+  name: antidote
+  notes: is a feature-complete Zsh implementation of the legacy Antibody plugin manager,
+    which in turn was derived from Antigen. Antidote not only aims to provide continuity
+    for those legacy plugin managers, but also to delight new users with high-performance,
+    easy-to-use Zsh plugin management.
+  stars: 606
+  subcategory: ZSH
+  url: https://github.com/mattmc3/antidote
+- category: Shell
   forks: 91
   name: zsh-quickstart-kit
-  notes: A quickstart for ZSH and zgenom. It includes a [zgenom](https://github.com/jandamm/zgenom)
+  notes:
+    A quickstart for ZSH and zgenom. It includes a [zgenom](https://github.com/jandamm/zgenom)
     setup, a starter list of plugins, the [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
     collection, and the [powerlevel10k](https://github.com/romkatv/powerlevel10k)
     theme.
