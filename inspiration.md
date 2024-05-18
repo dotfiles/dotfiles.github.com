@@ -15,6 +15,5 @@ request](https://github.com/dotfiles/dotfiles.github.com/pulls)!
 {% assign inspiration = site.data.inspiration | sort: 'stars' | reverse %}
 {% for repo in inspiration %}
 <li><a href="{{ repo.url }}">{{ repo.name }}'s dotfiles</a>{% if repo.notes %} {{ repo.notes | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}</li>
-{% endif %}
 {% endfor %}
 </ul>
