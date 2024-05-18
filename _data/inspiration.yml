@@ -1,3 +1,10 @@
+- name: Volodymyr Pivoshenko
+  url: https://github.com/pivoshenko/dotfiles
+  stars: 7
+  forks: 0
+  notes: dotfiles for the developer happiness macOS, zsh, brew, VSCode, Python, Rust. Main principles are
+    one style - JetBrainsMono font and Catppuccin color palette; minimalism in everything; simplicity; consistency;
+    reduced visual noise.
 - name: Abdullah
   stars: 7
   url: https://gitlab.com/Abdullah/cfg.git
