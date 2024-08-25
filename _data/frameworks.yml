@@ -27,6 +27,13 @@
   subcategory: Bash
   url: https://github.com/Bash-it/bash-it
 - category: Shell
+  forks: 641
+  name: Oh My Bash
+  notes: is a bash-shell framework inspired by oh-my-zsh and bash-it.
+  stars: 5725
+  subcategory: Bash
+  url: https://github.com/ohmybash/oh-my-bash
+- category: Shell
   forks: 259
   name: Fisher
   notes: is a package manager for the [fish shell](https://fishshell.com).
