@@ -295,7 +295,8 @@
 - forks: 115
   name: xero
   notes: are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free,
-    portable, lightweight symlink farm manager.
+    portable, lightweight symlink farm manager. configs are focused on terminal apps
+    (neovim, zsh, tmux, git, etc), text art, and custom color schemes.
   stars: 1952
   url: https://github.com/xero/dotfiles
 - forks: 1404
