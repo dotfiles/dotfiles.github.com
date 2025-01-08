@@ -478,3 +478,9 @@
     for neovim, zsh, i3, bspwm, tmux, htop, git, and more.
   stars: 9
   url: https://github.com/codingjerk/dotfiles
+- forks: 1
+  name: Skenvy
+  notes: This is my dotfile repository. It follows the "$HOME is a repo" pattern, with bells attached.
+    My way of maintaining both "personal" dotfiles, and "work" dotfiles from roughly the same place.
+  stars: 1
+  url: https://github.com/Skenvy/dotfiles
