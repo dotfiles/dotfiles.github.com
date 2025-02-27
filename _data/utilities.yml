@@ -281,3 +281,8 @@
     and shell command execution.
   stars: 3
   url: https://github.com/youhide/hideDot 
+- forks: 18
+  name: multigit
+  notes: allows checking out multiple git repositories overlaid onto the same directory.
+  stars: 145
+  url: https://github.com/capr/multigit
