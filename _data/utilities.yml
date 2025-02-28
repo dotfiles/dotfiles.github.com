@@ -274,8 +274,9 @@
     with Dropbox, Git, or any other supported method.
   stars: 14783
   url: https://github.com/lra/mackup
-forks: 18
+- forks: 18
   name: multigit
   notes: allows checking out multiple git repositories overlaid onto the same directory.
   stars: 145
   url: https://github.com/capr/multigit
+
