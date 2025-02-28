@@ -248,7 +248,6 @@
   notes: configuration Management for Localhost / dotfiles.
   stars: 533
   url: https://github.com/comtrya/comtrya
-  website: https://www.comtrya.dev/
 - forks: 7
   name: dotfiles
   notes: Dotfiles symbolic links management CLI written in Go, with Windows/Linux/Mac
