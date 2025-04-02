@@ -273,10 +273,26 @@
   subcategory: Neovim
   url: https://github.com/NvChad/NvChad
 - category: Editors
+  forks: 1400
+  name: LazyVim
+  notes: is a Neovim distribution for the lazy, focusing on speed, sane defaults
+    and easy customisation.
+  stars: 19900
+  subcategory: Neovim
+  url: https://github.com/LazyVim/LazyVim
+- category: Editors
   forks: 1510
   name: LunarVim
-  notes: is another Neovim distribution, geared towards building a community-driven
+  notes: is a Neovim distribution, geared towards building a community-driven
     IDE layer.
   stars: 18727
   subcategory: Neovim
   url: https://github.com/LunarVim/LunarVim
+- category: Editors
+  forks: 946
+  name: AstroNvim
+  notes: is a Neovim distribution with an aesthetic and feature-rich configuration
+    that is extensible and easy to use with a great set of plugins.
+  stars: 13200
+  subcategory: Neovim
+  url: https://github.com/AstroNvim/AstroNvim
