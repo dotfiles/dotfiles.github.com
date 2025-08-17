@@ -244,9 +244,7 @@
   url: https://github.com/nelsonmestevao/dotfiles
 - forks: 96
   name: Nick Plekhanov
-  notes: features properly customized ZSH and iTerm environments, along with Atom
-    editor and Webstorm IDE. As a bonus, included is a set of useful aliases for web
-    developers.
+  notes: features hand-crafted dotfiles for configuring a complete macOS development environment with Zsh, Git ( w/ aliases), AI coding tools, VS Code/Cursor, and sensible system defaults. One-liner install with zero fluff — just the tools and settings I actually use every day.
   stars: 376
   url: https://github.com/nicksp/dotfiles
 - forks: 93
