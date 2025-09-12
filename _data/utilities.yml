@@ -274,6 +274,13 @@
     with Dropbox, Git, or any other supported method.
   stars: 14923
   url: https://github.com/lra/mackup
+- forks: 0
+  name: hideDot
+  notes: is a fast manager for your dotfiles, symlinks, and system configuration
+    with a simple YAML config. Features home directory expansion, git repo cloning,
+    and shell command execution.
+  stars: 3
+  url: https://github.com/youhide/hideDot 
 - forks: 20
   name: multigit
   notes: allows checking out multiple git repositories overlaid onto the same directory.
