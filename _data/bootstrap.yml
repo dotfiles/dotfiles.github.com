@@ -1,15 +1,15 @@
-- forks: 1837
+- forks: 1838
   name: thoughtbot/dotfiles
   notes: A base set of configs, plugins, scripts, and aliases for vim, tmux, git,
     ruby, and zsh.
-  stars: 8099
+  stars: 8098
   url: https://github.com/thoughtbot/dotfiles
 - forks: 387
   name: dotphiles
   notes: A community driven framework of dotfiles, for the usual terminal apps and
     shells, designed to work across multiple platforms and degrade for older versions
     of software or OS, allowing you to use the same settings on all your machines.
-  stars: 818
+  stars: 819
   url: https://github.com/dotphiles/dotphiles
 - forks: 29
   name: Dorothy
@@ -18,8 +18,8 @@
     Dash, KornShell, macOS, Linux, Windows.
   stars: 463
   url: https://github.com/bevry/dorothy
-- forks: 8703
+- forks: 8697
   name: mathiasbynens/dotfiles
   notes: Mathias's dotfiles; sensible hacker defaults for macOS.
-  stars: 31000
+  stars: 31010
   url: https://github.com/mathiasbynens/dotfiles
