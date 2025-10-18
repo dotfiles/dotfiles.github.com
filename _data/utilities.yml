@@ -286,3 +286,9 @@
   notes: allows checking out multiple git repositories overlaid onto the same directory.
   stars: 152
   url: https://github.com/capr/multigit
+- forks: 0
+  name: dfs
+  notes: is the first true 2-way dotfiles manager and a template engine with
+    reverse translation.
+  stars: 3
+  url: https://github.com/charlesrocket/dfs
