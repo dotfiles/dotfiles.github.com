@@ -486,3 +486,9 @@
     dotfiles from roughly the same place.
   stars: 2
   url: https://github.com/Skenvy/dotfiles
+- forks: 0
+  name: charlesrocket
+  notes: with an accent on tiling WMs/(Free)BSD, managed with
+    [DFS](https://github.com/charlesrocket/dfs).
+  stars: 18
+  url: https://github.com/charlesrocket/dotfiles
