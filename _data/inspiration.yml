@@ -491,3 +491,8 @@
   notes: with an accent on tiling WMs/(Free)BSD, managed with [DFS](https://github.com/charlesrocket/dfs).
   stars: 18
   url: https://github.com/charlesrocket/dotfiles
+- forks: 0
+  name: benja2998
+  notes: More focused on MS-Windows, but still works on POSIX systems.
+  stars: 1
+  url: https://github.com/benja2998/dotfiles
