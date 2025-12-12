@@ -23,16 +23,16 @@
     allow holding capslock to turn hjkl into arrow keys in any application.
   stars: 16
   url: https://github.com/Ace-Cassidy/dotfiles
-- forks: 447
+- forks: 446
   name: Adam Eivy
   notes: are focused on Automation (no manual install/config) for ZSH and macOS with
     a friendly bot to guide your way.
-  stars: 1356
+  stars: 1357
   url: https://github.com/atomantic/dotfiles
 - forks: 3
   name: aeolyus
   notes: simple dotfiles managed with GNU stow
-  stars: 74
+  stars: 75
   url: https://github.com/aeolyus/dotfiles
 - forks: 4
   name: Alexandros Kozak
@@ -96,7 +96,7 @@
     currencies) development on macOS.
   stars: 92
   url: https://github.com/ashishb/dotfiles
-- forks: 488
+- forks: 487
   name: Ben Alman
   notes: support different configurations per OS, linking, copying and environment
     setup.
@@ -109,28 +109,28 @@
     color scheme and aliases for [Zeek NSM](https://www.zeek.org/).
   stars: 17
   url: https://github.com/bndabbs/dotfiles
-- forks: 8
+- forks: 7
   name: Cristian PB
   notes: i3, polybar, mbsync, mutt, ranger, nvim dotfiles installed using stow.
   stars: 25
   url: https://github.com/cristianpb/dotfiles
-- forks: 9
+- forks: 8
   name: Darryl Abbate
   notes: can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh)
     for absolutely effortless setup on a fresh macOS machine.
   stars: 74
   url: https://github.com/rootbeersoup/dotfiles
-- forks: 176
+- forks: 175
   name: Diki Ananta
   notes: is focused on Window Manager users, especially for [i3](https://github.com/i3/i3),
     and Web developers. It has various configs for standard of window manager.
-  stars: 1467
+  stars: 1468
   url: https://github.com/dikiaap/dotfiles
-- forks: 726
+- forks: 727
   name: Dries Vints
   notes: leverages [Brew](https://github.com/driesvints/dotfiles/blob/master/Brewfile)
     and [mackup](https://github.com/lra/mackup) to setup an entire macOS environment.
-  stars: 2634
+  stars: 2638
   url: https://github.com/driesvints/dotfiles
 - forks: 79
   name: Eduardo Lundgren
@@ -205,12 +205,12 @@
     |  Lastest Ubuntu & Windows & WSL2
   stars: 16
   url: https://github.com/matheusrv/dotfiles
-- forks: 8674
+- forks: 8671
   name: Mathias Bynens
   notes: includes a bootstrap script that rsyncs your repo to your home folder. Mathias'
     [macOS defaults script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
     is legendary.
-  stars: 31093
+  stars: 31101
   url: https://github.com/mathiasbynens/dotfiles
 - forks: 12
   name: Matt Smith
@@ -233,7 +233,7 @@
   name: neeasade
   notes: utilize a template based theming system, with the ability to switch between
     themes without restarting programs.
-  stars: 392
+  stars: 393
   url: https://github.com/neeasade/dotfiles
 - forks: 14
   name: "Nelson Estev\xE3o"
@@ -248,13 +248,13 @@
     \ environment with Zsh, Git ( w/ aliases), AI coding tools, VS Code/Cursor, and\
     \ sensible system defaults. One-liner install with zero fluff \u2014 just the\
     \ tools and settings I actually use every day."
-  stars: 404
+  stars: 405
   url: https://github.com/nicksp/dotfiles
 - forks: 95
   name: Nikita Sobolev
   notes: contains Python, Node, and Elixir configurations for macOS alongside with
     the most user-friendly command line tools for the developer happiness.
-  stars: 935
+  stars: 937
   url: https://github.com/sobolevn/dotfiles
 - forks: 7
   name: Overbryd
@@ -267,7 +267,7 @@
   notes: feature greatly customized ZSH with auto-completion and syntax highlighting,
     a bunch of useful Git extras and colourful themes for macOS Terminal and Sublime
     Text.
-  stars: 1226
+  stars: 1227
   url: https://github.com/paulmillr/dotfiles
 - forks: 17
   name: posquit0
@@ -298,20 +298,20 @@
   notes: are managed with [GNU Stow](https://www.gnu.org/software/stow/), a free,
     portable, lightweight symlink farm manager. configs are focused on terminal apps
     (neovim, zsh, tmux, git, etc), text art, and custom color schemes.
-  stars: 2166
+  stars: 2167
   url: https://github.com/xero/dotfiles
 - forks: 1385
   name: Yan Pritzker
   notes: bundles an opinionated set of Vim plugins and ZSH setup all tuned for using
     [Solarized](https://github.com/altercation/solarized) on macOS.
-  stars: 6975
+  stars: 6974
   url: https://github.com/skwp/dotfiles
 - forks: 3338
   name: Zach Holman
   notes: features topical organization, auto sourcing ZSH files, easy ZSH completion
     extensions, and a local bin folder for executables. The included `Rakefile` will
     symlink anything ending in `.symlink` to your `~` folder,
-  stars: 7598
+  stars: 7605
   url: https://github.com/holman/dotfiles
 - forks: 0
   name: Kamil Zabielski
@@ -365,7 +365,7 @@
   notes: Aesthetic OpenboxWM Environment. The complete setup, including configuration
     of several apps and shell scripting allows things to change with just one click
     and from the variables.
-  stars: 2159
+  stars: 2160
   url: https://github.com/owl4ce/dotfiles
 - forks: 1
   name: Thuan Pham
@@ -382,7 +382,7 @@
   notes: Minimal dwm setup with batteries included - from a functional and mouse-friendly
     status bar using POSIX-compliant scripts to a powerful zsh configuration with
     vim-like bindings and custom plugins.
-  stars: 183
+  stars: 184
   url: https://github.com/BachoSeven/dotfiles
 - forks: 5
   name: g6ai
@@ -393,7 +393,7 @@
 - forks: 28
   name: twpayne
   notes: Dotfiles, managed with https://github.com/twpayne/chezmoi.
-  stars: 408
+  stars: 409
   url: https://github.com/twpayne/dotfiles
 - forks: 4
   name: ayoisaiah
@@ -404,12 +404,12 @@
 - forks: 27
   name: renemarc
   notes: "~/. Cross-platform, cross-shell configuration files. \u2699\uFE0F\U0001F4BB"
-  stars: 266
+  stars: 267
   url: https://github.com/renemarc/dotfiles
 - forks: 3
   name: benmezger
   notes: My collection of dotfiles
-  stars: 114
+  stars: 113
   url: https://github.com/benmezger/dotfiles
 - forks: 60
   name: felipecrs
@@ -442,18 +442,18 @@
 - forks: 6
   name: frdmn
   notes: Well-maintained dotfile setup for macOS workstations based on Ansible.
-  stars: 32
+  stars: 33
   url: https://github.com/frdmn/dotfiles
-- forks: 247
+- forks: 246
   name: webpro
   notes: Dotfiles for macOS. Makefile and Homebrew-based installation, up-to-date
     and well-organized, weekly tested.
-  stars: 1184
+  stars: 1185
   url: https://github.com/webpro/dotfiles
 - forks: 3
   name: Neos21
   notes: Dotfiles for Windows GitBash, WSL, Ubuntu, MacOS.
-  stars: 14
+  stars: 13
   url: https://github.com/Neos21/dotfiles
 - forks: 0
   name: karras
@@ -467,31 +467,31 @@
     etc.
   stars: 29
   url: https://github.com/cvuorinen/dotfiles
-- forks: 49
+- forks: 50
   name: yutkat
   notes: My dotfiles containing settings for Neovim, zsh, wezterm and sway working
     on Arch/Ubuntu/Fedora Linux. Using CI to test and measure startup speed.
-  stars: 897
+  stars: 899
   url: https://github.com/yutkat/dotfiles
 - forks: 11
   name: codingjerk
   notes: Managed with git and environment variables (XDG_*) only, contains settings
     for neovim, zsh, i3, bspwm, tmux, htop, git, and more.
-  stars: 222
+  stars: 233
   url: https://github.com/codingjerk/dotfiles
 - forks: 1
   name: Skenvy
   notes: This is my dotfile repository. It follows the "$HOME is a repo" pattern,
     with bells attached. My way of maintaining both "personal" dotfiles, and "work"
     dotfiles from roughly the same place.
-  stars: 2
+  stars: 3
   url: https://github.com/Skenvy/dotfiles
 - forks: 0
   name: charlesrocket
   notes: with an accent on tiling WMs/(Free)BSD, managed with [DFS](https://github.com/charlesrocket/dfs).
   stars: 18
   url: https://github.com/charlesrocket/dotfiles
-- forks: 0
+- forks: 1
   name: benja2998
   notes: More focused on MS-Windows, but still works on POSIX systems.
   stars: 1
