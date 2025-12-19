@@ -493,6 +493,6 @@
   url: https://github.com/charlesrocket/dotfiles
 - forks: 1
   name: benja2998
-  notes: More focused on MS-Windows, but still works on POSIX systems.
+  notes: Fully cross-platform dotfiles that work on Windows, Mac and Linux.
   stars: 1
   url: https://github.com/benja2998/dotfiles
