@@ -1,4 +1,4 @@
-- forks: 1828
+- forks: 1826
   name: thoughtbot/dotfiles
   notes: A base set of configs, plugins, scripts, and aliases for vim, tmux, git,
     ruby, and zsh.
@@ -16,10 +16,10 @@
   notes: Bring your dotfile commands and configuration to any shell. Sensible defaults
     and hundreds of commands preloaded. Supports Bash, Zsh, Fish, Nu, Xonsh, Elvish,
     Dash, KornShell, macOS, Linux, Windows.
-  stars: 490
+  stars: 494
   url: https://github.com/bevry/dorothy
-- forks: 8671
+- forks: 8669
   name: mathiasbynens/dotfiles
   notes: Mathias's dotfiles; sensible hacker defaults for macOS.
-  stars: 31101
+  stars: 31117
   url: https://github.com/mathiasbynens/dotfiles
