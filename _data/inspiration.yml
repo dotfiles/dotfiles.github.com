@@ -496,3 +496,12 @@
   notes: Fully cross-platform dotfiles that work on Windows, Mac and Linux.
   stars: 2
   url: https://github.com/benja2998/dotfiles
+- forks: 0
+  name: yulonglin
+  notes: Actively maintained dotfiles for macOS, Linux, and cloud GPU environments
+    (RunPod, Hetzner). Extensively configured for AI coding agents (Claude Code, Codex
+    CLI, Gemini CLI) with research-oriented workflows. Features profile-based deployment,
+    encrypted secrets (SOPS + age), bidirectional secrets sync, Rust CLI tools, automated
+    cleanup and updates, and one-command cloud VM setup.
+  stars: 5
+  url: https://github.com/yulonglin/dotfiles
