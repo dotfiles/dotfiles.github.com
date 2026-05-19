@@ -137,6 +137,13 @@
   notes: are the first JavaScript-based dotfiles powered by Grunt.
   stars: 419
   url: https://github.com/eduardolundgren/dotfiles
+- forks: 70
+  name: eoli3n
+  notes: uses Ansible roles and Jinja templates to manage Sway, fish, Waybar,
+    Neovim, and other dotfiles across local or SSH-connected hosts, with dry-run
+    and diff workflows for safer changes.
+  stars: 565
+  url: https://github.com/eoli3n/dotfiles
 - forks: 5
   name: Felix Volny
   notes: is a one-script install to setup a complete JavaScript development environment
