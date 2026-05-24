@@ -216,7 +216,7 @@
     encryption of private data, custom bootstrap actions, and integration with other
     git-aware tools like vim-fugitive, tig, git-crypt, etc.
   stars: 6294
-  url: https://github.com/TheLocehiliosan/yadm
+  url: https://github.com/yadm-dev/yadm
   website: https://yadm.io/
 - forks: 9
   name: Super User Spark
