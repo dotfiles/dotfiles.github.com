@@ -4,7 +4,7 @@
     Main principles are one style - JetBrainsMono font and Catppuccin color palette;
     minimalism in everything; simplicity; consistency; reduced visual noise.
   stars: 28
-  url: https://github.com/pivoshenko/dotfiles
+  url: https://github.com/pivoshenko/pivoshenko.dotfiles
 - name: Abdullah
   stars: 7
   url: https://gitlab.com/Abdullah/cfg.git
@@ -22,7 +22,7 @@
   notes: has configurations for bash, vscode, gitconfig, and an xmodmap script to
     allow holding capslock to turn hjkl into arrow keys in any application.
   stars: 16
-  url: https://github.com/Ace-Cassidy/dotfiles
+  url: https://github.com/acestronautical/dotfiles
 - forks: 433
   name: Adam Eivy
   notes: are focused on Automation (no manual install/config) for ZSH and macOS with
@@ -78,7 +78,7 @@
   notes: use GNU Stow (like xero's) for symlink management, and `git-subtree` for
     repository integration.
   stars: 82
-  url: https://github.com/andschwa/dotfiles
+  url: https://github.com/andyleejordan/dotfiles
 - forks: 3
   name: Angelo Dini
   notes: provide a modular setup to automatically install and configure git, homebrew,
@@ -119,7 +119,7 @@
   notes: can be installed with a [single curl command](https://github.com/rootbeersoup/get.darryl.sh)
     for absolutely effortless setup on a fresh macOS machine.
   stars: 78
-  url: https://github.com/rootbeersoup/dotfiles
+  url: https://github.com/darrylabbate/dotfiles
 - forks: 175
   name: Diki Ananta
   notes: is focused on Window Manager users, especially for [i3](https://github.com/i3/i3),
@@ -211,7 +211,7 @@
   notes: A configurable extensible and future-proof dotfile for my work environment
     |  Lastest Ubuntu & Windows & WSL2
   stars: 18
-  url: https://github.com/matheusrv/dotfiles
+  url: https://github.com/matbrgz/dotfiles
 - forks: 8516
   name: Mathias Bynens
   notes: includes a bootstrap script that rsyncs your repo to your home folder. Mathias'
@@ -333,7 +333,7 @@
     up dotfiles. Jumpstart implements the best practices and setups for all-around
     development environment.
   stars: 36
-  url: https://github.com/adityarpillai/jumpstart
+  url: https://github.com/pilleye/jumpstart
 - forks: 9
   name: Jogendra
   notes: contains freshly brewed configuration files for various CLI applications
@@ -378,7 +378,7 @@
   name: Thuan Pham
   notes: Config file (nvim,zsh,tmux,kitty,...). [Target] be as lazy as possible.
   stars: 15
-  url: https://github.com/thuanpham2311/dotfiles
+  url: https://github.com/cutbypham/dotfiles
 - forks: 0
   name: exshak
   notes: Custom configs for macOS & Linux ~ brew, osx, tmux, vim, zsh, bash.
