@@ -9,14 +9,14 @@
   notes: is a minimalist dotfile management framework, written 100% in bash.
   stars: 108
   url: https://github.com/bashdot/bashdot
-- forks: 644
+- forks: 648
   name: chezmoi
   notes: makes it easy to manage your dotfiles across multiple machines, securely.
     chezmoi is [easy to install](https://chezmoi.io/install/), [quick to start with](https://chezmoi.io/quick-start/),
     and is [very powerful](https://www.chezmoi.io/user-guide/setup/). You can install
     chezmoi and your dotfiles with a single command, without needing Python installed,
     or even git. Read how [chezmoi compares to other dotfile managers](https://www.chezmoi.io/comparison-table/).
-  stars: 19965
+  stars: 20071
   url: https://github.com/twpayne/chezmoi
   website: https://chezmoi.io
 - forks: 5
@@ -50,10 +50,10 @@
     have a "one click" installation/upgrade process for your dotfiles.
   stars: 7930
   url: https://github.com/anishathalye/dotbot
-- forks: 109
+- forks: 111
   name: dotdrop
   notes: Save your dotfiles once, deploy them everywhere.
-  stars: 1919
+  stars: 1920
   url: https://github.com/deadc0de6/dotdrop
 - forks: 32
   name: dotfiler
@@ -95,7 +95,7 @@
   name: Dotsync
   notes: utility for syncing dotfiles between multiple machines from a Git repo or
     push using rsync.
-  stars: 343
+  stars: 344
   url: https://github.com/dotphiles/dotsync
 - forks: 15
   name: dotty
@@ -120,7 +120,7 @@
   notes: is a tool to source dotfiles from others into your own. It supports shell
     configuration (aliases, functions, etc.) as well as config files (e.g. `ackrc`
     and `gitconfig`). Think of it as _Bundler for your dotfiles_.
-  stars: 1221
+  stars: 1222
   url: https://github.com/freshshell/fresh
 - forks: 37
   name: Ghar
@@ -140,12 +140,12 @@
     you. Homely also has a clever Automatic Cleanup feature and good tutorials.
   stars: 45
   url: https://github.com/phodge/homely
-- forks: 2385
+- forks: 2394
   name: Home Manager
   notes: by Robert Helgesson is a system built for managing [NixOS](https://nixos.org)
     user environments using the [Nix](https://nixos.org/nix/) package manager and
     the [Nixpkgs](https://nixos.org/nixpkgs/) libraries.
-  stars: 9845
+  stars: 9893
   url: https://github.com/nix-community/home-manager
 - forks: 23
   name: Homemaker
@@ -154,13 +154,13 @@
     in TOML, YAML or JSON.
   stars: 235
   url: https://github.com/FooSoft/homemaker
-- forks: 149
+- forks: 148
   name: Homeshick
   notes: by Anders Ingemann is like Homesick but written in bash. Great to combine
     with [myrepos](https://web.archive.org/web/20200904205236/https://waiting-for-dev.github.io/blog/2014/05/04/distributable-and-organized-dotfiles-with-homeshick-and-mr/).
-  stars: 2189
+  stars: 2190
   url: https://github.com/andsens/homeshick
-- forks: 126
+- forks: 127
   name: Homesick
   notes: by Josh Nichols. Homesick makes it easy to symlink and clone dotfiles repos.
   stars: 2446
@@ -177,7 +177,7 @@
     already available in the [Official Pearl Hub](https://github.com/pearl-hub).
   stars: 236
   url: https://github.com/pearl-core/pearl
-- forks: 137
+- forks: 138
   name: rcm
   notes: is a set of well-documented shell scripts that help manage your dotfiles.
     It is easily installable on macOS with the homebrew package manager, but works
@@ -208,14 +208,14 @@
     branches for different systems are supported by default. An extensive hook system
     lets you customize your repositories. `vcsh` includes batch push, pull, and status
     commands which operate on all your repositories at once.
-  stars: 2264
+  stars: 2263
   url: https://github.com/RichiH/vcsh
 - forks: 193
   name: yadm
   notes: is a dotfile management tool which supports system-specific alternate files/templating,
     encryption of private data, custom bootstrap actions, and integration with other
     git-aware tools like vim-fugitive, tig, git-crypt, etc.
-  stars: 6302
+  stars: 6313
   url: https://github.com/yadm-dev/yadm
   website: https://yadm.io/
 - forks: 9
@@ -232,16 +232,16 @@
     multiple hosts, supports variable symlink targets and is infinitely hackable.
   stars: 4
   url: https://github.com/igordertigor/yadoma
-- forks: 73
+- forks: 75
   name: dotter
   notes: A dotfile manager and templater written in Rust, with Windows/Linux/Mac support.
-  stars: 1968
+  stars: 1972
   url: https://github.com/SuperCuber/dotter
 - forks: 60
   name: dotfiles
   notes: Dotfile management made easy. Written in Python (available on PyPI) by Jon
     Bernard.
-  stars: 587
+  stars: 586
   url: https://github.com/jbernard/dotfiles
 - forks: 0
   name: comtrya
@@ -267,12 +267,12 @@
     the job (rsync, git, Dropbox, Tresorit, ...)
   stars: 7
   url: https://github.com/loicrouchon/symly
-- forks: 949
+- forks: 950
   name: Mackup
   notes: is an application settings and configuration manager. It automatically finds
     the location of settings files for a set of known applications and syncs them
     with Dropbox, Git, or any other supported method.
-  stars: 15246
+  stars: 15261
   url: https://github.com/lra/mackup
 - forks: 0
   name: hideDot
