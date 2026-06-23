@@ -31,12 +31,6 @@
   description: >
     Dmitry Geurkov wrote an article about his tool called
     [dotcentral](https://troydm.github.io/blog/2017/02/27/manage-your-dotfiles-like-a-boss/).
-- author: Mark Rabideau
-  description: >
-    Mark Rabideau wrote an article on [Building a bspwm
-    desktop](https://eirenicon.org/knowledge-base/building-a-bspwm-desktop-a-guide/)
-    walking through his setup, including links to the configuration files on
-    github.
 - author: Nicola Paolucci
   description: >
     [Nicola Paolucci](https://www.durdn.com/) wrote a tutorial describing an
