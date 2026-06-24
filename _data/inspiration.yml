@@ -144,12 +144,6 @@
     workflows for safer changes.
   stars: 569
   url: https://github.com/eoli3n/dotfiles
-- forks: 5
-  name: Felix Volny
-  notes: is a one-script install to setup a complete JavaScript development environment
-    on MacOS, including tmux, neovim, ZSH, and iterm2 configuration.
-  stars: 32
-  url: https://github.com/volny/dotconfig
 - forks: 9
   name: Huy Vo
   notes: is a lightweight yet powerful dotfiles for MacOS users. It uses GNU Stow
