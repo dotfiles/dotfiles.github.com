@@ -492,11 +492,6 @@
   notes: with an accent on tiling WMs/(Free)BSD, managed with [DFS](https://github.com/charlesrocket/dfs).
   stars: 21
   url: https://github.com/charlesrocket/dotfiles
-- forks: 0
-  name: benja2998
-  notes: Dotfiles for Linux
-  stars: 1
-  url: https://codeberg.org/benja2998/dotfiles
 - forks: 1
   name: yulonglin
   notes: Actively maintained dotfiles for macOS, Linux, and cloud GPU environments
