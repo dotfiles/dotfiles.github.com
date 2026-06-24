@@ -18,7 +18,7 @@ start to add 3<sup>rd</sup> party frameworks, scripts, and plugins. Submodules m
 managing dotfile dependencies so much easier.
 
 If you get fed up with submodules, many people prefer
-[git-subtree](https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt),
+[git-subtree](https://github.com/git/git/blob/master/contrib/subtree/git-subtree.adoc),
 which lets you merge subtrees (other repositories) into one Git repository, and
 later split and push changes back out.
 
