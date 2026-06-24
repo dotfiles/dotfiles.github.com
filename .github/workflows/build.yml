@@ -37,3 +37,4 @@ jobs:
           ignore_url_re: |
             ^https://twitter.com/
             ^https://reddit.com/
+            ^https://www.gnu.org/
