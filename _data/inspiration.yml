@@ -144,12 +144,6 @@
     workflows for safer changes.
   stars: 569
   url: https://github.com/eoli3n/dotfiles
-- forks: 5
-  name: Felix Volny
-  notes: is a one-script install to setup a complete JavaScript development environment
-    on MacOS, including tmux, neovim, ZSH, and iterm2 configuration.
-  stars: 32
-  url: https://github.com/volny/dotconfig
 - forks: 9
   name: Huy Vo
   notes: is a lightweight yet powerful dotfiles for MacOS users. It uses GNU Stow
@@ -498,11 +492,6 @@
   notes: with an accent on tiling WMs/(Free)BSD, managed with [DFS](https://github.com/charlesrocket/dfs).
   stars: 21
   url: https://github.com/charlesrocket/dotfiles
-- forks: 0
-  name: benja2998
-  notes: Dotfiles for Linux
-  stars: 1
-  url: https://codeberg.org/benja2998/dotfiles
 - forks: 1
   name: yulonglin
   notes: Actively maintained dotfiles for macOS, Linux, and cloud GPU environments

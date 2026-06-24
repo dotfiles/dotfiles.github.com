@@ -22,7 +22,7 @@
 - author: Michael J. Smalley
   description: >
     Michael J. Smalley wrote a [popular blog
-    post](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
+    post](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/)
     with an associated [git repo](https://github.com/michaeljsmalley/dotfiles)
     that includes a dotfiles installer script.
 - author: Rosco Kalis
