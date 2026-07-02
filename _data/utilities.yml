@@ -292,3 +292,38 @@
     translation.
   stars: 7
   url: https://github.com/charlesrocket/dfs
+- forks: 1
+  name: git-dot
+  notes: by John Lane. Manage dotfiles with Git and git-crypt for encryption support.
+    Allows in-place dotfile management without symlinks while keeping sensitive files
+    encrypted.
+  stars: 5
+  url: https://github.com/johnlane/git-dot
+- forks: 1
+  name: Homer
+  notes: is a shell script that uses a lesser-known feature of Git to store dotfiles
+    (or anything that belongs to root) on GitHub private repos. It treats files and
+    folders differently and does not use any symlinks.
+  stars: 14
+  url: https://github.com/igr/homer
+- forks: 1
+  name: lace
+  notes: is a dotfile management tool that uses YAML as configuration markup. Run
+    `lace fetch namespace/user` to fetch dotfiles from GitHub and apply configurations
+    defined in `.lace.yml`.
+  stars: 10
+  url: https://github.com/kairichard/lace
+- forks: 2
+  name: ydf
+  notes: A dotfiles manager that helps you be ready to work in just a few minutes
+    on a fresh OS. Supports automated setup and configuration of your development
+    environment.
+  stars: 28
+  url: https://github.com/yunielrc/ydf
+- forks: 11
+  name: yolk
+  notes: Templated dotfile management without template files. Uses Dhall configuration
+    language for type-safe, programmable dotfile configurations with variable substitution
+    and conditional logic.
+  stars: 435
+  url: https://github.com/elkowar/yolk
