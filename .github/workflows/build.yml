@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.4
           bundler: 2.5.11
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -33,7 +33,7 @@ jobs:
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
           ignore_url: |
             https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
-            https://www.gnu.org/software/stow 
+            https://www.gnu.org/software/stow
           ignore_url_re: |
             ^https://twitter.com/
             ^https://reddit.com/
