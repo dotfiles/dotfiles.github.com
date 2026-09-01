@@ -501,3 +501,10 @@
     cleanup and updates, and one-command cloud VM setup.
   stars: 12
   url: https://github.com/yulonglin/dotfiles
+- name: Marco Pontili
+  stars: 0
+  forks: 0
+  url: https://github.com/marcop135/dotfiles-core
+  notes: Cross-platform dotfiles for macOS, Windows (Git Bash + PowerShell), and WSL.
+    One manifest, four shells, POSIX sh layer, dry-run symlink installers, zero-dependency
+    check gate (bash 3.2). Public core only; private config in *.local.
