@@ -22,6 +22,14 @@ If you get fed up with submodules, many people prefer
 which lets you merge subtrees (other repositories) into one Git repository, and
 later split and push changes back out.
 
+## Overlay multiple repositories
+
+If your dotfiles are split across several separate repositories that need to
+land in the same directory tree, [multigit](https://github.com/capr/multigit)
+is a tool built for exactly that: it checks out multiple git repositories
+overlaid onto the same directory, so each component stays in its own repo
+while ending up in the right place on disk.
+
 ## Different branches for different boxes
 
 If you use multiple machines that are slightly different, you can have a branch for each one and pull changes between them. For example, you may want to use your text editor configuration on both mac and linux hosts, but need different shells settings on each.
