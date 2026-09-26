@@ -508,3 +508,10 @@
     check gate (bash 3.2). Public core only; private config in *.local.
   stars: 0
   url: https://github.com/marcop135/dotfiles-core
+- forks: 3
+  name: besok
+  notes: The dotfiles setup that focuses on a fast lightweight setup for python, rust, zig, cpp, c.
+    Most of the components are rust based, fast and memory compact. The main elements are
+    helix, alacritty and zellij. The install.sh takes care of all automatic settings and shortcuts. 
+  stars: 27
+  url: https://github.com/besok/dotfiles
