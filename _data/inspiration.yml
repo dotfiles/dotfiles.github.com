@@ -515,3 +515,8 @@
     helix, alacritty and zellij. The install.sh takes care of all automatic settings and shortcuts. 
   stars: 27
   url: https://github.com/besok/dotfiles
+- forks: 1
+  name: parazeeknova
+  notes: Aesthetic and minimal dots for Arch i3 & hyprland
+  stars: 55
+  url: https://github.com/parazeeknova/dotfiles
