@@ -314,11 +314,6 @@
     symlink anything ending in `.symlink` to your `~` folder,
   stars: 7777
   url: https://github.com/holman/dotfiles
-- forks: 0
-  name: Kamil Zabielski
-  notes: contains configuration files for various terminal applications based on OSX.
-  stars: 3
-  url: https://github.com/limakzi/dotfiles
 - forks: 9
   name: Aditya Pillai
   notes: is a _user-tailored customizable_ bootstrap installation script for macOS
